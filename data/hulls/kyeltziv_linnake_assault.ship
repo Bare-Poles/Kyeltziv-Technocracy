@@ -1,0 +1,108 @@
+{
+  "hullName": "Linnake",
+  "hullId": "kyeltziv_linnake_assault",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_platform_assault.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 86,
+  "width": 78,
+  "center": [39, 43],
+  "collisionRadius": 48,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 47,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_GunPlatform_assault"
+  ],
+  "builtInWeapons": {
+    "WS0002": "kyeltziv_perennis_pod_plat",
+    "WS0003": "kyeltziv_perennis_pod_plat"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 120,
+      "locations": [0, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -60,
+      "locations": [0, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -5,
+      "locations": [21.5, -1.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 175,
+      "locations": [-21.5, 1.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 45,
+      "locations": [16, 15]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -135,
+      "locations": [-16, -15]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -27, 4,
+    -14, 14,
+    -11, 28,
+    0, 37,
+    8, 35,
+    12, 24,
+    20, 22,
+    21, 10,
+    27, 3,
+    27, -4,
+    14, -14,
+    11, -28,
+    0, -37,
+    -8, -35,
+    -12, -24,
+    -20, -22,
+    -21, -10,
+    -27, -3
+  ]
+}

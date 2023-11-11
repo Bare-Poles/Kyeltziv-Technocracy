@@ -1,0 +1,55 @@
+{
+  "variantId": "kyeltziv_podenka_sym_ass",
+  "hullId": "kyeltziv_podenka_sym",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_pack_ass",
+    "kyeltziv_loader_ass",
+    "magazines",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_packet",
+        "WS0002": "kyeltziv_packet"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "kyeltziv_bellis_pod",
+        "WS0007": "kyeltziv_bellis_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_packet",
+        "WS0004": "kyeltziv_packet",
+        "WS0005": "kyeltziv_packet"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "kyeltziv_light_discharger",
+        "WS0009": "kyeltziv_light_discharger",
+        "WS0010": "kyeltziv_light_discharger",
+        "WS0011": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

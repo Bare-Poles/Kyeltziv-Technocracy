@@ -1,0 +1,198 @@
+{
+  "hullName": "Katsoja",
+  "hullId": "kyeltziv_khoronit",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Phase/kyeltziv_khoronit.png",
+  "style": "MIDLINE",
+  "height": 172,
+  "width": 108,
+  "center": [54, 88],
+  "collisionRadius": 100,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 98,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "kyeltziv_flux_shunt",
+    "kyeltziv_fluxPhase_a",
+    "kyeltziv_hev_suit"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_osteotome",
+    "WS0002": "kyeltziv_trocar",
+    "WS0003": "kyeltziv_bistoury",
+    "WS0004": "kyeltziv_bistoury",
+    "WS0005": "kyeltziv_bistoury",
+    "WS0006": "kyeltziv_bistoury",
+    "WS0007": "kyeltziv_bistoury"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [43, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-36.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 0,
+      "locations": [20, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 40,
+      "locations": [15, 16]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -40,
+      "locations": [15, -16]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [-9, 37]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [-9, -37]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [61, 31]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [66, -41]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [68, 15]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [75, -23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79, 35],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-79, -35],
+      "length": 50,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-85, 22],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-85, -22],
+      "length": 80,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-69, -0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -85, -12,
+    -66, -9,
+    -68, -0,
+    -66, 9,
+    -85, 12,
+    -84, 28,
+    -75, 40,
+    -28, 46,
+    -19, 49,
+    17.5, 49,
+    50, 45,
+    64, 36,
+    65, 11,
+    59, 8,
+    59, -8,
+    74, -16,
+    74, -30,
+    64, -32,
+    64, -45,
+    14, -51,
+    -19, -49,
+    -28, -46,
+    -75, -40,
+    -84, -28
+  ]
+}

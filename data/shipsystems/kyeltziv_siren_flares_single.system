@@ -1,0 +1,12 @@
+{
+	"id":"kyeltziv_siren_flares_single",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	"weaponDataId":"kyeltziv_siren_flare_launcher_s",
+	
+	#"useSound":"system_flare_launcher_active",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

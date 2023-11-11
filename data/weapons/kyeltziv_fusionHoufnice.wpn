@@ -1,0 +1,27 @@
+{
+	"id":"kyeltziv_fusionHoufnice",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/kyeltziv_fusion_houfnice_turret_base.png",
+	"turretGunSprite":"graphics/weapons/kyeltziv_fusion_houfnice_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_fusion_houfnice_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/kyeltziv_fusion_houfnice_hardpoint_recoil.png",
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[22, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[28, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":4.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":11.0,
+					   "particleDuration":0.35,
+					   "particleCount":13,
+					   "particleColor":[255,225,175,190]},
+	"projectileSpecId":"kyeltziv_fusion_houfnice_shot",  # projectile that will be fired
+	"fireSoundTwo":"kyeltziv_houfnice_fire",  #"heavy_mauler_fire"
+}

@@ -1,0 +1,32 @@
+{
+	"id":"kyeltziv_light_shock_driver_sym_l",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":1200,
+	"turretSprite":"graphics/weapons/kyeltziv_lightShockDriver_base.png",
+	"turretGunSprite":"graphics/weapons/kyeltziv_lightShockDriver_recoil.png",
+	"turretGlowSprite":"graphics/weapons/gauss_cannon_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_kiilto_shockDriver_base.png",
+	"hardpointGunSprite":"graphics/weapons/kyeltziv_kiilto_shockDriver_recoil.png",
+	"hardpointGlowSprite":"graphics/weapons/kyeltziv_kiilto_shockDriver_glow.png",
+	"visualRecoil":12.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"glowColor":[100,100,255,255],
+	"turretOffsets":[22, 0.5],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[37, -1.5],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":100.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":20.0,
+					   "particleSizeRange":20.0,
+					   "particleDuration":0.25,
+					   "particleCount":25,
+					   "particleColor":[100,100,255,255]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"kyeltziv_light_driver_shell",  # projectile that will be fired
+	"fireSoundTwo":"kyeltziv_light_driver_fire",
+}

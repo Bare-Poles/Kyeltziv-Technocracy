@@ -1,0 +1,48 @@
+{
+  "variantId": "kyeltziv_znatok_bomb",
+  "hullId": "kyeltziv_znatok",
+  "displayName": "Bombardment",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_supp",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_light_galv_hwz"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_vedha"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_cutting_laser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_light_discharger",
+        "WS0005": "kyeltziv_light_discharger",
+        "WS0006": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

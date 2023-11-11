@@ -1,0 +1,52 @@
+{
+  "variantId": "kyeltziv_znatok_shk",
+  "hullId": "kyeltziv_znatok",
+  "displayName": "Shock",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_pack_ass"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_halke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_cutting_laser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_stutter",
+        "WS0005": "kyeltziv_light_discharger",
+        "WS0006": "kyeltziv_light_discharger"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,42 @@
+{
+  "variantId": "kyeltziv_lycaenid_sup",
+  "hullId": "kyeltziv_lycaenid",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_pack_supp",
+    "kyeltziv_loader_supp",
+    "hardenedshieldemitter",
+    "extendedshieldemitter",
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_smart_blaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_esp_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

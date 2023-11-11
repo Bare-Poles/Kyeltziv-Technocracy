@@ -1,0 +1,33 @@
+{
+	"id":"kyeltziv_lorentzTwin",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":950,
+	"turretUnderSprite":"graphics/weapons/kyeltziv_lorentzTwin_turret_under.png",
+	"turretSprite":"graphics/weapons/kyeltziv_lorentzTwin_turret_base.png",
+	"turretGunSprite":"graphics/weapons/kyeltziv_lorentzTwin_turret_recoil.png",
+	"turretGlowSprite":"graphics/weapons/kyeltziv_lorentzTwin_turret_glow.png",
+	"hardpointUnderSprite":"graphics/weapons/kyeltziv_lorentzTwin_hardpoint_under.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_lorentzTwin_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/kyeltziv_lorentzTwin_hardpoint_recoil.png",
+	"hardpointGlowSprite":"graphics/weapons/kyeltziv_lorentzTwin_hardpoint_glow.png",
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"glowColor":[190,190,100,255],
+	"turretOffsets":[24, 7, 24, -7],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[30, 6, 30, -6],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":43.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":20.0,
+					   "particleSizeMin":16.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.5,
+					   "particleCount":20,
+					  "particleColor":[190,170,100,200]},
+	"projectileSpecId":"kyeltziv_lorentz_shot",  # projectile that will be fired	
+	"fireSoundTwo":"kyeltziv_lorentz_fire",
+}

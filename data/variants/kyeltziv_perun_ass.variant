@@ -1,0 +1,49 @@
+{
+  "variantId": "kyeltziv_perun_ass",
+  "hullId": "kyeltziv_perun",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_pack_ass",
+    "unstable_injector",
+    "kyeltziv_loader_ass"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_packet"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_perennis_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shock_fougasse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_light_discharger",
+        "WS0005": "kyeltziv_light_discharger",
+        "WS0006": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

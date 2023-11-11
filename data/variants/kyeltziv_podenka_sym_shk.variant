@@ -1,0 +1,66 @@
+{
+  "variantId": "kyeltziv_podenka_sym_shk",
+  "hullId": "kyeltziv_podenka_sym",
+  "displayName": "Shock",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_ass",
+    "kyeltziv_pack_siege",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "kyeltziv_halke_pod",
+        "WS0007": "kyeltziv_halke_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shock_culverin",
+        "WS0002": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_shock_culverin",
+        "WS0004": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_springald"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "kyeltziv_stutter",
+        "WS0009": "kyeltziv_stutter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "kyeltziv_light_discharger",
+        "WS0011": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

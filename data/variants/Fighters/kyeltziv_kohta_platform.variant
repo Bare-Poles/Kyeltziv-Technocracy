@@ -1,0 +1,30 @@
+{
+  "variantId": "kyeltziv_kohta_platform",
+  "hullId": "kyeltziv_kohta",
+  "displayName": "Platform",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_pieni"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_ionRepeater",
+        "WS0003": "kyeltziv_ionRepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

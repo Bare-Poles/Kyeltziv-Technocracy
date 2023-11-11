@@ -1,0 +1,63 @@
+{
+  "hullName": "Asteryx",
+  "hullId": "kyeltziv_asteryx",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/strikecraft/kyeltziv_asteryx.png",
+  "style": "MIDLINE",
+  "height": 38,
+  "width": 28,
+  "center": [14, 17],
+  "collisionRadius": 24,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps",
+    "kyeltziv_rangefinders_fighter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 30,
+      "locations": [0, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 12,
+      "angle": 0,
+      "locations": [11, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 9],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-16, -9],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -11, 11,
+    15, 9,
+    11, -6,
+    1, -11,
+    -11, -11
+  ]
+}

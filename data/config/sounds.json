@@ -1,0 +1,160 @@
+{
+
+	"kyeltziv_very_light_galvanic_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_light_galvanic_fire_01.ogg","pitch":1.1,"volume":0.66},
+		],
+
+	"kyeltziv_light_galvanic_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_light_galvanic_fire_01.ogg","pitch":1,"volume":0.8},
+		],
+
+	"kyeltziv_medium_galvanic_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_medium_galvanic_fire_01.ogg","pitch":1,"volume":0.9},
+		],
+
+	"kyeltziv_heavy_galvanic_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_heavy_galvanic_fire_01.ogg","pitch":1,"volume":1},
+		],
+
+
+	"kyeltziv_shock_burst":[
+		{"file":"sounds/sfx_systems/emp_emitter_impact_01.ogg","pitch":1.2,"volume":0.1},
+		{"file":"sounds/sfx_systems/emp_emitter_impact_02.ogg","pitch":1.2,"volume":0.1},
+		{"file":"sounds/sfx_systems/emp_emitter_impact_03.ogg","pitch":1.2,"volume":0.1},
+		],
+
+	"kyeltziv_culverin_fire":[
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":1.15,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":1.175,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":1.2,"volume":0.7},
+		],
+
+	"kyeltziv_springald_fire":[
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.925,"volume":0.85},
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.95,"volume":0.85},
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.975,"volume":0.85},
+		],
+
+	"kyeltziv_cranequin_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_cranequin_fire_01.ogg","pitch":0.9,"volume":0.9},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_cranequin_fire_01.ogg","pitch":0.95,"volume":0.9},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_cranequin_fire_01.ogg","pitch":1.0,"volume":0.9},
+		],
+
+	"kyeltziv_packet_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_packet_fire_01.ogg","pitch":0.95,"volume":0.55},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_packet_fire_01.ogg","pitch":0.9,"volume":0.55},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_packet_fire_01.ogg","pitch":0.85,"volume":0.55},
+		],
+
+	"kyeltziv_packetRib_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_packet_fire_01.ogg","pitch":0.95,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_packet_fire_01.ogg","pitch":0.9,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_packet_fire_01.ogg","pitch":0.85,"volume":0.7},
+		],
+
+
+	"kyeltziv_fougasse_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_fougasse_fire_01.ogg","pitch":0.75,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_fougasse_fire_01.ogg","pitch":0.775,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_fougasse_fire_01.ogg","pitch":0.8,"volume":1},
+		],
+
+	"kyeltziv_lorentz_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_lorentz_fire_02.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_lorentz_fire_02.ogg","pitch":0.925,"volume":0.8},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_lorentz_fire_02.ogg","pitch":0.95,"volume":0.8},
+		],
+
+	"kyeltziv_palliser_fire":[
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.7,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.725,"volume":1},
+		{"file":"sounds/sfx_wpn_guns/autocannon_fire_01.ogg","pitch":0.75,"volume":1},
+		],
+
+	"kyeltziv_houfnice_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_houfnice_fire_01.ogg","pitch":1,"volume":0.9},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_houfnice_fire_01.ogg","pitch":1.025,"volume":0.9},
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_houfnice_fire_01.ogg","pitch":1.05,"volume":0.9},
+		],
+
+
+	"kyeltziv_light_discharger_fire":[
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.3,"volume":0.3},
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.325,"volume":0.3},
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.35,"volume":0.3},
+		],
+
+	"kyeltziv_heavy_discharger_fire":[
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.2,"volume":0.35},
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.225,"volume":0.35},
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.25,"volume":0.35},
+		],
+
+	"kyeltziv_smart_blaster_fire":
+	[
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.08,"volume":0.45},
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.1,"volume":0.45},
+		{"file":"sounds/sfx_wpn_energy/heavy_blaster_fire_01.ogg","pitch":1.12,"volume":0.45},
+	],
+
+	"kyeltziv_esp_beam_intro":
+	[
+		{"file":"sounds/sfx_wpn_energy/laser_intro_2.ogg","pitch":0.85,"volume":0.25},
+	],
+
+	"kyeltziv_esp_beam_loop":
+	[
+		{"file":"sounds/sfx_wpn_energy/laser_loop.ogg","pitch":0.85,"volume":0.8},
+	],
+
+
+	"kyeltziv_driver_fire":[
+		{"file":"sounds/sfx_wpn_guns/gauss_cannon_fire_01.ogg","pitch":0.75,"volume":0.75},
+		],
+
+	"kyeltziv_light_driver_fire":[
+		{"file":"sounds/sfx_wpn_guns/gauss_cannon_fire_01.ogg","pitch":0.85,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/gauss_cannon_fire_01.ogg","pitch":0.875,"volume":0.7},
+		{"file":"sounds/sfx_wpn_guns/gauss_cannon_fire_01.ogg","pitch":0.9,"volume":0.7},
+		],
+
+	"kyeltziv_compact_driver_fire":[
+		{"file":"sounds/sfx_wpn_guns/gauss_cannon_fire_01.ogg","pitch":0.875,"volume":0.55},
+		{"file":"sounds/sfx_wpn_guns/gauss_cannon_fire_01.ogg","pitch":0.9,"volume":0.55},
+		{"file":"sounds/sfx_wpn_guns/gauss_cannon_fire_01.ogg","pitch":0.925,"volume":0.55},
+		],
+
+	"kyeltziv_osteotome_fire":[
+		{"file":"sounds/sfx_wpn_guns/kyeltziv_osteotome_fire_01.ogg","pitch":0.8,"volume":0.9},
+		],
+
+
+	"kyeltziv_ion_repeater_fire":
+	[
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.11,"volume":0.4},
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.12,"volume":0.4},
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.13,"volume":0.4},
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.14,"volume":0.4},
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.15,"volume":0.4},
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.09,"volume":0.4},
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.08,"volume":0.4},
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.07,"volume":0.4},
+		{"file":"sounds/sfx_wpn_energy/ion_cannon_fire_01.ogg","pitch":1.06,"volume":0.4},
+	],
+
+	"kyeltziv_mine_explosion":{
+            "sounds":[
+                    {"file":"sounds/sfx_systems/mine_strike_explosion_01.ogg","pitch":1.2,"volume":0.8},
+                    {"file":"sounds/sfx_systems/mine_strike_explosion_02.ogg","pitch":1.2,"volume":0.8},
+                    {"file":"sounds/sfx_systems/mine_strike_explosion_03.ogg","pitch":1.2,"volume":0.8},
+                    {"file":"sounds/sfx_systems/mine_strike_explosion_04.ogg","pitch":1.2,"volume":0.8},
+            ],
+    },
+
+	"kyeltziv_light_killCloud_fire":
+	[
+		{"file":"sounds/sfx_wpn_guns/flak_fire_01.ogg","pitch":1.2,"volume":0.45},
+	],
+
+}

@@ -1,0 +1,75 @@
+{
+  "variantId": "kyeltziv_station_module_main_lv3",
+  "hullId": "kyeltziv_station_module_main_3",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 021": "kyeltziv_avtomat_drumfire",
+        "WS 022": "kyeltziv_avtomat_drumfire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "kyeltziv_compact_shock_driver",
+        "WS 002": "kyeltziv_compact_shock_driver",
+        "WS 004": "kyeltziv_driver",
+        "WS 006": "kyeltziv_compact_shock_driver",
+        "WS 008": "kyeltziv_compact_shock_driver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "kyeltziv_galv_bombard",
+        "WS 003": "kyeltziv_galv_bombard",
+        "WS 005": "kyeltziv_galv_bombard"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 014": "kyeltziv_esp_beam",
+        "WS 016": "kyeltziv_esp_beam",
+        "WS 017": "kyeltziv_esp_beam",
+        "WS 018": "kyeltziv_esp_beam",
+        "WS 019": "kyeltziv_esp_beam",
+        "WS 020": "kyeltziv_esp_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "kyeltziv_graviton_sweeper",
+        "WS 011": "kyeltziv_graviton_sweeper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "kyeltziv_smart_blaster",
+        "WS 013": "kyeltziv_smart_blaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_cynara_wing"
+  ]
+}

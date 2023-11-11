@@ -1,0 +1,80 @@
+{
+  "hullName": "Station Structural Spur",
+  "hullId": "kyeltziv_station_blocker",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/station/kyeltziv_station_blocker.png",
+  "style": "MIDLINE",
+  "height": 164,
+  "width": 46,
+  "center": [24, 83],
+  "collisionRadius": 86,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 86,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -70,
+    0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches",
+    "do_not_fire_through",
+    "supercomputer",
+    "kyeltziv_pack_supp",
+    "kyeltziv_loader_siege",
+    "kyeltziv_rangefinders"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_stutter",
+    "WS0002": "kyeltziv_piikki",
+    "WS0003": "kyeltziv_piikki",
+    "WS0004": "kyeltziv_bellis_pack"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 0,
+      "locations": [-38, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -50,
+      "locations": [19, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -50,
+      "locations": [42, -6]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 45,
+      "locations": [26, 14]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    79, 1,
+    -31, 22,
+    -70, 15,
+    -80, 1,
+    -70, -13,
+    -32, -20
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "variantId": "kyeltziv_zlatko_ass",
+  "hullId": "kyeltziv_zlatko",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_ass",
+    "kyeltziv_pack_ass",
+    "unstable_injector"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_packet",
+        "WS0002": "kyeltziv_packet",
+        "WS0003": "kyeltziv_packet"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "kyeltziv_perennis_pod",
+        "WS0005": "kyeltziv_perennis_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_light_discharger",
+        "WS0007": "kyeltziv_light_discharger",
+        "WS0008": "kyeltziv_light_discharger",
+        "WS0009": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

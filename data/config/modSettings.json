@@ -1,0 +1,17 @@
+{
+    "nexerelin":{
+		"mining_ship_strengths":{
+			"kyeltziv_znatok": 4,
+		},
+		"mining_weapon_strengths":{
+			"kyeltziv_cutting_laser": 2,
+		},
+    },
+	
+    "chatter":{
+		"factionRoundels":{
+			"kyeltziv":"graphics/factions/roundel_kyeltziv.png",
+		},
+    }
+}
+}

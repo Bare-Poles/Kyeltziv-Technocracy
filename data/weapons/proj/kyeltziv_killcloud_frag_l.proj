@@ -1,0 +1,19 @@
+	{
+	"id":"kyeltziv_killcloud_frag_l",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+
+	"onFireEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_KillCloudOnFire",
+
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"hitGlowRadius":10,
+	"length":20.0,
+	"width":2.5,
+	"fadeTime":0.25,
+	"fringeColor":[240,220,180,200],
+	"coreColor":[245,245,225,80],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png"
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "kyeltziv_drone_suojus",
+  "hullId": "kyeltziv_suojus",
+  "displayName": "Gun Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_springald_light"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_esp_beam_light"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

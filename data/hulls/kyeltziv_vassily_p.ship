@@ -1,0 +1,108 @@
+{
+  "hullName": "Vassily (P)",
+  "hullId": "kyeltziv_vassily_p",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/pirate/kyeltziv_vassily_p.png",
+  "style": "MIDLINE",
+  "coversColor": "205,181,152,255",
+  "height": 108,
+  "width": 70,
+  "center": [35, 52],
+  "collisionRadius": 78,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 77,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unstable_injector",
+    "augmentedengines",
+    "kyeltziv_pirate_conversion",
+    "kyeltziv_infernium_pulse_effect"
+  ],
+  "builtInWeapons": {
+    "WS0003": "kyeltziv_shock_tapanca"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 50,
+      "locations": [28, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [33, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 180,
+      "locations": [-11, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-50.5, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-34, 13],
+      "length": 40,
+      "width": 8,
+      "angle": 178.5,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-34, -13],
+      "length": 40,
+      "width": 8,
+      "angle": -178.5,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-32, 19],
+      "length": 28,
+      "width": 8,
+      "angle": 175,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-32, -19],
+      "length": 28,
+      "width": 8,
+      "angle": -175,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    47, -19.5,
+    9, -24,
+    -1, -33,
+    -31, -21,
+    -35, -7,
+    -50, -4,
+    -50, 4,
+    -35, 7,
+    -31, 21,
+    -1, 33,
+    53, 15
+  ]
+}

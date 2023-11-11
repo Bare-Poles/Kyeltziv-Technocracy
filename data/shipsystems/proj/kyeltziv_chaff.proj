@@ -1,0 +1,42 @@
+{
+	"id":"kyeltziv_chaff",
+	"specClass":"missile",	
+	"missileType":"FLARE_JAMMER",
+	"sprite":"graphics/missiles/bomblet0.png",
+	"size":[4,4],	
+	"center":[2,2],
+	"collisionRadius":5,
+	"collisionClass":"FIGHTER",
+	"explosionColor":[105,155,125,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":45, # purely visual
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	"behaviorSpec":{"behavior":"CUSTOM",
+					"effectRange":350,
+					"effectChance":0.12,
+				   },	
+	"engineSpec":{"turnAcc":450,
+				  "turnRate":300,
+				  "acc":500,
+				  "dec":0},
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"engineColor":[105,155,125,255],
+						"contrailParticleSizeMult":8,
+						"contrailParticleDuration":2,
+						"contrailParticleFinalSizeMult":0.5,
+						"contrailMaxSpeedMult":0.1f,
+						"contrailAngularVelocityMult":0f,
+						"contrailColor":[55,55,55,100],
+						
+						"type":"SMOKE" # GLOW or SMOKE
+					},
+				    "width":12.0,
+				    "length":12.0,
+				    "angle":180.0},
+				   ]
+}

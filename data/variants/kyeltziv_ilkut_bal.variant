@@ -1,0 +1,69 @@
+{
+  "variantId": "kyeltziv_ilkut_bal",
+  "hullId": "kyeltziv_ilkut",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_loader_ass",
+    "kyeltziv_pack_ass"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_halke_array"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "kyeltziv_bakot_pod",
+        "WS0006": "kyeltziv_bakot_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shock_palliser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_fusionHoufnice",
+        "WS0003": "kyeltziv_fusionHoufnice"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "kyeltziv_light_discharger",
+        "WS0008": "kyeltziv_light_discharger",
+        "WS0009": "kyeltziv_light_discharger",
+        "WS0010": "kyeltziv_light_discharger",
+        "WS0011": "kyeltziv_light_discharger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "kyeltziv_graviton_sweeper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_pereskia_wing"
+  ]
+}

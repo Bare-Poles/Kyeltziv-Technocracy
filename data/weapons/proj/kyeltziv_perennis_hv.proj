@@ -1,0 +1,39 @@
+{
+	"id":"kyeltziv_perennis_hv",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+
+	"onHitEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_ShockMissileOnHitEffect",
+
+	"sprite":"graphics/missiles/kyeltziv_perennis.png",
+	"size":[10,21],	
+	"center":[5,10],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],	#[255,165,50,255],
+	"explosionRadius":60, # purely visual
+	"engineSpec":{"turnAcc":1750,
+				  "turnRate":250,
+				  "acc":3500,
+				  "dec":700},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-10, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[60,165,205,255],		#[255,145,75,255],
+						"contrailDuration":0.75,
+						"contrailWidthMult":2,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0.5, # how far away from engine it starts
+						"contrailColor":[90,110,150,120],	#[150,145,125,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}

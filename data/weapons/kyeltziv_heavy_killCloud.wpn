@@ -1,0 +1,32 @@
+{
+	"id":"kyeltziv_heavy_killCloud",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":300,
+	"turretSprite":"graphics/weapons/kyeltziv_heavyKillCloud_turret_base.png",
+	"turretGunSprite":"graphics/weapons/kyeltziv_heavyKillCloud_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_heavyKillCloud_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/kyeltziv_heavyKillCloud_hardpoint_recoil.png",	
+	"visualRecoil":9.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[10,2, 10,1.5, 10,1.5, 10,1, 10,1, 10,0.5, 10,0.5, 10,0, 10,0, 10,-0.5, 10,-0.5, 10,-1, 10,-1, 10,-1.5, 10,-1.5, 10,-2],
+	"turretAngleOffsets":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"hardpointOffsets":[13,2, 13,1.5, 13,1.5, 13,1, 13,1, 13,0.5, 13,0.5, 13,0, 13,0, 13,-0.5, 13,-0.5, 13,-1, 13,-1, 13,-1.5, 13,-1.5, 13,-2],
+	"hardpointAngleOffsets":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	"specialWeaponGlowWidth":12,
+	"specialWeaponGlowHeight":14,
+	"barrelMode":"LINKED",
+	"interruptibleBurst":false,
+	"separateRecoilForLinkedBarrels":true,
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":50.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":30.0,
+					   "particleSizeMin":14.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.35,
+					   "particleCount":4, #60
+					   "particleColor":[255,155,75,155]},
+	"projectileSpecId":"kyeltziv_killcloud_warhead",  # projectile that will be fired
+	"fireSoundTwo":"flak_fire",
+}

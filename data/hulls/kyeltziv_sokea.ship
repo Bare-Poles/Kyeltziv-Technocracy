@@ -1,0 +1,60 @@
+{
+  "hullName": "Sokea",
+  "hullId": "kyeltziv_sokea",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_sokea.png",
+  "style": "HIGH_TECH",
+  "height": 20,
+  "width": 18,
+  "center": [9, 9],
+  "collisionRadius": 15,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 14,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_ionRepeater"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 120,
+      "angle": 0,
+      "locations": [7, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, -0],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-4, -7],
+      "length": 9,
+      "width": 3,
+      "angle": -160,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-4, 7],
+      "length": 9,
+      "width": 3,
+      "angle": 160,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    8, -0,
+    0, -7,
+    -7, -0,
+    0, 7
+  ]
+}

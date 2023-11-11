@@ -1,0 +1,13 @@
+{
+	"id":"kyeltziv_VariableBooster",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"org.amazigh.kyeltziv.shipsystems.scripts.kyeltziv_VariableBoosterStats",
+	
+	"weaponGlowColor":[210,245,0,155],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"system_ammo_feeder",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

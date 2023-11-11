@@ -1,0 +1,31 @@
+{
+	"id":"kyeltziv_displacer",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	
+	"jitterColor":[165,100,255,155],
+	"jitterCopies":10,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":0.5,
+	
+	"weaponGlowColor":[165,100,255,0],
+	"weaponTypes":[ENERGY],
+	
+	"engineGlowColor":[165,100,255,125],
+
+	"range":500,
+	"randomRange":0,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_phase_skimmer",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":100, # these are all set higher than they "should" be, to "trick" the AI into actually using the system
+		"burstMovementPotential":600,
+		"averageSpeedIncrease":80,
+	}
+}

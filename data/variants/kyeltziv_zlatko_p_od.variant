@@ -1,0 +1,42 @@
+{
+  "variantId": "kyeltziv_zlatko_p_od",
+  "hullId": "kyeltziv_zlatko_p",
+  "displayName": "Overdriven",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "safetyoverrides"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualmg",
+        "WS0004": "mininglaser",
+        "WS0005": "mininglaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "mining_drone_wing"
+  ]
+}

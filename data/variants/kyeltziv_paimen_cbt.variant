@@ -1,0 +1,32 @@
+{
+  "variantId": "kyeltziv_paimen_cbt",
+  "hullId": "kyeltziv_paimen",
+  "displayName": "Combat",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 4,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_packet"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_perennis_pod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

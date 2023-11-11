@@ -1,0 +1,33 @@
+{
+	"id":"kyeltziv_shock_fougasse",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+
+	"everyFrameEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_FougasseOnFire",
+
+	"size":"MEDIUM",
+	"displayArcRadius":650,
+	"turretSprite":"graphics/weapons/kyeltziv_shockFougasse_turret_base.png",
+	"turretGunSprite":"graphics/weapons/kyeltziv_shockFougasse_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_shockFougasse_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/kyeltziv_shockFougasse_hardpoint_recoil.png",
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[15,2, 15,1, 15,0, 15,0, 15,-1, 15,-2],
+	"turretAngleOffsets":[2, 1, 0.5, -0.5, -1, -2],
+	"hardpointOffsets":[21,2, 21,1, 21,0, 21,0, 21,-1, 21,-2],
+	"hardpointAngleOffsets":[2, 1, 0.5, -0.5, -1, -2],
+	"barrelMode":"LINKED",
+	"interruptibleBurst":false,
+	"separateRecoilForLinkedBarrels":true,
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":40.0,
+					   "particleSizeMin":8.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.4,
+					   "particleCount":6,
+					   "particleColor":[165,185,225,155]},
+	"projectileSpecId":"kyeltziv_springald_shot_light",  # kyeltziv_fougasse_shot
+	"fireSoundTwo":"kyeltziv_fougasse_fire",  # "heavy_mauler_fire"
+}

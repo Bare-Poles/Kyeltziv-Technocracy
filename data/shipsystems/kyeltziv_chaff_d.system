@@ -1,0 +1,7 @@
+{
+	"id":"kyeltziv_chaff_d",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	"weaponDataId":"kyeltziv_chaff_dispenser",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

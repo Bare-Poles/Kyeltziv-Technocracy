@@ -1,0 +1,27 @@
+{
+	"id":"kyeltziv_springald_light",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/kyeltziv_springald_turret_base.png",
+	"turretGunSprite":"graphics/weapons/kyeltziv_springald_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_springald_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/kyeltziv_springald_hardpoint_recoil.png",	
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[12, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":24.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.2,
+					   "particleCount":22,
+					   "particleColor":[165,185,225,155]},
+	"projectileSpecId":"kyeltziv_springald_shot_light",  # projectile that will be fired
+	"fireSoundTwo":"kyeltziv_springald_fire",
+}

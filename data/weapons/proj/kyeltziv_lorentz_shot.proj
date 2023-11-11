@@ -1,0 +1,24 @@
+{
+	"id":"kyeltziv_lorentz_shot",
+	"specClass":"projectile",
+
+	"onFireEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_LorentzOnFire",
+
+	# "spawnType":"BALLISTIC",
+	# "collisionClass":"PROJECTILE_FF",
+	# "collisionClassByFighter":"PROJECTILE_FIGHTER",
+
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":20,
+
+	"length":50.0,
+	"width":8,
+	"fadeTime":0.32,
+	"fringeColor":[255,175,100,235],
+	"coreColor":[255,215,105,160],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_large_yellow.png"
+}

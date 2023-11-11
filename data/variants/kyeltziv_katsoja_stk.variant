@@ -1,0 +1,50 @@
+{
+  "variantId": "kyeltziv_katsoja_stk",
+  "hullId": "kyeltziv_katsoja",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "unstable_injector",
+    "hardened_subsystems",
+    "fluxcoil"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shockMitrailleuseHeavy",
+        "WS0003": "kyeltziv_buster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_packetRib"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_packetRib",
+        "WS0005": "kyeltziv_buster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_light_discharger",
+        "WS0007": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

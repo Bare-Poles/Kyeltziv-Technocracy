@@ -1,0 +1,30 @@
+{
+	"id":"kyeltziv_microburst_drive",
+	"type":"ENGINE_MOD",
+	#"aiType":"MANEUVERING_JETS",
+	"aiType":"CUSTOM",
+	"aiScript":"org.amazigh.kyeltziv.shipsystems.scripts.ai.kyeltziv_microburst_AI",
+	
+	"statsScript":"org.amazigh.kyeltziv.shipsystems.scripts.kyeltziv_microburst_drive_stats",
+	
+	"engineGlowColor":[255,240,125,255],
+	"engineGlowContrailColor":[200,160,100,25],
+	"engineGlowLengthMult":1,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":2,
+	
+	"flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":100,
+		"burstMovementPotential":100,
+		"averageSpeedIncrease":30,
+	}
+}

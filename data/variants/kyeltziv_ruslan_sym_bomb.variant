@@ -1,0 +1,27 @@
+{
+  "variantId": "kyeltziv_ruslan_sym_bomb",
+  "hullId": "kyeltziv_ruslan_sym",
+  "displayName": "Bombardment",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_siege",
+    "kyeltziv_pack_siege",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "kyeltziv_light_shock_driver_sym_l",
+        "WS0002": "kyeltziv_light_shock_driver_sym_r"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

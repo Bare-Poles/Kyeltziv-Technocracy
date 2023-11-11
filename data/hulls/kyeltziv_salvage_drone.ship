@@ -1,0 +1,66 @@
+{
+  "hullName": "Salvage Drone",
+  "hullId": "kyeltziv_salvage_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_salvage_pod.png",
+  "style": "MIDLINE",
+  "height": 34,
+  "width": 32,
+  "center": [16, 17],
+  "collisionRadius": 24,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_fighterWeps"
+  ],
+  "builtInWeapons": {
+    "WS 001": "kyeltziv_cutting_laser",
+    "WS0001": "kyeltziv_niitti"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -30,
+      "locations": [0, -6]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 60,
+      "locations": [2, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, 9],
+      "length": 28,
+      "width": 12,
+      "angle": 175,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-16, -9],
+      "length": 28,
+      "width": 12,
+      "angle": -175,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -12, 14,
+    -12, -14,
+    7, -11,
+    12, 12
+  ]
+}

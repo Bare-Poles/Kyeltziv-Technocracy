@@ -1,0 +1,18 @@
+{
+	"id":"kyeltziv_discharger_jet",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":30.0,
+	"width":5,
+	"fadeTime":0.2,
+	"fringeColor":[100,150,255,155],  #255 alpha
+	"coreColor":[255,255,255,255],
+	"glowColor":[100,150,255,50], #75 alpha
+	"glowRadius":12, #15
+	"hitGlowRadius":25,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_gauss_cannon.png"
+}

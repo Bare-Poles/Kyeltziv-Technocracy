@@ -1,0 +1,44 @@
+{
+  "variantId": "kyeltziv_yinglong_cs",
+  "hullId": "kyeltziv_yinglong",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_pack_supp",
+    "kyeltziv_loader_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "kyeltziv_bakot",
+        "WS0003": "kyeltziv_bakot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_buster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_light_discharger",
+        "WS0005": "kyeltziv_light_discharger",
+        "WS0006": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_solanum_wing"
+  ]
+}

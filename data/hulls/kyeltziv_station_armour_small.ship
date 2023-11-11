@@ -1,0 +1,33 @@
+{
+  "hullName": "Station Armour Module",
+  "hullId": "kyeltziv_station_armour_small",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/station/kyeltziv_station_armour_small.png",
+  "style": "MIDLINE",
+  "height": 34,
+  "width": 86,
+  "center": [43, 17],
+  "collisionRadius": 44,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 44,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -15,
+    0
+  ],
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    15, 7,
+    15, -7,
+    5, -39,
+    -10, -40,
+    -13, 0,
+    -10, 40,
+    5, 39
+  ]
+}

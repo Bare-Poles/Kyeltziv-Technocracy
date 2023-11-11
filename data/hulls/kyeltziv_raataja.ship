@@ -1,0 +1,52 @@
+{
+  "hullName": "Raataja",
+  "hullId": "kyeltziv_raataja",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_raataja.png",
+  "style": "MIDLINE",
+  "height": 32,
+  "width": 22,
+  "center": [10, 14],
+  "collisionRadius": 18,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 18,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [10, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 6],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-13, -6],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    8, 6,
+    15, -7,
+    -12, -7,
+    -12, 7
+  ]
+}

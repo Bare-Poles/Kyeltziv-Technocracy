@@ -1,0 +1,16 @@
+{
+
+    # multiplier for how often hulls show up in the faction's fleets
+    "hullFrequency":{
+        "hulls":{
+            "kyeltziv_ilya_ex":0.5,
+            "kyeltziv_otkryt_ex":0.5,
+            "kyeltziv_perun_ex":0.5,
+            "kyeltziv_dazhbog_ex":0.5,
+            "kyeltziv_yinglong_ex":0.5,
+            "kyeltziv_xinzang_ex":0.5,
+            "kyeltziv_podenka_ex":0.5,
+        },
+    },
+
+},

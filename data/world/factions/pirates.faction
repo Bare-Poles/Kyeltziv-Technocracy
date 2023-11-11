@@ -1,0 +1,21 @@
+{
+    # ships the faction gets access to when importing S&W out-of-faction
+    "shipsWhenImporting":{
+		"hulls":[
+			"kyeltziv_vassily_p",
+			"kyeltziv_ruslan_p",
+			"kyeltziv_perun_p",
+			"kyeltziv_zlatko_p",
+		],
+    },
+
+    "knownShips":{
+		"hulls":[
+			"kyeltziv_vassily_p",
+			"kyeltziv_ruslan_p",
+			"kyeltziv_perun_p",
+			"kyeltziv_zlatko_p",
+		],
+    },
+
+},

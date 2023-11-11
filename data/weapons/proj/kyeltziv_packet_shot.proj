@@ -1,0 +1,21 @@
+{
+	"id":"kyeltziv_packet_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+
+	"onHitEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_PacketOnHitEffect",
+
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":30.0,
+	"hitGlowRadius":28,
+	"width":5.0,
+	"fadeTime":0.2,
+	"fringeColor":[220,220,50,200],
+	"coreColor":[220,220,150,225],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_packet.png",
+	"glowColor":[200,160,50,80],
+	"glowRadius":15
+}

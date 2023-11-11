@@ -1,0 +1,56 @@
+{
+  "variantId": "kyeltziv_narva_attack",
+  "hullId": "kyeltziv_narva",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "targetingunit",
+    "kyeltziv_loader_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "kyeltziv_halke_array",
+        "WS0004": "kyeltziv_halke_array"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_cranequin",
+        "WS0002": "kyeltziv_cranequin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_stutter",
+        "WS0006": "kyeltziv_stutter",
+        "WS0007": "kyeltziv_stutter",
+        "WS0008": "kyeltziv_stutter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "kyeltziv_graviton_sweeper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_vahlia_wing",
+    "kyeltziv_vahlia_wing",
+    "kyeltziv_vahlia_wing"
+  ]
+}

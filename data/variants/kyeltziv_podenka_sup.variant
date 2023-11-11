@@ -1,0 +1,58 @@
+{
+  "variantId": "kyeltziv_podenka_sup",
+  "hullId": "kyeltziv_podenka",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_pack_supp",
+    "kyeltziv_loader_siege"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_lorentz"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_thap_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_springald"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_springald",
+        "WS0004": "kyeltziv_springald"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_stutter",
+        "WS0007": "kyeltziv_stutter",
+        "WS0008": "kyeltziv_stutter",
+        "WS0009": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

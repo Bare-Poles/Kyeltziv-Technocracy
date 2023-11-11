@@ -1,0 +1,62 @@
+{
+  "variantId": "kyeltziv_pyralid_sup",
+  "hullId": "kyeltziv_pyralid",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_loader_siege",
+    "kyeltziv_pack_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_volley_driver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_thap"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_vedha"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_lorentz"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_stutter",
+        "WS0006": "kyeltziv_stutter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "kyeltziv_smart_blaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

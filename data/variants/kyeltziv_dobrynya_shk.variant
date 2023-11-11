@@ -1,0 +1,43 @@
+{
+  "variantId": "kyeltziv_dobrynya_shk",
+  "hullId": "kyeltziv_dobrynya",
+  "displayName": "Shock",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_pack_slot",
+    "kyeltziv_pack_supp",
+    "kyeltziv_loader_supp",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_halke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_light_discharger",
+        "WS0004": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,65 @@
+{
+
+    # variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+
+		"kyeltziv_ilya_ex_ass2":5,
+		"kyeltziv_ilya_ex_stk2":3,
+
+		"kyeltziv_otkryt_ex_stk2":5,
+		"kyeltziv_otkryt_ex_sup2":3,
+
+		"kyeltziv_perun_ex_stk2": 5,
+		"kyeltziv_perun_ex_sup2": 3,
+
+		"kyeltziv_dazhbog_ex_ass2": 3.5,
+		"kyeltziv_dazhbog_ex_stk2": 1.5,
+		"kyeltziv_dazhbog_ex_sup2": 3,
+
+		"kyeltziv_xinzang_ex_ass2": 3.5,
+		"kyeltziv_xinzang_ex_stk2": 1.5,
+		"kyeltziv_xinzang_ex_sup2": 3,
+
+		"kyeltziv_podenka_ex_ass2": 3.5,
+		"kyeltziv_podenka_ex_stk2": 1.5,
+		"kyeltziv_podenka_ex_sup2": 3,
+
+		"kyeltziv_yinglong_ex_attack2": 5,
+		"kyeltziv_yinglong_ex_sup2": 3,
+
+	},
+
+    # multiplier for how often hulls show up in the faction's fleets
+    "hullFrequency":{
+        "hulls":{
+            "kyeltziv_ilya_ex":0.5,
+            "kyeltziv_otkryt_ex":0.5,
+            "kyeltziv_perun_ex":0.5,
+            "kyeltziv_dazhbog_ex":0.5,
+            "kyeltziv_yinglong_ex":0.5,
+            "kyeltziv_xinzang_ex":0.5,
+            "kyeltziv_podenka_ex":0.5,
+        },
+    },
+
+
+    # ships the faction gets access to when importing S&W out-of-faction
+    "shipsWhenImporting":{
+		"tags":["kyeltziv_exp_bp"],
+		"hulls":[
+			"kyeltziv_otkryt_ex",
+			"kyeltziv_yinglong_ex",
+			"kyeltziv_xinzang_ex",
+		],
+    },
+
+    "knownShips":{
+		"tags":["kyeltziv_exp_bp"],
+		"hulls":[
+			"kyeltziv_otkryt_ex",
+			"kyeltziv_yinglong_ex",
+			"kyeltziv_xinzang_ex",
+		],
+    },
+
+},

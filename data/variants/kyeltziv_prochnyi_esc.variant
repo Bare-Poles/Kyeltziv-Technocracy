@@ -1,0 +1,42 @@
+{
+  "variantId": "kyeltziv_prochnyi_esc",
+  "hullId": "kyeltziv_prochnyi",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "ecm",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_light_discharger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_stutter",
+        "WS0007": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_stachys_wing"
+  ]
+}

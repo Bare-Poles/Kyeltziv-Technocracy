@@ -1,0 +1,92 @@
+{
+  "hullName": "Orbital Station, Kyeltziv",
+  "hullId": "kyeltziv_station_1",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/station/kyeltziv_station_under_core.png",
+  "style": "MIDLINE",
+  "height": 474,
+  "width": 514,
+  "center": [257, 237],
+  "collisionRadius": 200,
+  "shieldCenter": [19, 1],
+  "shieldRadius": 200,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "axialrotation",
+    "supercomputer",
+    "shared_flux_sink",
+    "kyeltziv_rangefinders"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 180,
+      "locations": [-58, -0]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 30,
+      "locations": [42, 215]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 210,
+      "locations": [-42, -215]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 0,
+      "locations": [58, -0]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -25,
+      "locations": [121, -167]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 155,
+      "locations": [-121, 167]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -87, 230,
+    1, 233,
+    31, 199,
+    65, -0,
+    57, -90,
+    35, -119,
+    87, -230,
+    -1, -233,
+    -31, -199,
+    -65, -0,
+    -57, 90,
+    -35, 119
+  ]
+}

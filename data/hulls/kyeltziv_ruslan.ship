@@ -1,0 +1,106 @@
+{
+  "hullName": "Ruslan",
+  "hullId": "kyeltziv_ruslan",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/kyeltziv_ruslan.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 130,
+  "width": 70,
+  "center": [37, 54],
+  "collisionRadius": 82,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 81,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "kyeltziv_pack_slot"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_driver"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [28, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -100,
+      "locations": [1, -18]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 23]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52.5, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-33, 21.5],
+      "length": 26,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    42, -22,
+    -2, -27,
+    -20, -14,
+    -45, -12,
+    -45, 12,
+    -30, 14,
+    -22, 31,
+    31, 31,
+    34, 14,
+    55, 10
+  ]
+}

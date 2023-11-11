@@ -1,0 +1,16 @@
+{
+	"id":"kyeltziv_shrap_driver_pellet",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"hitGlowRadius":28,
+	"length":30.0,
+	"width":5,
+	"fadeTime":0.35,
+	"fringeColor":[240,220,180,200],
+	"coreColor":[245,245,225,80],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png"
+}

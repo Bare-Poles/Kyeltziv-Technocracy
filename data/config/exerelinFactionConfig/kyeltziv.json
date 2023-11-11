@@ -1,0 +1,84 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "ngcTooltip":"Start as a fresh kyeltziv captain with a mission to uphold the charter.",
+
+    "rebelFleetSuffix":"Rebels",
+
+    "startRelationships":{
+        "hegemony":-0.25,
+        "luddic_church":-0.5,
+        "persean":0.5,
+        "sindrian_diktat":0.25,
+    },
+
+    "diplomacyTraits":["paranoid",
+			"irredentist",
+			"envious"],
+	
+    "diplomacyPositiveChance":{"tritachyon": 0.8,},
+    "diplomacyNegativeChance":{ "tritachyon":1.1,},
+
+    "alignments":{
+        "corporate":0.5,
+        "technocratic":1,
+        "hierarchial":0.5,
+        "ideological":-0.6,
+    },
+
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1,	# baseline expansion behaviour
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+
+    "startShipsCombatSmall":[
+      ["kyeltziv_perun_ass", "kyeltziv_ilya_shk", "kyeltziv_dobrynya_sup", "kyeltziv_vassily_bal", "kyeltziv_vassily_shk", "kyeltziv_vassily_ass"],
+      ["kyeltziv_ruslan_shk", "kyeltziv_ilya_sup", "kyeltziv_ilya_sup", "kyeltziv_ilya_shk", "kyeltziv_vassily_shk", "kyeltziv_vassily_shk"]
+    ],
+
+    "startShipsCombatLarge":[
+	["kyeltziv_dazhbog_shk", "kyeltziv_perun_ass", "kyeltziv_perun_sup", "kyeltziv_ilya_bal", "kyeltziv_vassily_bomb", "kyeltziv_vassily_ass"],
+	["kyeltziv_podenka_shk", "kyeltziv_xiezhi_bomb", "kyeltziv_znatok_bomb", "kyeltziv_dobrynya_ass", "kyeltziv_vassily_shk"]
+    ],
+
+    "startShipsTradeSmall":[["kyeltziv_znatok_shk", "kyeltziv_tarsus_std", "kyeltziv_phaeton_std", "kyeltziv_valkyrie_std"]],
+
+    "startShipsCarrierSmall":[["kyeltziv_yinglong_attack", "kyeltziv_yinglong_support", "kyeltziv_ruslan_bomb", "kyeltziv_dobrynya_shk", "kyeltziv_vassily_bal"]],
+
+    "startShipsCarrierLarge":[["kyeltziv_bystro_cs", "kyeltziv_znatok_sup", "kyeltziv_dobrynya_ass", "kyeltziv_dobrynya_bomb", "kyeltziv_vassily_shk"]],
+
+    "startSpecialItems":[
+        [["kyeltziv_ship_package",""]],
+	[["kyeltziv_fighter_package",""]],
+	[["kyeltziv_weapon_package",""]]
+    ],
+
+    "defenceStations":[
+        {"ids":["kyeltziv_orbitalstation", "kyeltziv_battlestation", "kyeltziv_starfortress"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.2},
+        {"id":"fuelprod", "mult":0.1},
+	{"id":"refining", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_corrupted", "count":1},
+	{"id":"aiCore_heavyindustry", "count":1},
+	{"id":"aiCore_military", "count":1},
+	{"id":"aiCore_station", "count":1, "mult":0.8},
+	{"id":"aiCore_other", "count":1, "mult":0.8},
+    ],
+
+    "miningVariantsOrWings":[
+	"kyeltziv_znatok_bomb",
+	"kyeltziv_znatok_shk",
+	"kyeltziv_znatok_sup",
+    ],
+
+}

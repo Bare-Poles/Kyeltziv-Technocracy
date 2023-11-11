@@ -1,0 +1,62 @@
+{
+  "hullName": "PD Drone",
+  "hullId": "kyeltziv_expPdDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/export/kyeltziv_pd_drone.png",
+  "style": "MIDLINE",
+  "height": 22,
+  "width": 18,
+  "center": [9, 11],
+  "collisionRadius": 16,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 2,
+      "locations": [4, 4]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -2,
+      "locations": [4, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, 5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-8, -5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    6, 5,
+    6, -5,
+    -7, -6,
+    -7, 6
+  ]
+}

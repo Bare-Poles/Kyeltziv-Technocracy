@@ -1,0 +1,49 @@
+{
+  "variantId": "kyeltziv_dazhbog_shk",
+  "hullId": "kyeltziv_dazhbog",
+  "displayName": "Shock",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_loader_ass"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_halke_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_cranequin",
+        "WS0003": "kyeltziv_springald"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_stutter",
+        "WS0006": "kyeltziv_light_discharger",
+        "WS0007": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

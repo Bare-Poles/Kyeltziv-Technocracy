@@ -1,0 +1,37 @@
+{
+  "variantId": "kyeltziv_ophrys_interceptor",
+  "hullId": "kyeltziv_ophrys",
+  "displayName": "Interceptor Corvette",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_bellis_pack_heavy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_graviton_sweeper_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_tappi_twin",
+        "WS0004": "kyeltziv_tappi_twin"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

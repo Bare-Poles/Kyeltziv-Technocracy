@@ -1,0 +1,75 @@
+{
+  "hullName": "Heavy Piper Drone",
+  "hullId": "kyeltziv_heavyPiperDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_heavyPiperDrone.png",
+  "style": "MIDLINE",
+  "height": 34,
+  "width": 26,
+  "center": [12, 14],
+  "collisionRadius": 22,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_fighterWeps",
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_siren_flare_launcher_drone"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, 3]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 30,
+      "locations": [-1, 4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-12, -0],
+      "length": 22,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-10, 7],
+      "length": 18,
+      "width": 5,
+      "angle": 175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-10, -7],
+      "length": 18,
+      "width": 5,
+      "angle": -175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    13, 3,
+    9, -9,
+    -9, -8,
+    -9, 8,
+    2, 10
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "variantId": "kyeltziv_drone_loinen",
+  "hullId": "kyeltziv_loinen",
+  "displayName": "Gun Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_galv_arquebus"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

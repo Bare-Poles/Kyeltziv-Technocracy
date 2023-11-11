@@ -1,0 +1,35 @@
+{
+  "variantId": "kyeltziv_lycaenid_pd",
+  "hullId": "kyeltziv_lycaenid",
+  "displayName": "Point Defense",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_pack_supp",
+    "pointdefenseai",
+    "advancedoptics",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_graviton_sweeper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_stutter",
+        "WS0003": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

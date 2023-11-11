@@ -1,0 +1,89 @@
+{
+	"id":"kyeltziv_trocar_limpet",
+	"specClass":"missile",
+	"missileType":"MIRV",
+
+	"onFireEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_TrocarOnFireEffect",
+
+	"sprite":"graphics/missiles/kyeltziv_trocar_limpet.png",
+	"size":[14,18],
+	"center":[7,9],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,120,255,255],
+	"explosionRadius":60,
+	"engineSpec":{"turnAcc":900,
+				  "turnRate":150,
+				  "acc":1500,
+				  "dec":500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-6, 4],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[60,160,215,255],
+						"contrailDuration":0.75,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.2f,
+						"contrailAngularVelocityMult":0.4f,
+						"contrailSpawnDistMult":0.4, # how far away from engine it starts
+						"contrailColor":[90,115,150,135],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":30.0,
+				    "angle":170.0},
+
+			{"id":"ES2",
+					"loc":[-6, -4],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[60,160,215,255],
+						"contrailDuration":0.75,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.2f,
+						"contrailAngularVelocityMult":0.4f,
+						"contrailSpawnDistMult":0.4, # how far away from engine it starts
+						"contrailColor":[90,115,150,135],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":30.0,
+				    "angle":190.0}],
+
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":800,
+					"minTimeToSplit":1,
+					"canSplitEarly":true,
+					"splitSound":"bomb_bay_fire",
+					"numShots":20,
+					"damage":40,
+					"impact":10,
+					"emp":150,
+					"damageType":ENERGY,
+					"hitpoints":5,
+					"arc":20,
+					"spreadInaccuracy":10,
+					"arcOffset":0,
+					"evenSpread":true,
+					"spreadSpeed":800,
+					"spreadSpeedRange":50,
+					"projectileSpec":"kyeltziv_discharger_jet",
+
+					"smokeSpec":{"particleSizeMin":10.0,
+								 "particleSizeRange":16.0,
+								 "cloudParticleCount":5,
+								 "cloudDuration":1.0,
+								 "cloudRadius":10.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[180,160,150,130]}
+					}
+}

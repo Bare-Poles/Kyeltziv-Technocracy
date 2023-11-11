@@ -1,0 +1,52 @@
+{
+  "variantId": "kyeltziv_zlatko_shk",
+  "hullId": "kyeltziv_zlatko",
+  "displayName": "Shock",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_ass",
+    "targetingunit",
+    "kyeltziv_pack_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shock_culverin",
+        "WS0002": "kyeltziv_shock_culverin",
+        "WS0003": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "kyeltziv_halke",
+        "WS0005": "kyeltziv_halke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_stutter",
+        "WS0007": "kyeltziv_stutter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "kyeltziv_light_discharger",
+        "WS0009": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

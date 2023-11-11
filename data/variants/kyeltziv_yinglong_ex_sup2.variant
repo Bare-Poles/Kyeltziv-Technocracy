@@ -1,0 +1,45 @@
+{
+  "variantId": "kyeltziv_yinglong_ex_sup2",
+  "hullId": "kyeltziv_yinglong_ex",
+  "displayName": "Support",
+  "goalVariant": false,
+  "fluxCapacitors": 4,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "gazer",
+        "WS0003": "gazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "lrpdlaser",
+        "WS0005": "lrpdlaser",
+        "WS0006": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "claw_wing"
+  ]
+}

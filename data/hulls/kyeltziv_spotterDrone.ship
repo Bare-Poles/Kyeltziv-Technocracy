@@ -1,0 +1,54 @@
+{
+  "hullName": "Spotter Drone",
+  "hullId": "kyeltziv_spotterDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_spotterDrone.png",
+  "style": "MIDLINE",
+  "height": 24,
+  "width": 30,
+  "center": [15, 12],
+  "collisionRadius": 16,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_fighterWeps",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -30,
+      "locations": [0, -2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, 5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-9, -5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    5, 8,
+    5, -8,
+    -7, -6,
+    -7, 6
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "hullName": "Vartija",
+  "hullId": "kyeltziv_vartija",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_vartija.png",
+  "style": "MIDLINE",
+  "height": 30,
+  "width": 28,
+  "center": [13, 14],
+  "collisionRadius": 20,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 19,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_fighterWeps"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [4, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 40,
+      "locations": [2, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10, 8],
+      "length": 18,
+      "width": 6,
+      "angle": 170,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-10, -8],
+      "length": 18,
+      "width": 6,
+      "angle": -170,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    5, 7,
+    8, -8,
+    -9, -10,
+    -9, 10
+  ]
+}

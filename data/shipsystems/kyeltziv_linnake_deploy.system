@@ -1,0 +1,18 @@
+{
+	"id":"kyeltziv_linnake_deploy",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"org.amazigh.kyeltziv.shipsystems.scripts.ai.kyeltziv_LinnakeDeployAI",
+	
+	"statsScript":"org.amazigh.kyeltziv.shipsystems.scripts.kyeltziv_LinnakeDeployStats",
+
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

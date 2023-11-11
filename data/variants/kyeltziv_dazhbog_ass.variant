@@ -1,0 +1,50 @@
+{
+  "variantId": "kyeltziv_dazhbog_ass",
+  "hullId": "kyeltziv_dazhbog",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_pack_ass",
+    "unstable_injector",
+    "kyeltziv_loader_ass"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_packetRib"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "kyeltziv_bellis_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_packet",
+        "WS0003": "kyeltziv_packet"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_light_discharger",
+        "WS0006": "kyeltziv_light_discharger",
+        "WS0007": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

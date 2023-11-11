@@ -1,0 +1,104 @@
+{
+  "hullName": "Vassily",
+  "hullId": "kyeltziv_vassily",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/kyeltziv_vassily.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 120,
+  "width": 66,
+  "center": [35, 54],
+  "collisionRadius": 78,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 77,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "kyeltziv_pack_slot"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 50,
+      "locations": [28, 12]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -45,
+      "locations": [33, -9]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [4, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -100,
+      "locations": [1, -18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52.5, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    29, -23,
+    9, -21,
+    2, -28,
+    -20, -14,
+    -45, -12,
+    -45, 12,
+    -1, 16,
+    13, 27,
+    35, 22,
+    51, 5
+  ]
+}

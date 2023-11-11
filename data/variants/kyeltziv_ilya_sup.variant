@@ -1,0 +1,49 @@
+{
+  "variantId": "kyeltziv_ilya_sup",
+  "hullId": "kyeltziv_ilya",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_loader_siege",
+    "kyeltziv_pack_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "kyeltziv_springald",
+        "WS0002": "kyeltziv_springald"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_thap"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_springald"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_stutter",
+        "WS0006": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

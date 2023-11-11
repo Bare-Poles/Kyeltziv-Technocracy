@@ -1,0 +1,63 @@
+{
+  "hullName": "Heavy Spotter Drone",
+  "hullId": "kyeltziv_heavySpotterDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_heavySpotterDrone.png",
+  "style": "MIDLINE",
+  "height": 28,
+  "width": 42,
+  "center": [21, 14],
+  "collisionRadius": 21,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_fighterWeps",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -30,
+      "locations": [0.5, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, 7],
+      "length": 16,
+      "width": 5,
+      "angle": 175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-9, -7],
+      "length": 16,
+      "width": 5,
+      "angle": -175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, -0],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    3, -11,
+    -8, -8,
+    -8, 8,
+    3, 11,
+    8, -0
+  ]
+}

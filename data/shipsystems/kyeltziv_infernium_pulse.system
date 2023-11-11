@@ -1,0 +1,28 @@
+{
+	"id":"kyeltziv_infernium_pulse",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE",
+	
+	"statsScript":"org.amazigh.kyeltziv.shipsystems.scripts.kyeltziv_infernium_pulse_stats",
+	
+	"engineGlowColor":[255,100,100,255],
+	"engineGlowLengthMult":3.5,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":2.5,
+	
+	"flameoutOnImpactChance":0.5,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+	
+	"useSound":"system_plasma_burn",
+	"loopSound":"system_plasma_burn_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":450,
+		"averageSpeedIncrease":75,
+	}
+}

@@ -1,0 +1,83 @@
+{
+  "hullName": "Heavy PD Drone",
+  "hullId": "kyeltziv_heavyExpPdDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/export/kyeltziv_hvy_pd_drone.png",
+  "style": "MIDLINE",
+  "height": 30,
+  "width": 24,
+  "center": [12, 15],
+  "collisionRadius": 16,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "pointdefenseai"
+  ],
+  "builtInWeapons": {
+    "WS0003": "kyeltziv_flare_port"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 5,
+      "locations": [6, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": -5,
+      "locations": [6, -7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -0],
+      "length": 22,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, 7],
+      "length": 18,
+      "width": 5,
+      "angle": 175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, -7],
+      "length": 18,
+      "width": 5,
+      "angle": -175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    3, 10,
+    13, -0,
+    3, -10,
+    -10, -8,
+    -10, 8
+  ]
+}

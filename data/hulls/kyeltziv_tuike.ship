@@ -1,0 +1,63 @@
+{
+  "hullName": "Tuike",
+  "hullId": "kyeltziv_tuike",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_tuike.png",
+  "style": "HIGH_TECH",
+  "height": 38,
+  "width": 26,
+  "center": [13, 16],
+  "collisionRadius": 24,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps",
+    "advancedoptics",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [12, 3]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -20,
+      "locations": [2, -4]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, 5],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-15, -5],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    15, 3,
+    11, -6,
+    -11, -10,
+    -11, 10
+  ]
+}

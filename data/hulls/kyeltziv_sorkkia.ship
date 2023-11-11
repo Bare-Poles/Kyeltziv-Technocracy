@@ -1,0 +1,71 @@
+{
+  "hullName": "Sorkkia",
+  "hullId": "kyeltziv_sorkkia",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_sorkkia.png",
+  "style": "MIDLINE",
+  "height": 42,
+  "width": 25,
+  "center": [12.5, 20],
+  "collisionRadius": 22,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_fighterWeps"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 12,
+      "angle": 0,
+      "locations": [13, -4.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [7, 5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 130,
+      "locations": [-5, 4.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-19, 7],
+      "length": 30,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-19, -7],
+      "length": 30,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    10, 9.5,
+    12, -7.5,
+    -17, -8.5,
+    -17, 8.5
+  ]
+}

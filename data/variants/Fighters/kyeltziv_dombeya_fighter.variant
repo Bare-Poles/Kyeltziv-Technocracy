@@ -1,0 +1,38 @@
+{
+  "variantId": "kyeltziv_dombeya_fighter",
+  "hullId": "kyeltziv_dombeya",
+  "displayName": "Missile Corvette",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "kyeltziv_nok_rack",
+        "WS0005": "kyeltziv_nok_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "kyeltziv_perennis_pack",
+        "WS0003": "kyeltziv_perennis_pack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shock_avtomat"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

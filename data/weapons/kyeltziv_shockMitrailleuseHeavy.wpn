@@ -1,0 +1,30 @@
+{
+	"id":"kyeltziv_shockMitrailleuseHeavy",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"displayArcRadius":600,
+	"turretSprite":"graphics/weapons/kyeltziv_shockMitrailleuse_heavy_base.png",
+	"turretGunSprite":"graphics/weapons/kyeltziv_shockMitrailleuse_heavy_recoil.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_shockMitrailleuse_heavy_base.png",
+	"hardpointGunSprite":"graphics/weapons/kyeltziv_shockMitrailleuse_heavy_recoil.png",	
+	"visualRecoil":5.0,  # the gun sprites are only used if this is non-0
+	"renderHints":["RENDER_BARREL_BELOW"],
+	"turretOffsets":[7, -4, 7, -1, 7, 2, 7, 5],
+	"turretAngleOffsets":[0, 0, 0, 0],
+	"hardpointOffsets":[12.5, -4, 12.5, -1, 12.5, 2, 12.5, 5],
+	"hardpointAngleOffsets":[0, 0, 0, 0],
+	"specialWeaponGlowWidth":12,
+	"specialWeaponGlowHeight":30,
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":12.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":24.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.15,
+					   "particleCount":10,
+					   "particleColor":[165,185,225,145]},
+	"projectileSpecId":"kyeltziv_culverin_shot",  # projectile that will be fired
+	"fireSoundTwo":"kyeltziv_culverin_fire",
+}

@@ -1,0 +1,46 @@
+{
+  "variantId": "kyeltziv_bystro_attack",
+  "hullId": "kyeltziv_bystro",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "kyeltziv_halke_pod",
+        "WS0003": "kyeltziv_halke"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_cranequin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_light_discharger",
+        "WS0005": "kyeltziv_light_discharger",
+        "WS0006": "kyeltziv_light_discharger",
+        "WS0007": "kyeltziv_light_discharger",
+        "WS0008": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_vahlia_wing",
+    "kyeltziv_vahlia_wing"
+  ]
+}

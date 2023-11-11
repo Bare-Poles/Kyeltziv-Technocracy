@@ -1,0 +1,140 @@
+{
+  "hullName": "Katsoja",
+  "hullId": "kyeltziv_katsoja",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Phase/kyeltziv_katsoja.png",
+  "style": "MIDLINE",
+  "height": 180,
+  "width": 112,
+  "center": [56, 89],
+  "collisionRadius": 100,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 98,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "kyeltziv_fluxPhase"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_shockMitrailleuseHeavy"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-29, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [61.5, -3]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [82, 30]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [79, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -50,
+      "locations": [46, -26]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 35,
+      "locations": [54, 25]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 100,
+      "locations": [9, 32]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-79, 32],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-79, -32],
+      "length": 50,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-87, 18],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-87, -18],
+      "length": 80,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    65, -45,
+    35, -52,
+    26, -37,
+    -31, -40,
+    -77, -34,
+    -85, -9,
+    -44, 0,
+    -85, 9,
+    -77, 34,
+    -31, 40,
+    14, 38,
+    24, 32,
+    55, 40,
+    73, 39,
+    72, 17,
+    62, 15,
+    71, -23
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "variantId": "kyeltziv_zlatko_sup",
+  "hullId": "kyeltziv_zlatko",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_pack_supp",
+    "kyeltziv_loader_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_springald",
+        "WS0002": "kyeltziv_springald",
+        "WS0003": "kyeltziv_springald"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "kyeltziv_thap",
+        "WS0005": "kyeltziv_thap"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_esp_beam",
+        "WS0007": "kyeltziv_esp_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "kyeltziv_light_discharger",
+        "WS0009": "kyeltziv_light_discharger"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

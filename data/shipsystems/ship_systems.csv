@@ -1,0 +1,55 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Smart Chaff Dispenser,kyeltziv_chaff_d,,,,,,,,7,,,,,4,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Smart Chaff Cover,kyeltziv_chaff_c,,,,,,,,1,0.08,,,,5,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Smart Chaff,kyeltziv_chaff_sing,,,,,,,,1,0.3,,,,1,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Siren Pattern Flares,kyeltziv_siren_flares,,,,,,0.1,,,,,,,6,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Siren Pattern Flares (Single),kyeltziv_siren_flares_single,,,,,,0.1,,,,,,,6,,,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Microburst Drive,kyeltziv_microburst_drive,,,,,,,,,,0.5,1.6,0.5,5,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Main Burn,kyeltziv_mainburn,1,,,,,,,,,2,4,1,8,TRUE,,,,,,TRUE,TRUE,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Phase Skipper,kyeltziv_displacer,,,,,,,,2,0.08,0.25,,0.25,0.5,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Shock Mine Strike,kyeltziv_mine_strike,,,,,,0.06,,5,0.2,0.2,,0.15,0,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Kiusa Drones,kyeltziv_kiusa_16,,,,,,,,24,0.1,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Vartija Combat Drones,kyeltziv_vartija_2,,,,,,,,4,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Laite Drones,kyeltziv_drone_station,,,,,,,,4,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Phase Disjunction,kyeltziv_disjunction,,,,,,,,2,0.0666,0.4,,0.4,2.5,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Spotter Drone Platforms,kyeltziv_stSpotter_2,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Spotter Drone Platforms,kyeltziv_stSpotter_3,,,,,,,,6,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Targeting Drone Platforms,kyeltziv_stTargeting,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Variable Weapon Booster,kyeltziv_VariableBooster,,,,,,,,2,0.05,0.5,4,0.5,1,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+Mono Weapon Booster,kyeltziv_MonoBooster,,,,,,,,2,0.05,0.5,4,0.5,1,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Spotter Drone,kyeltziv_spotterDrone_1,,,,,,,,2,0.0333,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Piper Drone,kyeltziv_piperDrone_1,,,,,,,,2,0.0333,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Kutittaa Gun Drone,kyeltziv_kutittaa_1,,,,,,,,2,0.0333,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Vartio Combat Drones,kyeltziv_vartio_2,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+ELINT Drones,kyeltziv_symDrone_2_r,,,,,,,,4,0.0333,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+PD Drone,kyeltziv_expPdDrone_1_o,,,,,,,,2,0.0625,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Salpa Drones,kyeltziv_salpa_12,,,,,,,,18,0.1,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Infernium Pulse,kyeltziv_infernium_pulse,1,,,,,,,3,0.0666,0.2,0.4,0.6,1,,,,,,,TRUE,TRUE,,,,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Piper Drones,kyeltziv_piperDrone_2,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Loinen Gun Drones,kyeltziv_loinen_4,,,,,,,,8,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Raataja Salvage Drones,kyeltziv_raataja,,,,,,,,8,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_borer.png
+PD Drones,kyeltziv_expPdDrone_2_p,,,,,,,,4,0.0666,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Spotter Drones,kyeltziv_spotterDrone_2,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Tuike Drones,kyeltziv_tuike_2,,,,,,,,4,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Navigation Drones,kyeltziv_navDrone_2,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Suojus Combat Drones,kyeltziv_suojus_2,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Rail Drones,kyeltziv_railDrones,,,,,,,,8,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Kohta Drone Platform,kyeltziv_drone_strike,,,,,,0.08,,2,0.0666,0.3,,0.3,1,,,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Linnake Gun Platform,kyeltziv_linnake_deploy,,,,,,,,1,0.02,0,0.1,0,10,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Kiusa Drones,kyeltziv_kiusa_4,,,,,,,,6,0.08,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Harmi Drones,kyeltziv_bel_4,,,,,,,,6,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Vaiva Drones,kyeltziv_culv_2,,,,,,,,3,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Kiusa Drones,kyeltziv_kiusa_8,,,,,,,,12,0.12,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Canister Flak,kyeltziv_canister_flak,,,,,,,,3,0.0666,,,,3,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Piper Drones,kyeltziv_hPiperDrone_2,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Lakeija Combat Drones,kyeltziv_lakeija_4,,,,,,,,8,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Heavy Spotter Drones,kyeltziv_hSpotterDrone_2,,,,,,,,4,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Heavy ELINT Drones,kyeltziv_hSymDrone_4,,,,,,,,8,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Heavy PD Drones,kyeltziv_hExpPdDrone_2,,,,,,,,4,0.0666,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Piper Drones,kyeltziv_hPiperDrone_4,,,,,,,,8,0.04,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Sorkkia Combat Drones,kyeltziv_sorkkia_4,,,,,,,,8,0.05,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png

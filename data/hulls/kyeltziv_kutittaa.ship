@@ -1,0 +1,79 @@
+{
+  "hullName": "Kuittaa",
+  "hullId": "kyeltziv_kutittaa",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_kutittaa.png",
+  "style": "MIDLINE",
+  "height": 48,
+  "width": 28,
+  "center": [16, 24],
+  "collisionRadius": 25,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 24,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_fighterWeps"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [17, 6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 0,
+      "locations": [17, -6]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-20, 5],
+      "length": 18,
+      "width": 6,
+      "angle": 175,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-20, -5],
+      "length": 18,
+      "width": 6,
+      "angle": -175,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-23, -0],
+      "length": 28,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    13, -10,
+    -19, -6,
+    -19, 6,
+    13, 10
+  ]
+}

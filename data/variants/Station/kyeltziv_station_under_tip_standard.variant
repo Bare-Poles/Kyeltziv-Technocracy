@@ -1,0 +1,14 @@
+{
+  "variantId": "kyeltziv_station_under_tip_standard",
+  "hullId": "kyeltziv_station_under_tip",
+  "displayName": "",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0.5,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

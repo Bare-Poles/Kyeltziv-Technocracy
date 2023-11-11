@@ -1,0 +1,94 @@
+{
+  "hullName": "Lycaenid",
+  "hullId": "kyeltziv_lycaenid",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/kyeltziv_lycaenid.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 100,
+  "width": 74,
+  "center": [35, 54],
+  "collisionRadius": 72,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 71,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_pack_slot",
+    "kyeltziv_dedicatedFCS"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -65,
+      "locations": [9, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 115,
+      "locations": [-11, 22]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-5, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 30,
+      "locations": [28, 21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52.5, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    27, -19,
+    9, -35,
+    -20, -15,
+    -45, -12,
+    -45, 12,
+    -19, 14,
+    -15, 28,
+    28, 32,
+    41, 22
+  ]
+}

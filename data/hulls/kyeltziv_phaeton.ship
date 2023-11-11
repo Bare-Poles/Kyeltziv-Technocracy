@@ -1,0 +1,153 @@
+{
+  "hullName": "Phaeton (KT)",
+  "hullId": "kyeltziv_phaeton",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/kyeltziv_phaeton.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 238,
+  "width": 126,
+  "center": [66, 98],
+  "collisionRadius": 182,
+  "shieldCenter": [21, -0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade",
+    "kyeltziv_rangefinders"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 180,
+      "locations": [-76, 0]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [35, 46]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [35, -34]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [125, 13]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 110,
+      "locations": [-51, 58]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 250,
+      "locations": [-51, -58]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-93, 36],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-93, 24],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-97, 9],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-97, -9],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-93, -24],
+      "length": 48,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-93, -36],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -42, 58,
+    -29, 37,
+    11, 41,
+    36, 55,
+    58, 44,
+    59, 38,
+    92, 35,
+    102, 53,
+    138, 9,
+    128, 3,
+    131, -27,
+    106, -47,
+    53, -30,
+    35, -41,
+    24, -29,
+    -29, -36,
+    -42, -58,
+    -57, -57,
+    -60, -21,
+    -76, -51,
+    -92, -40,
+    -96, -0,
+    -92, 40,
+    -76, 51,
+    -60, 21,
+    -57, 57
+  ]
+}

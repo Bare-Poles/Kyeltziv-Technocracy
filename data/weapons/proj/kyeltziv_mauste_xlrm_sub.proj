@@ -1,0 +1,70 @@
+{
+	"id":"kyeltziv_mauste_xlrm_sub",
+	"specClass":"missile",
+	"missileType":"MIRV",
+	"sprite":"graphics/missiles/kyeltziv_mauste_xlrm_sub.png",
+	"size":[8,14],	
+	"center":[4,7],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,100,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":40, # purely visual
+	"maxFlightTime":5,
+	"engineSpec":{
+				  "turnAcc":240,
+				  "turnRate":120,
+				  "acc":400,
+				  "dec":90, #120 200
+				  "maxSpeed":250},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,175,75,255],
+						"contrailDuration":1,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[160,100,90,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":18.0,
+				    "angle":180.0}],
+	"behaviorSpec":{"behavior":"MIRV",
+					"splitRange":450,
+					"splitRangeRange":100,
+					"minTimeToSplit":1,
+					"canSplitEarly":false,
+					"splitSound":"light_assault_gun_fire",
+					"numShots":3,
+					"damage":60,
+					"emp":0, # needs to match highlight in weapon_data.csv
+					"damageType":HIGH_EXPLOSIVE,
+					"hitpoints":10,
+					"evenSpread":false,
+					"arc":24,
+					"spreadInaccuracy":8,
+					"spreadSpeed":600,
+					"spreadSpeedRange":300,
+					"projectileRange":1000,
+					"projectileSpec":"kyeltziv_mauste_buster_shot",
+					"debrisSmall":9,
+					"debrisMedium":3,
+					"debrisLarge":0,
+					"smokeSpec":{"particleSizeMin":5.0,
+								 "particleSizeRange":7.0,
+								 "cloudParticleCount":13,
+								 "cloudDuration":1.0,
+								 "cloudRadius":10.0,
+								 "blowbackParticleCount":0,
+								 "blowbackDuration":0,
+								 "blowbackLength":0,
+								 "blowbackSpread":0,
+								 "particleColor":[180,140,100,200]}
+					}				    
+}

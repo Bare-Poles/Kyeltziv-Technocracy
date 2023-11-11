@@ -1,0 +1,36 @@
+{
+  "variantId": "kyeltziv_drone_sorkkia",
+  "hullId": "kyeltziv_sorkkia",
+  "displayName": "Combat Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_vedha_light"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_buster_compact"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_microStutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

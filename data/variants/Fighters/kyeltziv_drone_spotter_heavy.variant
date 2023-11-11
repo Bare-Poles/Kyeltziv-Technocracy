@@ -1,0 +1,22 @@
+{
+  "variantId": "kyeltziv_drone_spotter_heavy",
+  "hullId": "kyeltziv_heavySpotterDrone",
+  "displayName": "Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_niitti_twin"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,43 @@
+{
+  "variantId": "kyeltziv_yinglong_ex_attack2",
+  "hullId": "kyeltziv_yinglong_ex",
+  "displayName": "Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "lightac",
+        "WS0002": "gorgon",
+        "WS0003": "gorgon",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "gladius_wing"
+  ]
+}

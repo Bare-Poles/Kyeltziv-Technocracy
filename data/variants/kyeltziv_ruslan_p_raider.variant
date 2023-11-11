@@ -1,0 +1,31 @@
+{
+  "variantId": "kyeltziv_ruslan_p_raider",
+  "hullId": "kyeltziv_ruslan_p",
+  "displayName": "Raider",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "lightdualac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_driver_shrap"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

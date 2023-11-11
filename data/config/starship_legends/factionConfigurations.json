@@ -1,0 +1,142 @@
+{
+	"kyeltziv":{
+		# Any of the entries in this file may be ommited if you simply want to defer
+		#	to the default for that entry
+	
+	
+		# Prevents references to crew in the faction's fleets, sometimes substituting
+		#	"crew" with "AI persona"
+		"useCrewlessTraitNames":false,
+		
+		# Changes the short description prior to listing traits. Enter %s where the
+		#	commander's name should be, if you want it to apear at all
+		"descriptionOverride":"The ships in %s's fleet are known for having the following traits:",
+		
+		# Allows the fleets of this faction to have famous flagships, which the
+		# 	player may find out about from a bar event
+		"allowFamousFlagshipsInFleets":true,
+		
+		# If true, the bars at markets owned by your faction will sometimes have
+		#	patrons that offer information about the whereabouts of famous
+		#	flagships or derelicts
+		"allowFamousFlagshipBarEvent":true,
+		"allowFamousDerelictBarEvent":true,
+		
+		# Ships in this list may be chosen as a derelict for the derelict bar event
+		# Generally, only ships defined by your faction mod should be listed here
+		# Frequency should be based on balance issues and how plausible it is for
+		#	that ship to be a derelict. The power (FP) of the ship should not come in to
+		#	consideration, as that is adjustable by users in the options file
+		"derelictFrequency":{
+			"kyeltziv_ilkut":0.2, # 1 is the standard frequency, it generally shouldn't be higher
+			"kyeltziv_pyralid":0.25,
+		},
+		
+		# Ships in this list may be chosen as a derelict for the derelict bar event,
+		#	but only at markets owned by your faction
+		"exclusiveDerelictFrequency":{
+
+			# Since this ship id is also in derelictFrequency, the sum of both
+			#	probabilities will be used at at your markets
+			"kyeltziv_ilkut":0.2,
+			"kyeltziv_pyralid":0.25,
+		},
+		
+		# Edit the values in the lists below to change the probability of fleets from
+		#	this faction getting traits. Higher numbers make traits more likely.
+		#	To disable a trait, set its value to 0. Removing a trait from the list will
+		#	only revert it to the default value.
+		"goodTraitFrequency":{
+			"peak_cr_time":0.5,
+			"repair":0.5,
+			"malfunction":0.5,
+			"mount_durability":0.5,
+			"engine_durability":0.5,
+			"hull_integrity":0.2,
+			"armor_strength":0.2,
+			"emp_resistance":0.2,
+			"engine_power":0,
+			"maneuverability":0,
+			"damage":0.8,
+			"weapon_stability":0.5,
+			"turret_rotation":0.2,
+			"range":1,
+			"missile_guidance":0.5,
+			"missile_reload":0.5,
+			"fighter_damage":0.5,
+			"fighter_speed":0.5,
+			"fighter_durability":0.5,
+			"refit_time":0.5,
+			"overload_time":0.4,
+			"flux_capacity":0.3,
+			"flux_dissipation":0.3,
+			"vent_rate":0.3,
+			"shield_raise_rate":0.2,
+			"shield_stability":0.2,
+			"shield_strength":0.6,
+			"phase_cost":0,
+			"phase_cooldown":0,
+			"blockade_runner":0,
+			"ballistics_rof":0,
+			"energy_cost":0,
+			"pd_range":0,
+			"pd_damage":0.5,
+		},
+		
+		"badTraitFrequency":{
+			"peak_cr_time":0.8,
+			"repair":0.2,
+			"malfunction":0.8,
+			"mount_durability":0.8,
+			"engine_durability":1,
+			"hull_integrity":1,
+			"armor_strength":1,
+			"emp_resistance":1,
+			"engine_power":1,
+			"maneuverability":1,
+			"damage":0,
+			"weapon_stability":0.8,
+			"turret_rotation":0.4,
+			"range":0,
+			"missile_guidance":0.4,
+			"missile_reload":0.4,
+			"fighter_damage":0.2,
+			"fighter_speed":0.2,
+			"fighter_durability":0.2,
+			"refit_time":0.2,
+			"overload_time":0.8,
+			"flux_capacity":1,
+			"flux_dissipation":1,
+			"vent_rate":1,
+			"shield_raise_rate":0.6,
+			"shield_stability":0.6,
+			"shield_strength":0.4,
+			"phase_cost":0,
+			"phase_cooldown":0,
+			"ballistics_rof":0.4,
+			"energy_cost":0,
+			"pd_range":1,
+			"pd_damage":0.5,
+			"cursed":0.2, # Low chance to cause spontaneous weapon/engine malfunctions, even at peak PPT
+			"phase_mad":0, # Chance to cause weapon/engine malfunctions while phased
+		},
+
+		# This section allows you to define forced presets as above, but only for
+		#	commanders with specific names (like IBB commanders, for example)
+		"forcedCommanderPresets":{
+		
+			# By defining "Commander Name" below, all fleets with commanders named 
+			#	"Commander Name" will have the specified traits
+			"Commander Name":{
+			
+				# Everything in this section may be defined in the same way as the
+				#	contents of the "forcedPreset" section. 
+				"defaultNumberOfTraits":6,
+				"goodTraits":[
+				],
+				"badTraits":[
+				],
+			},
+		},
+	},
+}

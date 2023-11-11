@@ -1,0 +1,24 @@
+{
+	"displayName": "Orbital Station",
+	"fluxCapacitors": 0,
+	"fluxVents": 0,
+	"hullId": "kyeltziv_station_1",
+	"hullMods": [],
+	"quality": 0.5,
+	"variantId": "kyeltziv_station_1_standard",
+	"weaponGroups": [],
+	"modules": [
+	
+		# armour spurs
+		{"WS 003": "kyeltziv_station_blocker_standard"},
+		{"WS 004": "kyeltziv_station_blocker_standard"},
+
+		# hangar plates
+		{"WS 005": "kyeltziv_station_armour_small_standard"},
+		{"WS 006": "kyeltziv_station_armour_small_standard"},
+		
+		# main modules
+		{"WS 001": "kyeltziv_station_module_main_lv1"},
+		{"WS 002": "kyeltziv_station_module_main_lv1"},
+	],
+}

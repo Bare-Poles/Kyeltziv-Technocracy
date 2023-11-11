@@ -1,0 +1,29 @@
+{
+  "variantId": "kyeltziv_drone_tuike",
+  "hullId": "kyeltziv_tuike",
+  "displayName": "Combat Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_ionRepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

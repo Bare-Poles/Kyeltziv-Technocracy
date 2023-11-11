@@ -1,0 +1,28 @@
+{
+	"defaultChannels":[
+		"kyeltziv_public",
+	],
+	"kyeltziv_public":{
+		"name":"Kyeltziv News Broadcast",
+		"logo":"graphics/icons/intel/kyeltziv_public.png",
+		"icon":"graphics/icons/intel/kyeltziv_public.png",
+		"image":"graphics/factions/kyeltziv.png",
+		"sound":"ui_channel_news",
+		"faction":"ironshell",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"kyeltziv_internal":{
+		"name":"Kyeltziv Intelligence",
+		"logo":"graphics/icons/intel/kyeltziv_internal.png",
+		"icon":"graphics/icons/intel/kyeltziv_internal.png",
+		"image":"graphics/factions/kyeltziv.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"kyeltziv",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}
+
+
+

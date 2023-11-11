@@ -1,0 +1,59 @@
+{
+  "variantId": "kyeltziv_strekoza_bal",
+  "hullId": "kyeltziv_strekoza",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_ass",
+    "kyeltziv_pack_ass",
+    "targetingunit",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_shock_palliser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "kyeltziv_bakot_pod",
+        "WS0005": "kyeltziv_bakot_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_fusionHoufnice",
+        "WS0003": "kyeltziv_buster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_light_discharger",
+        "WS0007": "kyeltziv_light_discharger",
+        "WS0008": "kyeltziv_light_discharger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "kyeltziv_graviton_sweeper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

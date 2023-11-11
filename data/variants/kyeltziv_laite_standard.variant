@@ -1,0 +1,50 @@
+{
+  "variantId": "kyeltziv_laite_standard",
+  "hullId": "kyeltziv_laite",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "kyeltziv_pack_supp",
+    "kyeltziv_loader_ass"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "kyeltziv_bellis_pack_heavy",
+        "WS0003": "kyeltziv_bellis_pack_heavy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_heavy_killCloud"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_graviton_sweeper_single",
+        "WS0005": "kyeltziv_graviton_sweeper_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_stutter",
+        "WS0007": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

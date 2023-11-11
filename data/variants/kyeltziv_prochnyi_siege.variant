@@ -1,0 +1,42 @@
+{
+  "variantId": "kyeltziv_prochnyi_siege",
+  "hullId": "kyeltziv_prochnyi",
+  "displayName": "Siege",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 1,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_siege",
+    "kyeltziv_pack_siege",
+    "targetingunit",
+    "ecm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_light_galv_hwz"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_esp_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_stutter",
+        "WS0007": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

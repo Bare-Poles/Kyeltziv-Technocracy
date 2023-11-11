@@ -1,0 +1,16 @@
+{
+	"id":"kyeltziv_light_galv_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FIGHTER",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	#"width":45.0,
+	"width":15.0,
+	"fadeTime":0.5,
+	#"hitGlowRadius":38,
+	"fringeColor":[0,192,80,255],
+	"coreColor":[80,192,40,255],
+	#"fringeColor":[255,0,0,255],
+	#"coreColor":[255,100,255,255],
+	"passThroughMissiles":true,	
+}

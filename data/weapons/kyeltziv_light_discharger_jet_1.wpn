@@ -1,0 +1,26 @@
+{
+	"id":"kyeltziv_light_discharger_jet_1",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/blaster_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/blaster_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/blaster_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/weapons/blaster_hardpoint_glow.png",
+	"glowColor":[100,160,255,255],
+	"turretOffsets":[5, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[10, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":3.0,
+					   "particleSizeMin":2.0,
+					   "particleSizeRange":3.0,
+					   "particleDuration":0.12,
+					   "particleCount":12,
+					   "particleColor":[100,150,255,255]},
+	"projectileSpecId":"kyeltziv_discharger_jet",  # projectile that will be fired
+	"fireSoundTwo":"heavy_blaster_fire",
+}

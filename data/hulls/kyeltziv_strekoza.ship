@@ -1,0 +1,205 @@
+{
+  "hullName": "Strekoza",
+  "hullId": "kyeltziv_strekoza",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/kyeltziv_strekoza.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 238,
+  "width": 124,
+  "center": [63, 121],
+  "collisionRadius": 160,
+  "shieldCenter": [3, -0],
+  "shieldRadius": 157,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "kyeltziv_pack_slot",
+    "kyeltziv_variable_booster"
+  ],
+  "builtInWings": [
+    "kyeltziv_ilex_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -100,
+      "locations": [7, -39]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 110,
+      "locations": [-14, 41]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-75, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [102, -32]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 30,
+      "locations": [74, 42]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [69, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [45, 47]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [14, 52]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -75,
+      "locations": [58, -45]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-35, 3]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-35, -3]
+    },
+    {
+      "id": "WS0012",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [
+        -40, 5,
+        -40, -5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-120, 19],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, 36],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-108, -36],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-120, -19],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-115, 0],
+      "length": 60,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    88, -58,
+    -38, -37,
+    -63, -37,
+    -96, -48,
+    -107, -40,
+    -111, -28,
+    -118, -27,
+    -118, -13,
+    -112, -11,
+    -112, 9,
+    -118, 11,
+    -118, 25,
+    -111, 26,
+    -107, 38,
+    -96, 46,
+    -63, 35,
+    -50, 36,
+    -49, 51,
+    -32, 60,
+    57, 46,
+    66, 57,
+    78, 59,
+    103, 38,
+    100, 5,
+    106, -3
+  ]
+}

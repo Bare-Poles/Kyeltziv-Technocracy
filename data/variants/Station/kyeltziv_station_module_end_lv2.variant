@@ -1,0 +1,39 @@
+{
+  "variantId": "kyeltziv_station_module_end_lv2",
+  "hullId": "kyeltziv_station_module_end",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "kyeltziv_vedha_pod",
+        "WS 001": "kyeltziv_vedha_pod",
+        "WS 002": "kyeltziv_vedha_battery",
+        "WS 003": "kyeltziv_vedha_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "kyeltziv_shock_culverin",
+        "WS 006": "kyeltziv_shock_culverin",
+        "WS 007": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

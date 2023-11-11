@@ -1,0 +1,37 @@
+{
+	"id":"kyeltziv_halke_asm",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+
+	"onHitEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_HalkeOnHitEffect",
+
+	"sprite":"graphics/missiles/kyeltziv_halke.png",
+	"size":[12,26],	
+	"center":[6,13],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[180,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":150, # purely visual
+	"engineSpec":{"turnAcc":270,
+				  "turnRate":90,
+				  "acc":1200,
+				  "dec":450},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-14, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[195,100,255,255],
+						"contrailDuration":1,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[180,100,255,90],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":38.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,50 @@
+{
+  "variantId": "kyeltziv_dazhbog_sym_bal",
+  "hullId": "kyeltziv_dazhbog_sym",
+  "displayName": "Balanced",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_siege",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "kyeltziv_shock_culverin",
+        "WS0004": "kyeltziv_shock_culverin"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_fusionHoufnice",
+        "WS0002": "kyeltziv_fusionHoufnice"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_light_discharger",
+        "WS0006": "kyeltziv_light_discharger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "kyeltziv_stutter",
+        "WS0008": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

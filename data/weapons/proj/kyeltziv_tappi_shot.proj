@@ -1,0 +1,19 @@
+{
+	"id":"kyeltziv_tappi_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"hitGlowRadius":15,
+	#"spawnType":"BALLISTIC",
+	#"collisionClass":"PROJECTILE_FF",
+	#"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":25.0,
+	"width":2.5,
+	"fadeTime":0.27,
+	"fringeColor":[240,220,180,190],
+	"coreColor":[245,245,225,75],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_small_yellow.png"
+}

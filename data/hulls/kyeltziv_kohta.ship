@@ -1,0 +1,64 @@
+{
+  "hullName": "Kohta",
+  "hullId": "kyeltziv_kohta",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_kohta.png",
+  "style": "HIGH_TECH",
+  "height": 38,
+  "width": 38,
+  "center": [19, 19],
+  "collisionRadius": 26,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 25,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_DronePlatform",
+    "pointdefenseai",
+    "turretgyros"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_pieni",
+    "WS0002": "kyeltziv_ionRepeater",
+    "WS0003": "kyeltziv_ionRepeater"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [11, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-11, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    9, -14,
+    -1, -16,
+    -12, -10,
+    -16, -0,
+    -12, 10,
+    -1, 16,
+    9, 14,
+    17, -0
+  ]
+}

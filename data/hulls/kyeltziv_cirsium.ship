@@ -1,0 +1,86 @@
+{
+  "hullName": "Cirsium",
+  "hullId": "kyeltziv_cirsium",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/symmetrist/kyeltziv_cirsium_sym.png",
+  "style": "MIDLINE",
+  "height": 28,
+  "width": 34,
+  "center": [17, 13],
+  "collisionRadius": 18,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": 2,
+      "locations": [7, 7]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 25,
+      "angle": -2,
+      "locations": [7, -7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, 11],
+      "length": 16,
+      "width": 5,
+      "angle": 175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-7, -11],
+      "length": 16,
+      "width": 5,
+      "angle": -175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, 3],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, -3],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -2, 12,
+    12, -0,
+    -2, -12,
+    -10, -0
+  ]
+}

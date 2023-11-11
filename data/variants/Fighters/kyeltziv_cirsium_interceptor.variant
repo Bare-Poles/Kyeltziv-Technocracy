@@ -1,0 +1,30 @@
+{
+  "variantId": "kyeltziv_cirsium_interceptor",
+  "hullId": "kyeltziv_cirsium",
+  "displayName": "Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_perennis_pack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_piikki",
+        "WS0003": "kyeltziv_piikki"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

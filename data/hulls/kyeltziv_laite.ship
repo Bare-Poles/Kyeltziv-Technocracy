@@ -1,0 +1,159 @@
+{
+  "hullName": "Laite",
+  "hullId": "kyeltziv_laite",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/drones/kyeltziv_laite.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 92,
+  "width": 78,
+  "center": [39, 43],
+  "collisionRadius": 85,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 84,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "fluxshunt",
+    "kyeltziv_rangefinders",
+    "kyeltziv_pack_slot",
+    "kyeltziv_assCorvCore"
+  ],
+  "builtInWeapons": {
+    "WS0002": "kyeltziv_bellis_pack_heavy",
+    "WS0003": "kyeltziv_bellis_pack_heavy"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 5,
+      "locations": [45, 5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 0,
+      "locations": [12, 0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 80,
+      "locations": [-20, 27]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -80,
+      "locations": [-20, -27]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 50,
+      "locations": [-3, 18]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -50,
+      "locations": [-3, -18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -5,
+      "locations": [45, -5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-12, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-39, 15],
+      "length": 18,
+      "width": 8,
+      "angle": 165,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-39, -15],
+      "length": 18,
+      "width": 8,
+      "angle": -165,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-10, 29],
+      "length": 16,
+      "width": 6,
+      "angle": 40,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-10, -29],
+      "length": 16,
+      "width": 6,
+      "angle": -40,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30, -35],
+      "length": 16,
+      "width": 6,
+      "angle": 250,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30, 35],
+      "length": 16,
+      "width": 6,
+      "angle": -250,
+      "contrailSize": 24,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    14, -25,
+    -22, -34,
+    -36, -28,
+    -36, 28,
+    -22, 34,
+    14, 25,
+    45, -0
+  ]
+}

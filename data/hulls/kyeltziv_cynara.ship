@@ -1,0 +1,94 @@
+{
+  "hullName": "Cynara",
+  "hullId": "kyeltziv_cynara",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/strikecraft/kyeltziv_cynara.png",
+  "style": "MIDLINE",
+  "height": 64,
+  "width": 42,
+  "center": [21, 30],
+  "collisionRadius": 34,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 32,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps",
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_stkCorvCore"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_shockMitrailleuseLight"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1, 15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-1, -15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [22, 2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, 0],
+      "length": 44,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-25, 7],
+      "length": 24,
+      "width": 6,
+      "angle": 175,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-25, -7],
+      "length": 24,
+      "width": 6,
+      "angle": -175,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    24, -7,
+    -6, -18,
+    -25, -6,
+    -25, 6,
+    -6, 18,
+    25, 8
+  ]
+}

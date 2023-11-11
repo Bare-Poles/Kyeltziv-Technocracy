@@ -1,0 +1,38 @@
+{
+	"id":"kyeltziv_bellis_srm_pod", # assigning a seperate proj for the pod, because differing lifetimes (and differing accel now too :)))
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/kyeltziv_bellis.png",
+	"size":[10,18],	
+	"center":[5,9],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"fadeTime":1, # fadeout duration
+	"engineSpec":{"turnAcc":2700,
+				  "turnRate":360,
+				  "acc":3250,
+				  "dec":2750},
+
+	"engineSlots":[{"id":"ES1",
+					"loc":[-9, 0],
+				    #"style":"MISSILE_MIDLINE",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,105,85,255],
+						"contrailDuration":0.5,
+						"contrailWidthMult":1.5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0.4, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":25.0,
+				    "angle":180.0}]
+}

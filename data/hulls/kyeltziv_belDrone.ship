@@ -1,0 +1,45 @@
+{
+  "hullName": "Harmi",
+  "hullId": "kyeltziv_belDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_bel_drone.png",
+  "style": "MIDLINE",
+  "height": 18,
+  "width": 22,
+  "center": [11, 8],
+  "collisionRadius": 16,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "builtInMods": [
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_bellis_pack"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7, -0],
+      "length": 12,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -6, 0,
+    7, -8,
+    7, 8
+  ]
+}

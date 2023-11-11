@@ -1,0 +1,28 @@
+{
+	"id":"kyeltziv_esp_beam",
+	"specClass":"beam",
+	"type":"ENERGY",
+	"size":"SMALL",
+
+	"beamEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_espBeamEffect",
+
+	"turretSprite":"graphics/weapons/kyeltziv_esp_beam_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/kyeltziv_esp_beam_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_esp_beam_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/weapons/kyeltziv_esp_beam_hardpoint_glow.png",
+	"turretOffsets":[6, 3, 6, -3],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[10, 3, 10, -3],
+	"hardpointAngleOffsets":[0, 0],
+	"fringeColor":[100,50,240,200],
+	"coreColor":[90,255,250,255],
+	"glowColor":[150,90,255,255],
+	"width":8.0,
+	"hitGlowRadius":25,
+	"textureType":ROUGH,
+	"textureScrollSpeed":80.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"fireSoundOne":"kyeltziv_esp_beam_intro",
+	"fireSoundTwo":"kyeltziv_esp_beam_loop",	
+}

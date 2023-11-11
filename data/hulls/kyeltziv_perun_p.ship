@@ -1,0 +1,170 @@
+{
+  "hullName": "Perun (P)",
+  "hullId": "kyeltziv_perun_p",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/pirate/kyeltziv_perun_p.png",
+  "style": "MIDLINE",
+  "coversColor": "205,181,152,255",
+  "height": 188,
+  "width": 86,
+  "center": [44, 103],
+  "collisionRadius": 115,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 113,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unstable_injector",
+    "augmentedengines",
+    "missleracks",
+    "kyeltziv_pirate_conversion"
+  ],
+  "builtInWeapons": {
+    "WS0004": "kyeltziv_med_swarmer_p"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [76, -14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 45,
+      "locations": [56, 23]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -45,
+      "locations": [39, -34]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-33, -20]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 120,
+      "locations": [-33, 20]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 180,
+      "locations": [3, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 55,
+      "locations": [20, 33]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -55,
+      "locations": [9, -28]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [72, 9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102, -0],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, 14],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, -14],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-64, 25],
+      "length": 50,
+      "width": 12,
+      "angle": 174,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-64, -25],
+      "length": 50,
+      "width": 12,
+      "angle": -174,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    66, -23,
+    41, -26,
+    31, -34,
+    12, -26,
+    3, -33,
+    -56.5, -32,
+    -64, -20,
+    -87, -16,
+    -102, -0,
+    -87, 16,
+    -64, 20,
+    -57, 33,
+    24.5, 30,
+    42, 23,
+    47, 39,
+    67, 40,
+    68, 15,
+    74, 9,
+    64, 2
+  ]
+}

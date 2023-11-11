@@ -1,0 +1,56 @@
+{
+  "variantId": "kyeltziv_bystro_cs",
+  "hullId": "kyeltziv_bystro",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_packetRib"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kyeltziv_avtomat_drumfire"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_bakot_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_esp_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_stutter",
+        "WS0006": "kyeltziv_stutter",
+        "WS0007": "kyeltziv_stutter",
+        "WS0008": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_solanum_wing",
+    "kyeltziv_solanum_wing"
+  ]
+}

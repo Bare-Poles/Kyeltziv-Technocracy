@@ -1,0 +1,62 @@
+{
+  "hullName": "Prinos",
+  "hullId": "kyeltziv_prinos",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/export/kyeltziv_prinos.png",
+  "style": "MIDLINE",
+  "height": 32,
+  "width": 28,
+  "center": [14, 14],
+  "collisionRadius": 22,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 30,
+      "locations": [-1, 7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 12,
+      "angle": 0,
+      "locations": [10, -6]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 9],
+      "length": 30,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-13, -9],
+      "length": 30,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -10, 11,
+    10, 10,
+    13, -6,
+    2, -11,
+    -10, -11
+  ]
+}

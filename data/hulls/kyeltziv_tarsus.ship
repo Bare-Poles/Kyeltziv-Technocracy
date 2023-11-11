@@ -1,0 +1,106 @@
+{
+  "hullName": "Tarsus (KT)",
+  "hullId": "kyeltziv_tarsus",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/kyeltziv_tarsus.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 206,
+  "width": 106,
+  "center": [53, 86],
+  "collisionRadius": 134,
+  "shieldCenter": [16, 1],
+  "shieldRadius": 118,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 135,
+      "locations": [-42, 37]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 225,
+      "locations": [-42, -37]
+    },
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [50, 31]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 0,
+      "locations": [100, -11]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-86, 29],
+      "length": 36,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-86, -29],
+      "length": 36,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-85, 17],
+      "length": 52,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-85, -17],
+      "length": 52,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    10, 39,
+    46, 39,
+    52, 19,
+    83, 19,
+    109, 3,
+    109, -25,
+    83, -40,
+    3, -44,
+    -14, -34,
+    -44, -50,
+    -84, -31,
+    -71, -0,
+    -84, 31,
+    -46, 51
+  ]
+}

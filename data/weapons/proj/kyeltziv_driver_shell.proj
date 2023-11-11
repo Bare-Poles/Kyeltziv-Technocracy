@@ -1,0 +1,65 @@
+{
+	"id":"kyeltziv_driver_shell",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+
+	"onFireEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_ShockDriverOnFire",
+	"onHitEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_ShockDriverOnHitEffect",
+
+	"sprite":"graphics/missiles/kyeltziv_shockDriverShell.png",
+	"size":[10,18],
+	"center":[5,10],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"reduceDamageWhileFading":true,
+	#"noCollisionWhileFading":true,
+	"fizzleOnReachingWeaponRange":true,
+	"dudProbabilityOnFlameout":0,
+	"flameoutTime":1.5,
+	"fadeTime":0.75,
+	"noEngineGlowTime":0.1,
+	"engineSpec":{"turnAcc":180,
+				  "turnRate":60,
+				  "acc":300,
+				  "dec":150},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[100,165,205,255],
+						"contrailDuration":1,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[90,100,120,100],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":60.0,
+				    "angle":180.0},
+			{"id":"ES2",
+					"loc":[-11, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[100,100,255,255],
+						"contrailDuration":0.4,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":-0.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":4, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[100,165,255,200],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":30.0,
+				    "angle":180.0},
+				    ]
+}

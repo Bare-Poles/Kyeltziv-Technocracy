@@ -1,0 +1,62 @@
+{
+  "hullName": "Heavy ELINT Drone",
+  "hullId": "kyeltziv_heavySymDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/symmetrist/kyeltziv_hSymDrone.png",
+  "style": "MIDLINE",
+  "height": 28,
+  "width": 32,
+  "center": [16, 12],
+  "collisionRadius": 18,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 17,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, 7],
+      "length": 16,
+      "width": 5,
+      "angle": 175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-9, -7],
+      "length": 16,
+      "width": 5,
+      "angle": -175,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, 0],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    4, -9,
+    -8, -8,
+    -8, 8,
+    4, 9,
+    8, 0
+  ]
+}

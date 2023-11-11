@@ -1,0 +1,43 @@
+{
+  "hullName": "Kiusa",
+  "hullId": "kyeltziv_salpa",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_salpa.png",
+  "style": "MIDLINE",
+  "height": 16,
+  "width": 14,
+  "center": [7, 8],
+  "collisionRadius": 10,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 9,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-5, -0],
+      "length": 10,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    5, 0,
+    -6, -4,
+    -6, 4
+  ]
+}

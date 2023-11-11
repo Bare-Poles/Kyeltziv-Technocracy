@@ -1,0 +1,91 @@
+{
+  "hullName": "Ophrys",
+  "hullId": "kyeltziv_ophrys",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/strikecraft/kyeltziv_ophrys.png",
+  "style": "MIDLINE",
+  "height": 62,
+  "width": 40,
+  "center": [20, 29],
+  "collisionRadius": 34,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 33,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps",
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_intCorvCore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [29, 4]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [-2, 14]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [-2, -14]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, 0],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, 9],
+      "length": 28,
+      "width": 8,
+      "angle": 175,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, -9],
+      "length": 28,
+      "width": 8,
+      "angle": -175,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    26, -6,
+    -2, -17,
+    -24, -8,
+    -24, 8,
+    -2, 17,
+    28, 6
+  ]
+}

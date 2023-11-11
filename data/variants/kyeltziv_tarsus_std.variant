@@ -1,0 +1,33 @@
+{
+  "variantId": "kyeltziv_tarsus_std",
+  "hullId": "kyeltziv_tarsus",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_cargo_holds"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "kyeltziv_vedha"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "kyeltziv_light_discharger",
+        "WS 003": "kyeltziv_stutter",
+        "WS 004": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

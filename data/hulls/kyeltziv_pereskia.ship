@@ -1,0 +1,64 @@
+{
+  "hullName": "Pereskia",
+  "hullId": "kyeltziv_pereskia",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/strikecraft/kyeltziv_pereskia.png",
+  "style": "MIDLINE",
+  "height": 36,
+  "width": 36,
+  "center": [18, 15],
+  "collisionRadius": 22,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 21,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-0.5, -6]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 30,
+      "locations": [2, 9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-11, 12],
+      "length": 20,
+      "width": 8,
+      "angle": 170,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-11, -13],
+      "length": 20,
+      "width": 8,
+      "angle": -170,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    15, -11,
+    -5, -16,
+    -10, -13,
+    -4, -6,
+    -12, 3,
+    -5, 15,
+    10, 10
+  ]
+}

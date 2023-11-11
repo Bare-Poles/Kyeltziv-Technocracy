@@ -1,0 +1,55 @@
+{
+	"id":"kyeltziv_minelayer_mine",
+	"specClass":"missile",
+	"missileType":"PHASE_MINE",
+	"sprite":"graphics/missiles/kyeltziv_mine.png",
+	"glowSprite":"graphics/missiles/heavy_mine2_glow.png",
+	"glowColor":[60,140,240,255],
+	"size":[48,48], #96
+	"center":[24,24], #48
+	"collisionRadius":10, #20
+	
+	"collisionClass":"MISSILE_NO_FF",
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"explosionColor":[100,100,255,190],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":170, # purely visual
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":160,
+				  "acc":750,
+				  "dec":500},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"onExplosionEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_ShockMineOnHitEffect",
+					"range":120,
+					"slowToMaxSpeed":true,
+					"delay":2,
+					"pingSound":"mine_ping",
+					"pingColor":[50,75,230,255],
+					"pingRadius":260,
+					"pingDuration":0.25,
+					"windupSound":"mine_windup_heavy",
+					"windupDelay":0.75,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":180,
+									 "coreRadius":140, # full damage within core radius
+									 "collisionClass":MISSILE_FF,
+									 "collisionClassByFighter":MISSILE_FF,
+									 "particleSizeMin":3.0,
+									 "particleSizeRange":3.0,
+									 "particleDuration":1,
+									 "particleCount":120,
+									 "particleColor":[205,255,205,255],
+									 "explosionColor":[25,100,155,220],
+									 "useDetailedExplosion":true,
+									 "useDetailedExplosionColorAlpha":true,
+									 "detailedExplosionRadius":180,
+									 "detailedExplosionFlashRadius":420,
+									 "detailedExplosionFlashDuration":1.2,
+									 "detailedExplosionFlashColorFringe":[110,130,200,200],
+									 "detailedExplosionFlashColorCore":[100,125,170,255],
+									 "sound":"kyeltziv_mine_explosion"},
+					}	
+}
+
+

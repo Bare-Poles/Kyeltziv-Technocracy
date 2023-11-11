@@ -1,0 +1,29 @@
+{
+  "variantId": "kyeltziv_prinos_fighter",
+  "hullId": "kyeltziv_prinos",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_tappi"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

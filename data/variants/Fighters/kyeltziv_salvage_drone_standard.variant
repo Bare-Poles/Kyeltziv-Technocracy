@@ -1,0 +1,29 @@
+{
+  "variantId": "kyeltziv_salvage_drone_standard",
+  "hullId": "kyeltziv_salvage_drone",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "kyeltziv_cutting_laser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_niitti"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

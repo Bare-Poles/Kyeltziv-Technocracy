@@ -1,0 +1,94 @@
+{
+  "hullName": "Dobrynya",
+  "hullId": "kyeltziv_paimen",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/kyeltziv_paimen.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 110,
+  "width": 72,
+  "center": [37, 54],
+  "collisionRadius": 78,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 77,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [8, -26]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -40,
+      "locations": [32, -18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 135,
+      "locations": [-17, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -135,
+      "locations": [-17, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-53, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-48, 8.5],
+      "length": 30,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-48, -8.5],
+      "length": 30,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    38, -28,
+    -6, -27,
+    -22, -14,
+    -45, -12,
+    -45, 12,
+    -22, 14,
+    -11, 31,
+    45, 31,
+    44, -18
+  ]
+}

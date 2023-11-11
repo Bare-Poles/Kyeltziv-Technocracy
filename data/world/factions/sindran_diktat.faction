@@ -1,0 +1,32 @@
+{
+
+    # multiplier for how often hulls show up in the faction's fleets
+    "hullFrequency":{
+        "hulls":{
+            "kyeltziv_ilya_ex":0.5,
+            "kyeltziv_otkryt_ex":0.5,
+            "kyeltziv_perun_ex":0.5,
+            "kyeltziv_dazhbog_ex":0.5,
+            "kyeltziv_xinzang_ex":0.5,
+            "kyeltziv_podenka_ex":0.5,
+        },
+    },
+
+    # ships the faction gets access to when importing S&W out-of-faction
+    "shipsWhenImporting":{
+		"tags":["kyeltziv_exp_bp"],
+		"hulls":[
+			"kyeltziv_otkryt_ex",
+			"kyeltziv_xinzang_ex",
+		],
+    },
+
+    "knownShips":{
+		"tags":["kyeltziv_exp_bp"],
+		"hulls":[
+			"kyeltziv_otkryt_ex",
+			"kyeltziv_xinzang_ex",
+		],
+    },
+
+},

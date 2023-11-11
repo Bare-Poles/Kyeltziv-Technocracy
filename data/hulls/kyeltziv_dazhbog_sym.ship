@@ -1,0 +1,149 @@
+{
+  "hullName": "Dazhbog (SYM)",
+  "hullId": "kyeltziv_dazhbog_sym",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/symmetrist/kyeltziv_dazhbog_sym.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 190,
+  "width": 102,
+  "center": [51, 99],
+  "collisionRadius": 110,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 108,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "kyeltziv_pack_slot"
+  ],
+  "builtInWings": [
+    "kyeltziv_cirsium_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [84, -10]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 35,
+      "locations": [57, 19]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -100,
+      "locations": [30, -24]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-33, -20]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 120,
+      "locations": [-33, 20]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [84, 10]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-2, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -35,
+      "locations": [58, -18.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 100,
+      "locations": [30, 24]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, 0],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, 14],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, -14],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    73, -42,
+    44, -38,
+    42, -32,
+    -44, -32,
+    -53, -19,
+    -87, -16,
+    -97, 0,
+    -87, 16,
+    -53, 19,
+    -44, 32,
+    42, 32,
+    44, 38,
+    73, 42,
+    81, 6,
+    67, -0,
+    81, -6
+  ]
+}

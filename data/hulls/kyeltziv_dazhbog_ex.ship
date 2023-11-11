@@ -1,0 +1,141 @@
+{
+  "hullName": "Dazhbog (KE)",
+  "hullId": "kyeltziv_dazhbog_ex",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/export/kyeltziv_dazhbog_ex.png",
+  "style": "MIDLINE",
+  "height": 192,
+  "width": 88,
+  "center": [50, 99],
+  "collisionRadius": 110,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 108,
+  "viewOffset": 0,
+  "builtInWings": [
+    "kyeltziv_prinos_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -30,
+      "locations": [80, -15]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 35,
+      "locations": [57, 19]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [13, 37]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [30, -24]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-33, -20]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 120,
+      "locations": [-33, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [84, 10]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-2, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, 0],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, 14],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, -14],
+      "length": 50,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    60, -26,
+    39, -26,
+    34, -32,
+    -44, -32,
+    -53, -19,
+    -87, -16,
+    -97, 0,
+    -87, 16,
+    -53, 19,
+    -44, 32,
+    -8, 31,
+    2, 44,
+    27, 44,
+    36, 29,
+    44, 38,
+    73, 43,
+    81, 6,
+    68, 1,
+    84, -4,
+    89, -11,
+    86, -29,
+    65, -32
+  ]
+}

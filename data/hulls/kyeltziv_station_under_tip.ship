@@ -1,0 +1,32 @@
+{
+  "hullName": "Station Extension",
+  "hullId": "kyeltziv_station_under_tip",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/station/kyeltziv_station_under_tip.png",
+  "style": "MIDLINE",
+  "height": 203,
+  "width": 258,
+  "center": [129, 93],
+  "collisionRadius": 100,
+  "shieldCenter": [3, 1],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -80,
+    0
+  ],
+  "builtInMods": [
+    "vastbulk"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -39, 88,
+    63, 37,
+    41, 0,
+    64, -38,
+    -41, -81,
+    -89, -22,
+    -89, 21
+  ]
+}

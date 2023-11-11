@@ -1,0 +1,404 @@
+id,type,text1,text2,text3,notes
+kyeltziv_targetingDrone,SHIP,- shipsystem drone,,,
+kyeltziv_spotterDrone,SHIP,- shipsystem drone,,,
+kyeltziv_piperDrone,SHIP,- shipsystem drone,,,
+kyeltziv_heavyTargetingDrone,SHIP,- shipsystem drone,,,
+kyeltziv_heavySpotterDrone,SHIP,- shipsystem drone,,,
+kyeltziv_heavyPiperDrone,SHIP,- shipsystem drone,,,
+kyeltziv_kutittaa,SHIP,- shipsystem drone,,,
+kyeltziv_loinen,SHIP,- shipsystem drone,,,
+kyeltziv_lakeija,SHIP,- shipsystem drone,,,
+kyeltziv_raataja,SHIP,- shipsystem drone,,,
+kyeltziv_expPdDrone,SHIP,- shipsystem drone,,,
+kyeltziv_tuike,SHIP,- shipsystem drone,,,
+kyeltziv_sorkkia,SHIP,- shipsystem drone,,,
+kyeltziv_kiusa,SHIP,- shipsystem drone,,,
+kyeltziv_symDrone,SHIP,- shipsystem drone,,,
+kyeltziv_heavySymDrone,SHIP,- shipsystem drone,,,
+kyeltziv_kohta,SHIP,- shipsystem drone,,,
+kyeltziv_salpa,SHIP,- shipsystem drone,,,
+,,,,,
+kyeltziv_stachys,SHIP,"Lightweight high speed interceptor drone, will overwhelm hostile fighters with sheer volume of missile and particle discharger fire. This same volume of fire can prove effective against frigates and even heavier ships if they lack effective point defense coverage.",,,
+kyeltziv_cirsium,SHIP,"An advanced Kyeltziv escort interceptor drone, a combination of paired burst rifles and a pack of shock missiles allows it to make short work of even the toughest strikecraft.",,,
+kyeltziv_ophrys,SHIP,"An atypical Interception craft, the heavy chassis gives it the survivability to take fire from other strikecraft while dispatching them with its selection of weaponry. The crafts core has been tuned to optimise point defense targeting performance, making the Ophrys a serious threat to any and all strikecraft and missiles.",,,
+kyeltziv_asteryx,SHIP,"Fighter mounting a shock weapon, able to overwhelm shield emitters. The crafts powerful engines make it a highly responisive escort that can rapidly adjust to a new target and prove difficult to dislodge once it has engaged with them.",,,
+kyeltziv_ilex,SHIP,The Ilex is an assault fighter that is more than capable of dealing heavy damage to unshielded targets. Paired chaff dispensing systems significantly increase survivability in the face of hostile point defense fire.,,,
+kyeltziv_prinos,SHIP,"The Prinos is an export variant of the Asteryx, and as such lacks some of the advanced systems featured by the original, while the change to an IR Pulse laser from the more advanced Kyeltziv weaponry might seem like a direct downgrade, it can prove advantageous in some situations.",,,
+kyeltziv_vahlia,SHIP,A specialised assault corvette intended to stick to a target and wear down their defenses leaving them open to be finished off by other vessels. Power from the the crafts core has been diverted to allow for the craft to feature limited self repair capabilities and improved targeting of enemy weapons systems.,,,
+kyeltziv_helianthus,SHIP,"While lacking the raw damage of a more conventional bomber, the Helianthus makes up for it with three things, guided munitions, quantity of munitions in each strike and a consistent damage profile against both shields and armour.",,,
+kyeltziv_cynara,SHIP,Featuring a paired strike package of both Shock cannon fire and Halke missiles the Cynara is able to deliver an effective strike on any target. The crafts core has been tuned to improve weapons performance against both shielding and armour.,,,
+kyeltziv_pereskia,SHIP,"An unsusal craft, the Pereskia is of a singular purpose, distracting hostile point defenses. It proves more than capable of its intended role, but it can be tricky to make practical usage of the openings that it produces.",,,
+kyeltziv_solanum,SHIP,"The close support firepower provided by the Solanum makes it a valuable choice for front line carriers. The installed galvanic mortar has remarkable range for a weapon mounted on a fighter, allowing it to outrange ship-mounted weaponry quite regularly.",,,
+kyeltziv_wolffia,SHIP,"While only a single Wolffia is manufactured from an LPC, the craft features a limited internal microforge of its own, allowing it to deploy a swarm of Kiusa Drones that are able to tear through inbound missiles with ease. The crafts core has been tuned to improve the performance of the mounted Stutter Beam.",,,
+kyeltziv_salvage_drone,SHIP,"Kyeltziv derivative of the Mining Pod, armament is improved and an added control relay adjunct allows it to operate a short distance from its mothership. Still remains rather unimpressive in combat capability and of more use in their utility in salvage operations.",,,
+kyeltziv_laite,SHIP,"The Laite is a heavy station defense drone focused on point defense. Because it requires no crew, travel drive, or any kind of independent command core, the Laite can punch well above its weight class in combat.",,,
+kyeltziv_sokea,SHIP,"An autonomous AI fighter, the Sokea is tremendously agile. The sheer speed and respectable shield emitter left little room for weapons mounting, so only a miniature ion weapon could be mounted.",,,
+,,,,,
+kyeltziv_vassily,SHIP,"The Vassily is a contentious vessel, with its extremely limited weapon mounting options it typically has to make sacrifices in order to fulfil any one specific role. But the vessels low logistical burden makes deploying multiple ships, each specialised to support each other a practical option.",,,
+kyeltziv_ilya,SHIP,"The standard Kyeltziv frigate hull, the Ilya is a solid all-rounder with a decent spread of weapon mounts allowing it to deliver a respectable amount of firepower, combined with a variable loader system it is a solid core for smaller Kyeltziv fleets.",,,
+kyeltziv_dobrynya,SHIP,"A lightweight Drone Tender, the Dobrynya is outfitted with a single support drone rather than a full blown autoforge that can support modular LPCs. It allows even the smallest fleets to gain light carrier-like support, but is undeniably inferior to dedicated carrier craft.",,,
+kyeltziv_ruslan,SHIP,"The Ruslan is the first foray by Kyeltziv engineers into producing a vessel to carry the Shock-Driver weapon system. It proves an effective long range kinetic fire support vessel, but with extremely limited options outside of the main gun it can suffer when facing lightweight or agile targets.
+
+The G-Series frigate hull was picked for initial Shock-Driver development as it is relatively cheap compared to other larger hulls, despite the frigate-grade flux core hampering sustained fire from the Shock-Driver the Ruslan proved the worth of the weapon system and laid the foundations for larger vessels with more capable flux cores to be armed with Shock-Drivers.",,,
+kyeltziv_ilya_ex,SHIP,"A Kyeltziv hull modified for export, the advanced rangefinders and other systems have been removed and replaced with simpler alternatives, but the weapon mounts have also been made more flexible in exchange.
+
+The standard Kyeltziv frigate hull, the Ilya is a solid all-rounder with a decent spread of weapon mounts allowing it to deliver a respectable amount of firepower, this export model has a simplified mono booster system, that is less potent than the normal variable booster.",,,
+kyeltziv_peikko,SHIP,"A rare example of Kyeltziv Technocracy phase technology the Peikko proves a highly mobile flanking and strike vessel. The integrated Shock Mitrailleuse installed on this vessel was initially merely an experimental placeholder weapon, but the results in practical trials lead to it becoming installed as standard.
+
+A departure from standard Kyeltziv hull naming practices, the P-Series of vessels are not limited to one hull size or core design skeleton, but instead is an all encompassing classification for all designs of Phase Vessel that use the Kyeltziv style of phase coil.",,,
+kyeltziv_lycaenid,SHIP,"As a departure from conventional Kyeltziv ship design the Lycaenid features an all-energy mount loadout making it an ideal point defense platform, its drones although rather lightly armed are typically the only real anti ship capability for the vessel.
+
+The shield on this ship is also different from the standard shielding employed on most Kyeltziv vessels, with far greater coverage and even greater efficiency than typical Kyeltziv shielding. This makes the ship respectably capable at acting as a frontline asset to draw some fire away from other more vulnerable allies.",,,
+kyeltziv_ilya_sym,SHIP,"This vessel has been heavily modified and reworked by the Kyeltziv Technocracy Symmetrist Bureau.
+
+The standard Kyeltziv frigate hull, the Ilya is a solid all-rounder with a decent spread of weapon mounts allowing it to deliver a respectable amount of firepower.",,,
+kyeltziv_ruslan_sym,SHIP,"This vessel has been heavily modified and reworked by the Kyeltziv Technocracy Symmetrist Bureau.
+
+The Ruslan is the first foray by Kyeltziv engineers into producing a vessel to carry the Shock-Driver weapon system. It proves an effective long range kinetic fire support vessel, but this Symmetrist modification lacks any weapon options outside of the primary weapons.
+
+Exchanging a single full size Shock-Driver for a pair of lighter Short-Spool variants reduces the single-shot damage capability, but the capability to project a more consistent volley of fire proves highly effective.",,,
+kyeltziv_peikko_sym,SHIP,"This vessel has been heavily modified and reworked by the Kyeltziv Technocracy Symmetrist Bureau.
+
+A rare example of Kyeltziv Technocracy phase technology the Peikko proves a highly mobile flanking and strike vessel. This Symmetrist variant mounts a unique Fusion Mitrailleuse which proves highly effective against armour especially whren combined with the sheer mobility the Peikko can offer.
+
+A departure from standard Kyeltziv hull naming practices, the P-Series of vessels are not limited to one hull size or core design skeleton, but instead is an all encompassing classification for all designs of Phase Vessel that use the Kyeltziv style of phase coil.",,,
+kyeltziv_paimen,SHIP,"The Paimen is a lightweight logistical support vessel that is able to deploy a the same swarm of Kiusa drones as fielded by the Wolffia Support Corvette. Considered a competitor to the Shepherd by some, the Paimen focuses more on combat and storage capacity in exchange for not supporting hardware suited for survey or salvage duties, something considered a worthy tradeoff by some.
+
+The pack of Salpa drones carried by the craft can suprisingly pull double duty as cargo tugs, as with the use of a remote control interface, their combat rated engines and a simple hot-swap of the PD Rifle for a standard docking clamp allows them to shift cargo containers with ease.",,,
+kyeltziv_otkryt_ex,SHIP,"A Kyeltziv hull modified for export, the advanced rangefinders and other systems have been removed and replaced with simpler alternatives, but the weapon mounts have also been made more flexible in exchange.
+
+The Otkryt was designed as to revolutionise Kyeltziv frigate doctrine, with a single heavier main weapon rather than a spread of lighter ones. After sustained field trials showing no real practical advantage over existing hulls, an attempt to recoup the development costs of the ship was made and it was hastily converted into an export model rather than scrapping the design outright.",,,
+kyeltziv_vassily_p,SHIP,"A Kyeltziv hull that has been stolen and haphazardly repurposed by pirates. This modified Vassily has had several extra engines installed, significantly increasing speed but at a sacrifice of firepower.
+
+In the course of the refit priates removed the drone bay, but in a rare moment of clarity realised that the ship will need some anti-missile protection beyond sheer speed and installed a light defensive gun on a rear facing mount. This proves more than enough to satisfy most captains, despite being little more than a token defensive offering.",,,
+kyeltziv_ruslan_p,SHIP,"A Kyeltziv hull that has been stolen and haphazardly repurposed by pirates. This modified Ruslan has had the main gun ""improved"" and various additional thruster ports mounted across the hull.
+
+While not necessarily the most practical or effective weapon, the appeal of having a giant shotgun bolted to the side of your ship is readily apparent to pirate crews, and as such this ship sees great popularity among those able to acquire one, giving it a reputation far exceeding that which its actual combat performance would suggest.",,,
+,,,,,
+kyeltziv_perun,SHIP,"The Perun is the first destroyer manufactured by the Kyeltziv Technocracy and proved the base for all of their O-Series destroyer hulls. Primarily designed as a base that could be expanded upon to develop more specialised hulls, the Perun is notable for having a large amount of ""unused"" hull space that is typically used as storage for additional missiles and cargo.",,,
+kyeltziv_dazhbog,SHIP,"The Dazhbog is the mainline combat destroyer employed in Kyeltziv fleets, while it only has a moderately respectable armament it is combined with the advanced Variable Booster System and a wing of escort fighters, which in combination allows it to hold its own against destroyers of comparable tonnage.",,,
+kyeltziv_yinglong,SHIP,"A light carrier, the Yinglong provides an option to allow even smaller Kyeltziv fleets to field strikecraft. A complete opposite in design concept to the more standard Drover carrier which favours massed deployment of strikecraft, the Yinglong is only able to service a single wing of craft, but will typically field higher quality craft which are backed up by its integrated cluster of Loinen Drones.",,,
+kyeltziv_znatok,SHIP,"As can be clearly seen, the Znatok is based on the Yinglong and has been heavily modified in order to function as a command and control hub for salvage operations while still remaining a somewhat combat viable vessel. The redesign also saw a respectable cargo and fuel storage capacity added to the hull, which while designed for ease of loading and storing salvaged materials is fully capable of carrying any sort of cargo required.",,,
+kyeltziv_tarsus,SHIP,"Kyeltziv engineers have applied a series of unconventional modifications to this logistic vessel that grants it greater self-defense capabilities, but makes it more costly to recover from being deployed in combat.
+
+A Tarsus freighter refit to Kyeltziv specifications, exchanges ballistic mounts for energy, and sacrifices one of its turret mounts for a missile hardpoint.
+
+Retains all of the core features that make the Tarsus-class so well known, but gains a small punch to hopefully deter frigate assaults for long enough to escape from the field of battle.",,,
+kyeltziv_valkyrie,SHIP,"Kyeltziv engineers have applied a series of unconventional modifications to this logistic vessel that grants it greater self-defense capabilities, but makes it more costly to recover from being deployed in combat.
+
+Modified variant of the Valkyrie, weapon mount typing has been changed, and one side of the nose has seen a complete rework to mount a missile hardpoint.
+
+The alteration to the flare system to use Siren-Pattern flares, as well as the installation of a second set of launch ports proves highly effective against inbound missiles, but the loss of one of the point defense turrets renders the ship somewhat more vulnerable to fighter attack.",,,
+kyeltziv_phaeton,SHIP,"Kyeltziv engineers have applied a series of unconventional modifications to this logistic vessel that grants it greater self-defense capabilities, but makes it more costly to recover from being deployed in combat.
+
+A remodeled Phaeton tanker, most of the ballistic mounts are converted to energy, but one remains as ballistic but is mounted on a raised patform giving it full 360 coverage.
+
+The raised turret gives this ship the ability to fire on hostiles no matter what direction they approach from, and the flare tubes now fire bursts of guided chaff which while shorter lived than conventional flares makes up for it by having limited guidance.",,,
+kyeltziv_perun_ex,SHIP,"A Kyeltziv hull modified for export, the advanced rangefinders and other systems have been removed and replaced with simpler alternatives, but the weapon mounts have also been made more flexible in exchange.
+
+The Perun is the first destroyer manufactured by the Kyeltziv Technocracy and proved the base for all of their O-Series destroyer hulls. Primarily designed as a base that could be expanded upon to develop more specialised hulls, the Perun is notable for having a large amount of ""unused"" hull space that is typically used as storage for additional missiles and cargo.",,,
+kyeltziv_dazhbog_ex,SHIP,"A Kyeltziv hull modified for export, the advanced rangefinders and other systems have been removed and replaced with simpler alternatives, but the weapon mounts have also been made more flexible in exchange.
+
+The Dazhbog is the mainline combat destroyer employed in Kyeltziv fleets, while it only has a moderately respectable armament this export model has decently flexible mounts allowing for a wide range of potential loadouts to be considered.",,,
+kyeltziv_xiezhi,SHIP,"The Xiezhi is a direct descendant of the Ruslan, mounting the same weapons package but with a destroyer grade flux core that gives it the capability to support sustained fire. The addition of a secondary small turret alongside the main gun allows for a choice of installing a weapon to supprt the Shock-Driver, or to mount something for close-in defense.",,,
+kyeltziv_xinzang,SHIP,Mounting the Mauste XLRM as its primary weapon the Xinzang is able to provide long ranged suppressive firepower. While readily able to suppress targets at extreme range it lacks the raw damage output of the more common Kyeltziv siege class vessels.,,,
+kyeltziv_kiilto,SHIP,"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.
+
+The Kiilto is near unique among Remnant vessels, being the result of a joint venture between the Tri-Tachyon Corporation and Kyeltziv Technologies. While designed around providing long range firepower The Kiilto AI has been known to close in so it can bring its full weapon load to bear on a single target.",,,
+kyeltziv_katsoja,SHIP,"A highly advanced Kyeltziv phase vessel, able to deploy a spread of Shock mines before diving in to deliver a heavy burst of damage with its weapons. Unlike most phase vessels is also moderately capable of acting as a supporting escort, but the poor sustained performance typical of phase craft makes this not always the most practical tasking.
+
+The mine strike system employed by this vessel is notably inferior to the one seen on the Doom class Crusier as they are less able to deal heavy damage to ships, but the sheer number of the mines it can deploy means that they can none the less be a major threat if used well.",,,
+kyeltziv_dazhbog_sym,SHIP,"This vessel has been heavily modified and reworked by the Kyeltziv Technocracy Symmetrist Bureau.
+
+The Dazhbog is the mainline combat destroyer employed in Kyeltziv fleets, this Symmetrist modification grants it far greater direct fire capability and a wing of powerful interceptor drones to further enhance its firepower.",,,
+kyeltziv_zlatko,SHIP,"A destroyer that employs a pair of armed drones to supplement its relatively light fixed frontal firepower. The Zlatko is able to deliver a massed barrage of firepower that can overwhelm enemy defenses through sheer weight of fire, and unlike most Kyeltziv vessels features energy mounts that are able to engage targets in its frontal arc.",,,
+kyeltziv_yinglong_ex,SHIP,"A Kyeltziv hull modified for export, the advanced rangefinders and other systems have been removed and replaced with simpler alternatives, but the weapon mounts have also been made more flexible in exchange.
+
+A light carrier, the Yinglong provides an option to allow even smaller Kyeltziv fleets to field strikecraft. A complete opposite in design concept to the more standard Drover carrier which favours massed deployment of strikecraft, this export variant of the Yinglong is only able to service a single wing of craft, but can field higher quality craft which are backed up by its integrated cluster of Rail Drones.",,,
+kyeltziv_xinzang_ex,SHIP,"A Kyeltziv hull modified for export, the advanced rangefinders and other systems have been removed and replaced with simpler alternatives, but the weapon mounts have also been made more flexible in exchange.
+
+This export model of the Xinzang sacrifices both the Mauste XLRM and it's drone system in order to support a pair of missile mounts and a fast loader system, while this means it is less capable at providing extreme range support it gains in tactical flexibility. Also of note is that even with the primary targeting array for the Mauste XLRM being stripped of its more advanced components, it no longer needing to provide accurate long range tracking solutions to the Mauste XLRMs means that it can prove sufficient to notably improve the tracking performance of any installed missiles.",,,
+kyeltziv_paistaa,SHIP,"A remnant of the autonomous AI fleets developed by the Tri-Tachyon Corporation. Illegal under Domain (and Hegemony) law, and an abomination to the Church of Galactic Redemption, the First AI War saw these creations purged from the Sector. At least that is how the official histories tell it.
+
+The Paistaa is near unique among Remnant vessels, being the result of a joint venture between the Tri-Tachyon Corporation and Kyeltziv Technologies. The core of the hull is built around a teleporter system that allows it to deliver drone platforms to anywhere in its vicinity, while less immediately threatening than the more common mine teleporting systems, it can pose a significant threat in sheer suppression and distraction potential.",,,
+kyeltziv_prochnyi,SHIP,"Little more than a platform for deploying Linnake Gun Platforms, the Prochnyi is a heavily modified O-Series destroyer that dedicates a signififcant portion of its mass to fielding an autoforge and requisite support systems for the deployment of Gun Platforms. While it fares poorly when forced into direct engagements it can prove a significant force multiplier if allowed to sit behind the front lines and deploy its platforms for fire support duties.",,,
+kyeltziv_perun_p,SHIP,"A Kyeltziv hull that has been stolen and haphazardly repurposed by pirates. This modified Perun has been filled to the brim with missiles and offers a swift death, either to its crew or its target.
+
+A prime example of pirate design sense, this is a ship that can do one thing and do it (reasonably) well. Charge in and unload a barrage of missiles and cannon fire. The installation of a Canister Flak array serves two pruposes: More conservative captains will see it as a means of defense, while those more reckless will see it as another weapon to unload point-blank into their hapless targets.",,,
+kyeltziv_zlatko_p,SHIP,"A Kyeltziv hull that has been stolen and haphazardly repurposed by pirates. This modified Zlatko has had a large cannon grafted to its front among other questionably sane alterations.
+
+The drone bay has been hacked and cajoled into accepting standard LPCs, and while this doesn't make the ship anywhere near as effective as a proper carrier, having a wing of fighters on call proves a great force multiplier when raiding commerce fleets.",,,
+kyeltziv_khoronit,SHIP,"The Khoronit is a demonstration of the peak of Kyeltziv Technologies capabilities, able to engage vessels several times its size with ease.
+
+Despite its impressive power, the internal classification of ""Expedition Vehicle"" and various unusual systems configurations suggest that this vessel was not designed for warfare, and was instead built for some unknown esoteric purpose.
+
+Part numbering and mis-matched wear markings alongside various other tells suggest that this class of vessel has undergone serial production, but only one has been confirmed active in the persean sector, much to the relief of many admirals.",,,
+,,,,,
+kyeltziv_podenka,SHIP,"A solid general use light cruiser, the Podenka may be somewhat lightly armed for a cruiser but has a very small logistical burden for one thanks to its highly efficient design. The superior mobility the craft posesses can also be an unpleasant suprise to unprepared captains, as it can even outrun some of the slower destroyers in the sector.",,,
+kyeltziv_bystro,SHIP,"A carrier conversion of the H-Series Cruiser hull, the Bystro is a prime example of Kyeltziv carrier doctrine in action, designed for the deployment of a smaller number of high-quality strikecraft wings. The Bystro also possesses sufficient ballistic and missile weaponry to pose a threat on its own to any hostile vessels that attempt to close in and engage it in direct combat.",,,
+kyeltziv_strekoza,SHIP,"Heavy at least as far as Kyeltziv cruisers go, the Strekoza is capable of dealing significant damage to anything it targets. Overall featuring solid performance, the Strezoka is able to operate as battleline combat vessel that can also provide a not inconsiderable burst of strike damage with its paired missile mounts.",,,
+kyeltziv_pyralid,SHIP,"Highly specialised, the role of the Pyralid in combat is dictated by the integrated Volley-Fire Shock-Driver which gives it impressive long ranged kinetic firepower. While mounting additonal weaponry outside of the integrated system, they are typically employed to either support the main gun or for close range defense.",,,
+kyeltziv_podenka_sym,SHIP,"This vessel has been heavily modified and reworked by the Kyeltziv Technocracy Symmetrist Bureau.
+
+A solid general use light cruiser, this Symmetrist modification of the Podenka features a spread of lighter guns backed up by rather heavy missile mounts, allowing it to deliver a rather heavy barrage of firepower for the logistical cost of maintaining the vessel. The superior mobility the craft posesses can also be an unpleasant suprise to unprepared captains, as it can even outrun some of the slower destroyers in the sector.",,,
+kyeltziv_podenka_ex,SHIP,"A Kyeltziv hull modified for export, the advanced rangefinders and drone system have been removed and replaced with simpler alternatives, but the weapon mounts have also been made more flexible in exchange.
+
+A solid general use light cruiser, the Podenka may be somewhat lightly armed for a cruiser but has a very small logistical burden for one thanks to its highly efficient design. The superior mobility the craft posesses can also be an unpleasant suprise to unprepared captains, as it can even outrun some of the slower destroyers in the sector.",,,
+,,,,,
+kyeltziv_ilkut,SHIP,"The standard capital grade vessel of Kyeltziv fleets, the Ilkut can be considered a ""Jack of all trades"" as while the design may lack dedicated focus and specialisation in any one area, it has repsectable flexibility in its tactical capabilities depending on how it is outfitted. Despite the flexibility in how it can be outfitted, it can't be denied that the Ilkut has somewhat limited armament for a battlecruiser and generally has to focus all of its myriad systems to complement each other in order to compare to other vessels of comparable tonnage.",,,
+kyeltziv_narva,SHIP,"A Capital grade carrier, the Narva was designed to field Kyeltizvs recently developed ""Corvette"" grade LPCs, this lead to the vessel being able to easily field more costly strikecraft than most carriers are typically able to but the comparatively limited number of decks means that any gain in strikecraft quality is offset by a loss in quantity.",,,
+,,,,,
+kyeltziv_station_1,SHIP,"A Kyeltziv Technocracy designed orbital station featuring a pair of combat modules and modest axial rotation. This platform hosts shipyards, habitats, factories, and large stockpiles of weapons and supplies allowing projection of military and industrial power throughout the local orbital volume.",,,
+kyeltziv_station_2,SHIP,"A large Kyeltziv Technocracy designed battlestation augmented with support modules in addition to a pair of combat modules and modest axial rotation. This platform hosts shipyards, habitats, factories, and large stockpiles of weapons and supplies allowing projection of military and industrial power throughout the local orbital volume.",,,
+kyeltziv_station_3,SHIP,"An enormous Kyeltziv Technocracy designed star fortress, the pinnacle of Kyeltziv defensive engineering. This platform hosts shipyards, habitats, factories, and large stockpiles of weapons and supplies allowing projection of military and industrial power throughout the local orbital volume.",,,
+,,,,,
+,,,,,
+,,,,,
+kyeltziv_light_galv_hwz,WEAPON,"An advanced long-range bombardment weapon system, the ""shells"" fired are little more than containment enclosures for energised plasma.
+
+Galvanic weapons have sub-par projectile velocity, but make up for it by having projectiles that remain coherent and stable out to very impressive ranges.",Close Support,,
+kyeltziv_galv_hwz,WEAPON,"An advanced long-range bombardment weapon system, fires heavy ""shells"" that are little more than containment enclosures for energised plasma.
+
+Galvanic weapons have sub-par projectile velocity, but make up for it by having projectiles that remain coherent and stable out to very impressive ranges.",Close Support,,
+kyeltziv_galv_bombard,WEAPON,"An advanced extreme-range bombardment weapon system, fires huge ""shells"" that are little more than containment enclosures for energised plasma.
+
+Galvanic weapons have sub-par projectile velocity, but make up for it by having projectiles that remain coherent and stable out to very impressive ranges.",Close Support,,
+kyeltziv_shock_culverin,WEAPON,"Light cannon with a non-standard payload, primarily effective against shielding but also has a minor disruptive effect.
+
+The miniature shock-cores loaded in the shells this weapon fires give it the ability to even further pressure targets as they can catalyse and arc to nearby components dealing minor damage.",Anti Shield,,
+kyeltziv_shock_culverin_twin,WEAPON,"Twin light cannons loaded with a non-standard payload, primarily effective against shielding but also has a minor disruptive effect.
+
+The miniature shock-cores loaded in the shells this weapon fires give it the ability to even further pressure targets as they can catalyse and arc to nearby components dealing minor damage.
+
+Effectively a pair of Shock Culverins mounted onto a heavier frame, while the recoil forces of opposing barrels impacts accuracy somewhat, it is more than made up for with the doubled rate of fire.",Anti Shield,,
+kyeltziv_shock_palliser,WEAPON,"Heavy cannon with a non-standard payload, primarily effective against shielding and also featuring a disruptive effect.
+
+The shells are packed with a cluster of light shock-cores, while a single larger core would have provided superior disruptive capability it would also have required a far greater flux draw to charge before firing.",Anti Shield,,
+kyeltziv_buster,WEAPON,"Fires bursts of semi-stable fusion reactions, devastating against lighter vessels but sheer volume of fire allows it to wear down even heavy armour given time.",Anti Armor,,
+kyeltziv_buster_twin,WEAPON,"Twinned mount of the Fusion Buster with a heavier mounting, sheer volume of fire makes it highly effective against armoured targets.",Anti Armor,,
+kyeltziv_light_killCloud,WEAPON,"On firing, a Light Killcloud Projector saturates an approach vector with a flight of microprojectiles. Devastating against both fighters and missiles.",Point Defence,,
+kyeltziv_heavy_killCloud,WEAPON,A Heavy Killcloud Projector deploys a cluster of proximity fused microwarheads giving it unprecedented area saturation capability.,Point Defence,,
+kyeltziv_packet,WEAPON,"The specialised cyclic feed that this weapon features allows it to deliver its shots at a blistering rate of fire, but the linked autoloader is unable to maintain the same pace resulting in a notably reduced fire-rate in the long term.
+
+The volatile plasma packets enclosed in this weapons shells are specially designed to shear off chunks of armour plating on a penetrating detonation, this additional energy is directed outwards from the impact point making it of no additional value against hull or shielding.",,,
+kyeltziv_packetRib,WEAPON,"The heaviest volatile plasma packet weapon Kyeltziv engineers have sucessfully managed to produce. While fire rate is limited somewhat over safety concerns, the heavy shells can nonetheless prove highly effective at shredding armour.
+
+The volatile plasma rounds this weapon fires push the boundaries of what is considered safe for storage and if they were any appreciable amount larger then there would be a risk of the sheer concentration of volatile plasma simply auto-igniting on experiencing even the most minor unexpected agitation.",,,
+kyeltziv_shock_fougasse,WEAPON,"A short ranged disruption weapon that fires a spread of disruption tuned shock-cores, highly valued for its ability to rapidly disable exposed targets.
+
+Similar in principle to the Shock Springald this weapon delivers an impressive level of disruption, while not quite as capable in its ability to pierce shielding it more than makes up for it with the sheer volume of projectiles it can output.",Fires a wide spread of charged shock-cores,,
+kyeltziv_springald,WEAPON,A derivative of Kyeltziv shock weaponry that focuses on disruption over damage. Lacks the instantaneous disruptive potential of Ion weapons but the ability to pierce shielding is not to be underestimated.,,,
+kyeltziv_lorentz,WEAPON,"An otherwise outdated conventional naval cannon modified to feature a secondary electromagnetic acceleration stage. Highly flux efficent, but has sub-par performance against both shields and armour.",,,
+kyeltziv_lorentzTwin,WEAPON,"A paired mount of Lorentz rifles. The heavier mounting allows for slightly extended barrels and a more comprehensive heatsink array, resulting in slightly improved range and flux efficiency.",,,
+kyeltziv_fusionHoufnice,WEAPON,"Long range Fusion warhead cannon, decently high shot power and relatively low flux overhead allow it to act as an effective sustained anti-armour threat.
+
+A relatively recently developed weapon, Followed the design brief of improving the ability of Kyeltziv vessels to better take on armoured targets at range.
+
+The munition loaded by this weapon houses a cluster of the smaller semi-stable fusion rounds loaded by the more common series of Fusion Buster weapons. Their detonators are timed to focus destructive potential on a single point which gives the weapon impressive potential against armour, but warhead instability leads to performance being somewhat inconsistent when compared to more conventional munitions.",,,
+kyeltziv_compact_shock_driver,WEAPON,"Compact variant of the Shock-Driver often seen integrated into Kyeltziv vessels, rounds are overall inferior to those used by integrated variants, but do feature respectable disruptive power.
+
+After integrated Shock-Drivers proved the value of the weapon technology this modular variant was developed to allow more flexible usage of the system.",,,
+kyeltziv_cranequin,WEAPON,"Unique among shock weapons in that it triggers the Shock Core on firing, resulting in projectiles with tremendous kinetic energy, but none of the disruptive effect that is the standard trademark of shock weaponry.",,,
+,,,,,
+kyeltziv_light_discharger,WEAPON,"Particle accelerator array that fires a relativistic jet of charged particles, sheer velocity makes it a prime choice for usage as a point defense weapon.
+
+Remarkably flux-efficient compared to most laser weapons but in exchange suffers in effective range, as unfortunately the stream of particles loses coherence rapidly after leaving the weapons muzzle.",Point Defence,,
+kyeltziv_heavy_discharger,WEAPON,"Heavy particle accelerator array that fires a relativistic jet of charged particles, sheer velocity makes it a prime choice for usage as a point defense weapon.
+
+Remarkably flux-efficient compared to most laser weapons but in exchange suffers in effective range, as unfortunately the stream of particles loses coherence rapidly after leaving the weapons muzzle.",Point Defence,,
+kyeltziv_stutter,WEAPON,"A single carbon dioxide laser installed on a rapid traverse mount, only has the energy supply to operate for short pulses but as part of a comprehensive PD grid it is typically sufficient to deal with most threats.",Point Defence,,
+kyeltziv_graviton_sweeper,WEAPON,"A more atypical than usual variant of the Graviton beam that has been redesigned for point defense performance, not terribly capable at destroying inbound munitions, but able to divert them rather reliably.",Point Defence,,
+kyeltziv_smart_blaster,WEAPON,"A quantum leap in point defense weaponry, at least that's what the documentation says. Able to reliably engage and destroy most missiles but can falter when faced with swarms of lighter munitions.",Point Defence,,
+kyeltziv_esp_beam,WEAPON,"The Electro-Static Pulse Beam is a solid dependable general purpose support weapon, while range is inferior to more common beam weapons the charge carried by the beam causes notable interference to targets.",General,,
+,,,,,
+kyeltziv_thap,WEAPON,"Specialised missile intended to occupy hostile Point Defenses through a combination of an armoured warhead and chaff that is released on impact.
+
+The Thap missile is largely ineffective at dealing damage to hostile vessels on its own, but shines when employed to produce openings in point defense coverage for more damaging munitions.
+
+Features an internal ready rack that allows for additional missiles to be stored and loaded while waiting for the autoloader to cycle.",Suppression,,
+kyeltziv_thap_pod,WEAPON,"Specialised missile intended to occupy hostile Point Defenses through a combination of an armoured warhead and chaff that is released on impact.
+
+The Thap missile is largely ineffective at dealing damage to hostile vessels on its own, but shines when employed to produce openings in point defense coverage for more damaging munitions.
+
+An external pod mounting allows two missiles to be fired in rapid succession, and the internal ready rack allows for additional sets of missiles to be stored and loaded while waiting for the autoloader to cycle.",Suppression,,
+kyeltziv_garaj,WEAPON,"Long range missile that acts as a multi-role suppression system. Able to deliver its payload of submunitions against even heavy PD fire.
+
+The Garaj is an derivative of the Thap class of missile, while less focused on suppressing point defenses the sheer mass of the missile combined with its submunition payload means that it can deal serious damage to lighter targets.
+
+Features an internal ready rack that allows for an additional missile to be stored and loaded while waiting for the autoloader to cycle.",,,
+kyeltziv_halke,WEAPON,"Medium range, high power guided missile rack. Highly destructive against unshielded targets.
+
+Pushing the principles behind the design of the Harpoon even further, the Halke features an even heavier warhead. Unfortunately the increased bulk means that sacrifices had to be made in the quantity of missiles that can be loaded. The missiles warhead features a secondary shaped charge component that gives it respectable performace against even the most heavily armoured targets.",Finisher,,
+kyeltziv_halke_pod,WEAPON,"Medium range, high power guided missile pod. Highly destructive against unshielded targets.
+
+Pushing the principles behind the design of the Harpoon even further, the Halke features an even heavier warhead. Unfortunately the increased bulk means that sacrifices had to be made in the quantity of missiles that can be loaded. The missiles warhead features a secondary shaped charge component that gives it respectable performace against even the most heavily armoured targets.
+
+The pod mounting allows for a pair of missiles to be fired at once, this combined with an extended internal storage rack makes this a significant upgrade on the smaller mounting.",Finisher,,
+kyeltziv_halke_array,WEAPON,"Medium range, high power guided missile array. Highly destructive against unshielded targets.
+
+Pushing the principles behind the design of the Harpoon even further, the Halke features an even heavier warhead. Unfortunately the increased bulk means that sacrifices had to be made in the quantity of missiles that can be loaded. The missiles warhead features a secondary shaped charge component that gives it respectable performace against even the most heavily armoured targets.
+
+The array mount allows for three missiles to be fired in a single salvo, combined with a magaine that stores enough missiles for eight salvos this system proves a serious threat to even capital-grade targets.",Finisher,,
+kyeltziv_bakot,WEAPON,"Medium range, kinetic strike missile rack. Most effective against shielded targets. Difficult to stop with PD.
+
+A relatively simple missile, a heavyweight spike of dense metal with an engine mounted to the rear, resistant to PD weapons fire by simple logic of the projectile being a chunk of dense metal.",Anti Shield,,
+kyeltziv_bakot_pod,WEAPON,"Medium range, kinetic strike missile pod. Most effective against shielded targets. Difficult to stop with PD.
+
+A relatively simple missile, a heavyweight spike of dense metal with an engine mounted to the rear, resistant to PD weapons fire by simple logic of the projectile being a chunk of dense metal.
+
+The pod mounting allows for volleys of missiles to be fired rapidly, the threat of such impacting shields proves very effective at creating openings for anti armour weaponry.",Anti Shield,,
+kyeltziv_vedha,WEAPON,"Single Launch tube for mid to long range rockets with a suppressive Flux-Pulse warhead, largely ineffective against armour and only modestly effective against shields, but delivers consistent pressure at range.
+
+The Flux-Pulse warhead that is the signature of the Vedha is rather anemic in damage potential, but sheer volume of fire and the ability to dieliver a small spike of flux into the targets systems it proves a valuable asset in a combined barrage.
+
+While possessing a guidance system comparable to some missiles, Vedha munitions are officially classified as rockets much to the confusion of many captains.
+
+Combat-reloadable clips of rockets give this weapons system sustained value in even the most protracted of engagements.",Fire Support,,
+kyeltziv_vedha_pod,WEAPON,"Pod of mid to long range rockets with a suppressive Flux-Pulse warhead, largely ineffective against armour and only modestly effective against shields, but delivers consistent pressure at range.
+
+The Flux-Pulse warhead that is the signature of the Vedha is rather anemic in damage potential, but sheer volume of fire and the ability to dieliver a small spike of flux into the targets systems it proves a valuable asset in a combined barrage.
+
+While possessing a guidance system comparable to some missiles, Vedha munitions are officially classified as rockets much to the confusion of many captains.
+
+Combat-reloadable clips of rockets give this weapons system sustained value in even the most protracted of engagements.",Fire Support,,
+kyeltziv_vedha_battery,WEAPON,"Large battery of mid to long range rockets rockets with a suppressive Flux-Pulse warhead, largely ineffective against armour and only modestly effective against shields, but delivers consistent pressure at range.
+
+The Flux-Pulse warhead that is the signature of the Vedha is rather anemic in damage potential, but sheer volume of fire and the ability to dieliver a small spike of flux into the targets systems it proves a valuable asset in a combined barrage.
+
+While possessing a guidance system comparable to some missiles, Vedha munitions are officially classified as rockets much to the confusion of many captains.
+
+Combat-reloadable clips of rockets give this weapons system sustained value in even the most protracted of engagements.",Fire Support,,
+kyeltziv_perennis_pod,WEAPON,"Short range High Velocity Shock missile launcher. While primarily an anti-fighter weapon the Perennis is moderately effective against both shields and armour, but lacks specialisation against either.",,,
+kyeltziv_bellis_pod,WEAPON,"Launches canister missiles that on nearing a target deploy a burst of extremely maneuverable lightweight anti-fighter missiles. The carrying canister allows the light missiles to get near to their target before they have to engage their engines, increasing effective range by a significant margin.",,,
+kyeltziv_avtomat_drumfire,WEAPON,"Launches a Drumfire missile that carries a Shock Avtomat and a small reserve of ammunition, provides effective shield pressure while remaining out of range of most common PD weaponry.
+
+An advanced anti-shield missile development, the initial design was proposed after rumors of the development of DEM-type missiles, and has since entered service as a reliable albeit expensive anti-shield system.",,,
+,,,,,
+kyeltziv_tappi,WEAPON,"A lightweight auto-tracking machinegun, only really practical for use as a point defense weapon as the small rounds lack performance against even the lightest ship armour.",Point Defense,,
+kyeltziv_tappi_twin,WEAPON,"A twin barreled mount of the Tappi Autogun, despite the doubled output it is still all but useless against anything other than missiles and light strikecraft.",Point Defense,,
+kyeltziv_niitti,WEAPON,"A derivative of the Tappi Autogun featuring high velocity ammunition, marginally more effective against armour but more importantly has increased effective range.",,,
+kyeltziv_niitti_twin,WEAPON,"Twin Mount of the Niitti, a somewhat passable small scale point defense weapon.",,,
+kyeltziv_piikki,WEAPON,"A miniature burst-fire point defense weapon, the remarkable range for a weapon so small is the primary redeeming feature for an otherwise unimpressive weapon.",,,
+kyeltziv_neula,WEAPON,"A quick-detach mount weapon installed on the Salpa drone, able to offer limited point defense coverage at a budget.",,,
+kyeltziv_galv_arquebus,WEAPON,The most lightweight instance of Galvanic weapons technology in standard operation.,Close Support,,
+kyeltziv_nok_rack,WEAPON,A cheap and plentiful cluster of partially-guided kinetic rockets.,Suppression,,
+kyeltziv_galv_mortar,WEAPON,"An advanced long-range bombardment weapon system, fires light ""shells"" that are little more than containment enclosures for energised plasma.
+
+Galvanic weapons have sub-par projectile velocity, but make up for it by having projectiles that remain coherent and stable out to very impressive ranges.",Close Support,,
+kyeltziv_shock_falconet,WEAPON,"Fighter mount of the Shock Culverin, has lower kinetic impact but rounds still carry the same internal shock-core.",Anti Shield,,
+kyeltziv_buster_light,WEAPON,"Fighter mount of the Fusion Buster, range and projectile payload are notably lower but for a fighter grade weapon it is highly potent against armour.",Anti Armor,,
+kyeltziv_driver,WEAPON,"An integrated weapon that employs electromagnetic launch rails that accelerate a full sized shock-core towards the target, the round also features an engine to allow for course correction.
+
+The shock-core grants the shell impressive disruptive effects on impact, to complement the already significant kinetic impact of the round.
+
+The Armoured nose cone mounted to protect the core provides effective protection against light PD fire, but it is entirely possible for a round to be intercepted by a heavy PD screen.",Bombardment,,
+kyeltziv_volley_driver,WEAPON,"An integrated twin barreled rapid fire variant of the Shock-Driver, fires a burst of four shells that house decently sized shock-cores, even downsized the shells still feature engines for terminal guidance.
+
+The shock-core grants the shell respectable disruptive effects on impact, to complement the kinetic impact of the round.
+
+Shells are individually more vulnerable to PD fire than those of a fully sized Shock-Driver, but firing four shots at once increases the chances of breaching a PD screen.",Bombardment,,
+kyeltziv_vedha_fighter,WEAPON,"Singular load of Vedic pulse rockets. Based on the Vedha, they sacrifice speed and maneuverability in exchange for a heavier warhead. Fit for general strike usage but lack in capability against heavier armour.",Strike,,
+kyeltziv_bellis_pack,WEAPON,Extremely maneuverable lightweight anti-fighter missiles. A full volley of these from a wing of interceptors is a serious threat to all but the heaviest fighter wing.,Anti Fighter,,
+kyeltziv_perennis_pack,WEAPON,"Short range High Velocity Shock missile launcher. Lower burst damage capability than most other anti-fighter missiles, but repsectable sustained damage for a fighter mounted system.",Anti Fighter,,
+kyeltziv_thap_fighter,WEAPON,"Lightweight fighter mounted variant of the Thap missile, lacks ready rack storage for multiple munitions but instead is focused on having a faster reload rate.",Suppression,,
+kyeltziv_cutting_laser,WEAPON,"Utility laser intended to help carve apart wrecked ships, more suited to salvage work than combat as it lacks the output to prove effective against intact armour plating, as such has been assigned a targeting system to allow it to operate as a point defense weapon in combat situations.",,,
+kyeltziv_light_shock_driver,WEAPON,"An integrated weapon that employs electromagnetic launch rails to accelerate a decently sized shock-core towards the target, the round also features an engine to allow for course correction.",,,
+kyeltziv_ionRepeater,WEAPON,"A lightweight Ion weapon, has respectable fire rate and the ability to operate as a point defense weapon, but lacks effective damage output.",,,
+kyeltziv_shockMitrailleuse,WEAPON,"A cluster of light shock cannons with an advanced feed system allowing for rapid bursts of fire, but the compact nature of the weapon unfortunately means that it takes several seconds to load another burst.",,,
+kyeltziv_shockMitrailleuseHeavy,WEAPON,"A cluster of light shock cannons with an advanced feed system allowing for rapid bursts of fire, but the compact nature of the weapon unfortunately means that it takes several seconds to load another burst.",,,
+kyeltziv_graviton_sweeper_single,WEAPON,"A single Graviton Sweeper emitter that has had its frame downscaled for mounting on a Corvette, able to divert or immobilise most missiles and fighters.",,,
+kyeltziv_bellis_pack_heavy,WEAPON,Extremely maneuverable lightweight anti-fighter missiles. This large pack mounting allows for the Ophrys to easily dispatch targets disabled by its Graviton Sweeper.,,,
+kyeltziv_shock_avtomat,WEAPON,"A light and compact rapid-fire shock-core weapon, features an integrated point defense targeting subsystem.",,,
+kyeltziv_shockMitrailleuseLight,WEAPON,"A cluster of light shock cannons with an advanced feed system allowing for rapid bursts of fire, this compact corvette mount only allows for a single burst of shells to be loaded.",,,
+kyeltziv_halke_single,WEAPON,"A single medium range, high power guided missile. Highly destructive against unshielded targets.",,,
+kyeltziv_mauste,WEAPON,"Long range fire support missiles that split into a spread of sub-warheads that fire small explosive sub-projectiles upon nearing their target. This allows them to bypass shorter ranged point defense coverage, but the spread of projectiles makes it unable to precisely focus damage on smaller targets.",,,
+kyeltziv_microStutter,WEAPON,"A single light carbon dioxide laser installed on a rapid traverse mount, limited output but combines well as part of an overall point defense grid to help intercept inbound threats.",,,
+kyeltziv_light_shock_driver_sym_l,WEAPON,"A Symmetrist redesign of the Short-Spool Shock-Driver, features a more efficient, albeit slower charging set of launch rails.",,,
+kyeltziv_light_shock_driver_sym_r,WEAPON,"A Symmetrist redesign of the Short-Spool Shock-Driver, features a more efficient, albeit slower charging set of launch rails.",,,
+kyeltziv_fusionMitrailleuse,WEAPON,"A paired mount of light fusion busters featuring an extended magazine allowing for extended bursts of fire, but the larger magazine and compact mounting force a notably lower reload rate than would be standard for fusion buster.",,,
+kyeltziv_pieni,WEAPON,"A short-burst high-intensity laser with excellent performance vs missiles and fighters. Lacks a reserve capacitor and only operates in single bursts, but has a steady rate of operation.",,,
+kyeltziv_packet_light,WEAPON,"A Corvette mount variant of the Packet Cycler, has reduced ammunition storage and loading capacity. The specialised cyclic feed that this weapon features allows it to deliver its shots at a blistering rate of fire, but the linked autoloader is unable to maintain the same pace resulting in a notably reduced fire-rate in the long term.
+
+The volatile plasma packets enclosed in this weapons shells are specially designed to shear off chunks of armour plating on a penetrating detonation, this additional energy is directed outwards from the impact point making it of no additional value against hull or shielding.",,,
+kyeltziv_shock_tapanca,WEAPON,"A lightweight compact shock-core weapon, largely underpowered, but with the main redeeming feature of an integrated point defense targeting subsystem.",,,
+kyeltziv_driver_shrap,WEAPON,"A Shock Driver that has been modified to fire heavy shrapnel canisters rather than the standard shock rounds, the lower flux overhead required to operate this weapon makes it arguably a better fit for the Ruslan with the limited output of its flux core. The sheer volume of projectiles it launches means that enthusiastic gunnery crews will often attempt to use it to intercept inbound missiles, often with somewhat favorable results.
+
+It is unclear whether the Pirates were unable to procure more shock ammo for the driver, or simply decided that the lower flux draw of not having to charge the shots before firing was an appealing proposition. Either way this is a highly threatening weapon to lighter targets.",,,
+kyeltziv_med_swarmer_p,WEAPON,"This vessels drone bay has been hacked to produce Swarmer SRMs, and then feeds directly to this attached launcher. Overall a highly effective weapon against most smaller targets.",,,
+kyeltziv_osteotome,WEAPON,"While the acceleration and launch mechanisms are impressive what is truly noteworthy is the projectile, through some novel applications of shape-memory alloys it achieves a terminal impact effect comparable to a shaped charge despite otherwise behaving like a standard kinetic impactor.",,,
+kyeltziv_trocar,WEAPON,"Remote electromagnetic shock discharge coil. Disrupts the target on actuation, easing the acquisition and exploitation of vulnerabilities.",,,
+kyeltziv_bistoury,WEAPON,"High power compact cutting beam emitter suited for sample collection, field vivisection and automated interception of detritus.",,,
+,,,,,
+kyeltziv_chaff_d,SHIP_SYSTEM,Launches bursts of chaff that distract the guidance systems of incoming missiles and interferes with hostile PD weaponry.,Defensive,Launches chaff that distracts hostile point-defenses and missiles.,
+kyeltziv_chaff_c,SHIP_SYSTEM,Launches a steady stream of chaff that distracts the guidance systems of incoming missiles and interferes with hostile PD weaponry.,Defensive,Launches a steady stream of chaff that distracts hostile point-defenses and missiles.,
+kyeltziv_chaff_sing,SHIP_SYSTEM,Launches chaff that distract the guidance systems of incoming missiles and interferes with hostile PD weaponry.,Defensive,Launches chaff that distracts hostile point-defenses and missiles.,
+kyeltziv_siren_flares,SHIP_SYSTEM,Launches flares that distract the guidance systems of incoming missiles and PD weapons. The flares also track missiles and any missile impacting a flare will be destroyed.,Defensive,Launches flares to confuse the guidance systems of nearby enemy missiles. The flares are fast and actively track the missiles.,
+kyeltziv_siren_flares_single,SHIP_SYSTEM,Launches a flare that distracts the guidance systems of incoming missiles and PD weapons. The flare also tracks missiles and any missile impacting the flare will be destroyed.,Defensive,Launches a flare to confuse the guidance systems of nearby enemy missiles. The flare is fast and actively tracks the missiles.,
+,,,,,
+kyeltziv_microburst_drive,SHIP_SYSTEM,Temporarily overclocks the crafts drives to increase speed and maneuverability.,Movement,Temporarily overclocks the crafts drives to increase speed and maneuverability.,
+kyeltziv_mainburn,SHIP_SYSTEM,Temporarily engages a burn on the system travel drive of the ship. Provides a speed boost for a fixed time at the expense of reduced turn rate and the being unable to use shields. The ship runs the risk of full engine flameout on any significant collision.,Movement,Provides a speed boost at the expense of reduced turn rate and the being unable to use shields. Collisions can cause a flameout while the system is active.,
+kyeltziv_kiusa_16,SHIP_SYSTEM,Deploys a swarm of sixteen drones each of which is armed with a light PD rifle.,Drones,Deploys a swarm of sixteen drones each of which is armed with a light PD rifle.,
+kyeltziv_vartija_2,SHIP_SYSTEM,Deploys a pair of combat drones each armed with a Shock Springald and a light PD autogun. Their on-board Electronic Warfare systems also increase the fleets ECM rating while deployed.,Drones,Deploys a pair of combat drones each armed with a Shock Springald and a light PD autogun. They also increase the fleets ECM rating while deployed.,
+kyeltziv_drone_station,SHIP_SYSTEM,"Deploys a quartet of defensive drone platforms, each armed with an array of point defense weaponry.",Drones,"Deploys a quartet of defensive drone platforms, each armed with an array of point defense weaponry.",
+kyeltziv_disjunction,SHIP_SYSTEM,"The ship instantly teleports to any desired nearby location. When used triggers a flux-phase shunt that instantly dissipates 40% of the vessels current soft flux, but generates hard flux proportional to 10% of the dissipated flux. Stores multiple Charges.",Movement,"The ship instantly teleports to any desired nearby location. When used triggers a flux-phase shunt that instantly dissipates 40% of the vessels current soft flux, but generates hard flux proportional to 10% of the dissipated flux. Stores multiple Charges.",
+kyeltziv_VariableBooster,SHIP_SYSTEM,"A modular system that provides a brief improvement to weapon performance, applied bonuses vary based on the installed Loader Refit hullmod. Stores multiple Charges.",Offensive,"A modular system that provides a brief improvement to weapon performance, applied bonuses vary based on the installed Loader Refit hullmod. Stores multiple Charges.",
+kyeltziv_MonoBooster,SHIP_SYSTEM,A basic system that slightly improves ballistic and energy weapon performance while active. Stores multiple Charges.,Offensive,A basic system that reduces weapon recoil and flux costs while active. Stores multiple Charges.,
+,,,,,
+kyeltziv_targetingDrone_1,SHIP_SYSTEM,"Deploys a drone whose on-board sensors scan hostile targets for weakspots, increasing the ships hit-strength against armour while deployed. The drone is also armed with a light PD autogun.",Drone,Deploys a drone that increases the ships hit-strength against armour while deployed. The drone is also armed with a light PD autogun.,
+kyeltziv_spotterDrone_1,SHIP_SYSTEM,Deploys a drone whose on-board sensors improve the ship's weapon and sensor range while deployed. The drone is also armed with a light PD autogun.,Drone,Deploys a drone that improves the ship's weapon and sensor range while deployed. The drone is also armed with a light PD autogun.,
+kyeltziv_piperDrone_1,SHIP_SYSTEM,Deploys a drone whose on-board Electronic Warfare systems increases the fleets ECM rating while deployed. The drone also mounts an anti-missile active flare launcher.,Drone,Deploys a drone that increases the fleets ECM rating while deployed. The drone also mounts an anti-missile active flare launcher.,
+kyeltziv_kutittaa_1,SHIP_SYSTEM,Deploys a drone armed with several light shock weapons. The drone can be ordered to closely guard the ship or attack nearby vessels.,Drone,Deploys a drone armed with several light shock weapons.,
+kyeltziv_displacer,SHIP_SYSTEM,"Teleports the ship forward in the direction it's traveling. The system slowly builds up to two charges which can then be expended in short order. Has a longer range than a standard phase skimmer, but in exchange can only store two charges and has a slower recharge.",Movement,Teleports the ship forward in the direction it's traveling. The system can store up to two charges at once.,
+kyeltziv_navDrone_1,SHIP_SYSTEM,Deploys a drone that acts as a navigation relay increasing the nav rating of your fleet. The drone is also armed with a light shock weapon.,Drone,Deploys a drone that improves the nav rating of your fleet. The drone is also armed with a light shock weapon.,
+kyeltziv_vartio_2,SHIP_SYSTEM,Deploys a pair of combat drones each armed with a Shock Springald and a light PD autogun.,Drones,Deploys a pair of combat drones each armed with a Shock Springald and a light PD autogun.,
+kyeltziv_symDrone_2_r,SHIP_SYSTEM,"Deploys a pair of drones whose on-board sensors improve the ship's weapon range, weapon performance and sensor range while deployed. Each drone is also armed with a light PD rifle.
+
+The drones scan for vulnerabilities in armour and detect shield fluctuations, allowing weapons to deliver improved damage to hostile vessels.",Drones,"Deploys a pair of drones that improve the ship's weapon range, weapon performance and sensor range while deployed. Each drone is also armed with a light PD rifle.",
+kyeltziv_expPdDrone_1_o,SHIP_SYSTEM,Deploys a drone armed with a pair of light PD autoguns. The drone can be ordered to closely guard the ship or roam more freely.,Drone,Deploys a drone armed with a pair of light PD autoguns.,
+kyeltziv_salpa_12,SHIP_SYSTEM,Deploys a swarm of twelve drones each of which is armed with a light PD rifle.,Drones,Deploys a swarm of twelve drones each of which is armed with a light PD rifle.,
+kyeltziv_infernium_pulse,SHIP_SYSTEM,"Injects a minute quantity of desabilised AM fuel into the engines afterburners, provides a brief and unstable engine boost, propelling the ship roughly forward at an extreme velocity.",Movement,"Injects a minute quantity of desabilised AM fuel into the engines afterburners, provides a brief and unstable engine boost, propelling the ship roughly forward at an extreme velocity.",
+,,,,,
+kyeltziv_targetingDrone_2,SHIP_SYSTEM,"Deploys a pair of drones whose on-board sensors scan hostile targets for weakspots, increasing the ships hit-strength against armour while deployed. Each drone is also armed with a light PD autogun.",Drones,Deploys a pair of drones that increase the ships hit-strength against armour while deployed. Each drone is also armed with a light PD autogun.,
+kyeltziv_piperDrone_2,SHIP_SYSTEM,Deploys a pair of drones whose on-board Electronic Warfare systems increase the fleets ECM rating while deployed. Each drone also mounts an anti-missile active flare launcher.,Drones,Deploys a pair of drones that increase the fleets ECM rating while deployed. Each drone also mounts an anti-missile active flare launcher.,
+kyeltziv_loinen_4,SHIP_SYSTEM,Deploys four drones armed with light galvanic weaponry. The drones can be ordered to closely guard the ship or attack nearby vessels.,Drones,Deploys four drones armed with light galvanic weaponry.,
+kyeltziv_raataja,SHIP_SYSTEM,Deploys four drones armed with cutting lasers. The drones can be ordered to closely guard the ship or attack nearby vessels.,Drones,Deploys four drones armed with cutting lasers.,
+kyeltziv_expPdDrone_2_p,SHIP_SYSTEM,Deploys a pair of drones each of which is armed with a pair of light PD autoguns. The drones can be ordered to closely guard the ship or roam more freely.,Drones,Deploys a pair of drones each of which is armed with a pair of light PD autoguns.,
+kyeltziv_spotterDrone_2,SHIP_SYSTEM,Deploys a pair of drones whose on-board sensors improve the ship's weapon and sensor range. Each drone is also armed with a light PD autogun.,Drones,Deploys a pair of drones that improve the ship's weapon and sensor range while deployed. Each drone is also armed with a light PD autogun.,
+kyeltziv_navDrone_2,SHIP_SYSTEM,Deploys a pair of drones that act as navigation relays increasing the nav rating of your fleet. Each drone is also armed with a light shock weapon.,Drones,Deploys a pair of drones that improve the nav rating of your fleet. Each drone is also armed with a light shock weapon.,
+kyeltziv_tuike_2,SHIP_SYSTEM,"Deploys a pair of drones whose on-board sensors scan hostile targets for weakspots, increasing the ships hit-strength against armour while deployed. Each drone is also armed with a Tactical Laser and a Light PD Ion weapon.",Drones,Deploys a pair of drones that increase the ships hit-strength against armour while deployed. Each drone is also armed with a Tactical Laser and a Light PD Ion weapon.,
+kyeltziv_mine_strike,SHIP_SYSTEM,Teleports a shock mine to the target area. The mine will slowly track nearby enemy ships and explodes a few seconds after its proximity trigger is activated. Can be used while phased.,Offensive,Teleports a shock proximity mine to the target area. Can be used while phased.,
+kyeltziv_symDrone_4,SHIP_SYSTEM,"Deploys four drones whose on-board sensors improve the ship's weapon range, weapon performance and sensor range while deployed. Each drone is also armed with a light PD rifle.
+
+The drones scan for vulnerabilities in armour and detect shield fluctuations, allowing weapons to deliver improved damage to hostile vessels.",Drones,"Deploys four drones that improve the ship's weapon range, weapon performance and sensor range while deployed. Each drone is also armed with a light PD rifle.",
+kyeltziv_suojus_2,SHIP_SYSTEM,Deploys two combat drones each armed with a Shock Springald and an ESP beam.,Drones,Deploys two combat drones each armed with a Shock Springald and an ESP beam.,
+kyeltziv_railDrones,SHIP_SYSTEM,Deploys four drones armed with light railguns. The drones can be ordered to closely guard the ship or attack nearby vessels.,Drones,Deploys four drones armed with light railguns.,
+kyeltziv_drone_strike,SHIP_SYSTEM,Teleports a Kohta Drone Platform to the target area. The platform is armed with a PD beam and a pair of light PD Ion weapons.,Drone,Teleports a Kohta Drone Platform to the target area. The platform is armed with a PD beam and a pair of light PD Ion weapons.,
+kyeltziv_linnake_deploy,SHIP_SYSTEM,"Deploys a Linnake Gun Platform that provides support fire, the armament of the deployed platform is altered based on installed customisation packages.",Drone,"Deploys a Linnake Gun Platform that provides support fire, the armament of the deployed platform is altered based on installed customisation packages.",
+kyeltziv_canister_flak,SHIP_SYSTEM,Fires a large number of flak canisters with variable-timed proximity fuses all around the ship.,Defensive,Fires a large number of flak canisters with variable-timed proximity fuses all around the ship. Each canister deals 200 High Explosive damage in an area and is targeted to avoid friendly fire.,200 High Explosive
+,,,,,
+kyeltziv_hPiperDrone_2,SHIP_SYSTEM,Deploys a pair of drones whose on-board Electronic Warfare systems increase the fleets ECM rating while deployed. Each drone also mounts an anti-missile active flare launcher and a light PD autogun.,Drones,Deploys a pair of drones that increase the fleets ECM rating while deployed. Each drone also mounts an anti-missile active flare launcher and a light PD autogun.,
+kyeltziv_lakeija_4,SHIP_SYSTEM,Deploys four drones armed with light galvanic weaponry and light kinetic rockets. The drones can be ordered to closely guard the ship or attack nearby vessels.,Drones,Deploys four drones armed with light galvanic weaponry and light kinetic rockets.,
+kyeltziv_hTargetingDrone_2,SHIP_SYSTEM,"Deploys a pair of drones whose on-board sensors scan hostile targets for weakspots, increasing the ships hit-strength against armour while deployed. Each drone is also armed with a light PD autogun.",Drones,Deploys a pair of drones that increase the ships hit-strength against armour while deployed. Each drone is also armed with a light PD autogun.,
+kyeltziv_hSpotterDrone_2,SHIP_SYSTEM,Deploys a pair of drones whose on-board sensors improve the ship's weapon and sensor range. Each drone is also armed with a light PD autogun.,Drones,Deploys a pair of drones that improve the ship's weapon and sensor range while deployed. Each drone is also armed with a light PD autogun.,
+kyeltziv_hSymDrone_4,SHIP_SYSTEM,"Deploys four drones whose on-board sensors improve the ship's weapon range, weapon performance and sensor range while deployed. Each drone is also armed with a light PD beam.
+
+The drones scan for vulnerabilities in armour and detect shield fluctuations, allowing weapons to deliver improved damage to hostile vessels.",Drones,"Deploys four drones that improve the ship's weapon range, weapon performance and sensor range while deployed. Each drone is also armed with a light PD beam.",
+kyeltziv_hExpPdDrone_2,SHIP_SYSTEM,Deploys a pair of drones each of which mounts a flare launcher and a pair of light PD autoguns. The drones can be ordered to closely guard the ship or roam more freely.,Drones,Deploys a pair of drones each of which mounts a flare launcher and a pair of light PD autoguns.,
+,,,,,
+kyeltziv_hPiperDrone_4,SHIP_SYSTEM,Deploys four drones whose on-board Electronic Warfare systems increase the fleets ECM rating while deployed. Each drone also mounts an anti-missile active flare launcher and a light PD autogun.,Drones,Deploys four drones that increase the fleets ECM rating while deployed. Each drone also mounts an anti-missile active flare launcher and a light PD autogun.,
+kyeltziv_sorkkia_4,SHIP_SYSTEM,Deploys four drones armed with light fusion weaponry and light pulse rockets. The drones can be ordered to closely guard the ship or attack nearby vessels.,Drones,Deploys four drones armed with light fusion weaponry and light pulse rockets.,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+kyeltziv,FACTION,"Born from Kyeltziv Technologies, a megacorporation that primarily specialised in light drone craft and semi-exotic weapons systems, with the fall of the gate system Kyeltziv Technologies third branch was left stranded in the persean sector, and after some internal strife they rebranded as the Kyeltziv Technocracy and set about securing a foothold for themselves in the sector. Since the collapse the Kyeltziv Technocracy initially constructed outposts on numerous promising worlds with an eye to start colonisation, but all of these were either abandoned or destroyed in the first AI war and ever since they have been more inwardly-focused.
+
+After the restructuring into the Kyeltziv Technocracy the charter they operate under has been completely rewritten and is classified to outsiders, what little of it has been leaked suggests that they have plans in motion that may breach several domain regulations, but whether this is true or not is hard to determine with the fragmentary information available.",,,
+kyeltziv_planet_puotila,CUSTOM,"A small volcanic world, overlooked for colonisation for the cost of settling on such a hazardous planet when there are far more accessible alternatives available in the system.",,,
+kyeltziv_planet_yasenevo,CUSTOM,A world that would otherwise be unremarkable if not for the usage of thermonuclear warheads to open up access to more valuable ore deposits resulting in a wide cloud of asteroids choking the area around its orbit.,,,
+kyeltziv_planet_kuzminki,CUSTOM,"Rather unremarkable for a gas giant, Kuzminki offers the Kyeltziv Technocracy modest fuel extraction, but issues with logistics have lead to it never developing to the size that would allow the Technocracy to compete in terms of output with the other polities in the sector.",,,
+kyeltziv_planet_kurskaya,CUSTOM,"Home of the Kyeltziv Technocracy. Kurskaya has heavy defenses, the highly dense field of stealthed mines making approach from outside of any of the designated landing corridors a suicidal prospect.",,,
+kyeltziv_station_solntsevo,CUSTOM,"Initial development had Solntsevo slated to be developed as a mining facility to exploit the systems asteroid ring, but after the successful deep-crust mining on Yasenevo that development was halted and internal facilities were converted to allow the station to act as a waystation for military patrols while still housing a small industrial capacity.",,,
+kyeltziv_planet_rastila,CUSTOM,"Was originally much the same as any other airless rocky planet, until path terrorists attempted to set up a observation post. The outpost, and the rest of the planet was hit with massed bombardment of some form of radiative weapon, this resulted in complete annhilation of the pather outpost and conversion of the planet to a near uninhabitable wasteland.",,,
+kyeltziv_planet_kontula,CUSTOM,"A small frozen rock on the outskirts of the Koltsevaya system, the risk of Kyeltziv bombardment has detered any consideration by other polities to even set up listening outposts on what would otherwise be prime real estate for such.",,,
+,,,,,

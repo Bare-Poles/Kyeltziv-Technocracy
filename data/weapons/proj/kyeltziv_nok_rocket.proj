@@ -1,0 +1,41 @@
+{
+	"id":"kyeltziv_nok_rocket",
+	"specClass":"missile",
+	"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
+	"sprite":"graphics/missiles/missile_sabot_warhead.png",
+	"size":[7,14],	
+	"center":[3.5,7],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[200,225,255,235],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":35, # purely visual
+	"fizzleOnReachingWeaponRange":true,
+	"flameoutTime":1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	"engineSpec":{"turnAcc":360,
+				  "turnRate":180,
+				  "acc":900,
+				  "dec":90},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-6, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[200,225,255,155],
+						"contrailDuration":.5,
+						"contrailWidthMult":1, #2
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[75,75,75,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":50.0,
+				    "angle":180.0}]
+}
+
+			

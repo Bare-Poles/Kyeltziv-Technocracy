@@ -1,0 +1,75 @@
+{
+  "variantId": "kyeltziv_ilkut_sup",
+  "hullId": "kyeltziv_ilkut",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 47,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_loader_siege",
+    "kyeltziv_pack_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_lorentzTwin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_garaj"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "kyeltziv_thap_pod",
+        "WS0006": "kyeltziv_thap_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_lorentz",
+        "WS0003": "kyeltziv_compact_shock_driver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "kyeltziv_esp_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "kyeltziv_light_discharger",
+        "WS0009": "kyeltziv_light_discharger",
+        "WS0010": "kyeltziv_light_discharger",
+        "WS0011": "kyeltziv_light_discharger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "kyeltziv_smart_blaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_helianthus_wing"
+  ]
+}

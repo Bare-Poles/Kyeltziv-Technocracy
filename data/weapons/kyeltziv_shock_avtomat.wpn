@@ -1,0 +1,23 @@
+{
+	"id":"kyeltziv_shock_avtomat",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/kyeltziv_shock_avtomat.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_shock_avtomat.png",
+	"turretOffsets":[7, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[12, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":12.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.15,
+					   "particleCount":8,
+					   "particleColor":[165,185,225,155]},
+	"projectileSpecId":"kyeltziv_fougasse_pellet",  # projectile that will be fired
+	"fireSoundTwo":"light_machinegun_fire",
+}

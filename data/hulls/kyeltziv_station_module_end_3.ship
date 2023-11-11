@@ -1,0 +1,137 @@
+{
+  "hullName": "Support Bastion",
+  "hullId": "kyeltziv_station_module_end_3",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/station/kyeltziv_station_module_end.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 132,
+  "width": 174,
+  "center": [94, 47],
+  "collisionRadius": 142,
+  "shieldCenter": [-13, 6],
+  "shieldRadius": 130,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -34,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "do_not_fire_through",
+    "kyeltziv_loader_supp",
+    "kyeltziv_pack_supp",
+    "kyeltziv_parallelAutoforgeStation",
+    "eccm",
+    "chassis_storage",
+    "kyeltziv_rangefinders",
+    "missile_reload"
+  ],
+  "builtInWings": [
+    "kyeltziv_dombeya_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": 40,
+      "locations": [-3, 75]
+    },
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 10,
+      "locations": [24, 22]
+    },
+    {
+      "id": "WS 002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -10,
+      "locations": [24, -22]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 130,
+      "angle": -50,
+      "locations": [-7, -47]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 35,
+      "locations": [31, 77]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 0,
+      "locations": [50, -0]
+    },
+    {
+      "id": "WS 007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -35,
+      "locations": [37, -56]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        19, 51,
+        32, 51
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26, 51]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    42, 60,
+    42, 44,
+    49, 43,
+    51, 11,
+    60, -0,
+    51, -11,
+    50, -33,
+    39, -44,
+    37, -68,
+    -14, -73,
+    -39, 1,
+    -18, 89,
+    35, 84,
+    50, 63
+  ]
+}

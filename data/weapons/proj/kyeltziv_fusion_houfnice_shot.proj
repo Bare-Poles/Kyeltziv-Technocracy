@@ -1,0 +1,19 @@
+{
+	"id":"kyeltziv_fusion_houfnice_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+
+	"onHitEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_fusionHoufniceOnHitEffect",
+
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":80.0,
+	"width":7.5,
+	"hitGlowRadius":60,
+	"fadeTime":0.2,
+	"fringeColor":[255,105,105,255],
+	"coreColor":[255,165,105,155],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_medium_red.png"
+}

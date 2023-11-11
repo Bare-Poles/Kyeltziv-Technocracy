@@ -1,0 +1,81 @@
+{
+  "hullName": "Wolffia",
+  "hullId": "kyeltziv_wolffia",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/strikecraft/kyeltziv_wolffia.png",
+  "style": "MIDLINE",
+  "height": 66,
+  "width": 40,
+  "center": [20, 30],
+  "collisionRadius": 37,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps",
+    "kyeltziv_supCorvCore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 45,
+      "locations": [2, 13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -45,
+      "locations": [2, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-28, 0],
+      "length": 44,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-25, 7],
+      "length": 24,
+      "width": 6,
+      "angle": 175,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-25, -7],
+      "length": 24,
+      "width": 6,
+      "angle": -175,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    28, -8,
+    -4, -18,
+    -25, -6,
+    -25, 6,
+    -4, 18,
+    26, 8
+  ]
+}

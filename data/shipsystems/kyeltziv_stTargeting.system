@@ -1,0 +1,42 @@
+{
+	"id":"kyeltziv_stTargeting",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_STANDARD",
+	
+	"statsScript":"org.amazigh.kyeltziv.shipsystems.scripts.kyeltziv_StationTargetingDroneStats",
+	
+	"droneVariant":"kyeltziv_drone_tag_station",
+	
+	"allowFreeRoam":false,
+	
+	"launchSpeed":200,
+	"launchDelay":1,
+	"maxDrones":2,
+	"droneBehavior":[
+		{"droneIndex":[0],
+		 "defaultFacing":"AWAY_FROM_SHIP",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":0,
+		 "freeRoamRange":0,
+		 "targetPriority":[MISSILE, FIGHTER, SHIP],
+		 "initialOrbitAngle":85,
+		 "orbitRadius":-29, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":0, 				# pixels/second
+		},
+		{"droneIndex":[1],
+		 "defaultFacing":"AWAY_FROM_SHIP",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":true,
+		 "holdRoamRange":0,
+		 "freeRoamRange":0,
+		 "targetPriority":[MISSILE, FIGHTER, SHIP],
+		 "initialOrbitAngle":-85,
+		 "orbitRadius":-15, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":0, 				# pixels/second
+		},
+	],
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

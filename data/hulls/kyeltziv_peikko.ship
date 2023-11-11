@@ -1,0 +1,115 @@
+{
+  "hullName": "Peikko",
+  "hullId": "kyeltziv_peikko",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Phase/kyeltziv_peikko.png",
+  "style": "MIDLINE",
+  "height": 128,
+  "width": 86,
+  "center": [43, 62],
+  "collisionRadius": 70,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 68,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "kyeltziv_fluxPhase"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_shockMitrailleuse"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-25, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -35,
+      "locations": [32, -19]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [58, -18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [44, 23]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [41, 2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60.5, 15.5],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-60.5, -14.5],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-55, 23.5],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-55, -22.5],
+      "length": 32,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    42, -36,
+    -53, -26,
+    -59, -12,
+    -38, 0,
+    -59, 12,
+    -53, 26,
+    -11, 31,
+    42, 27,
+    45, -8,
+    58, -20
+  ]
+}

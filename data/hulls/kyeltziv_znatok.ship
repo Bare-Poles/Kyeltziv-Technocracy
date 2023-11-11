@@ -1,0 +1,155 @@
+{
+  "hullName": "Znatok",
+  "hullId": "kyeltziv_znatok",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/kyeltziv_znatok.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 210,
+  "width": 100,
+  "center": [53, 99],
+  "collisionRadius": 120,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 118,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "repair_gantry",
+    "kyeltziv_pack_slot",
+    "kyeltziv_parallelAutoforge"
+  ],
+  "builtInWings": [
+    "kyeltziv_salvage_drone_wing"
+  ],
+  "builtInWeapons": {
+    "WS0002": "kyeltziv_cutting_laser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -15,
+      "locations": [80, -5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [18, -33]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-33, -20]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 120,
+      "locations": [-33, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -80,
+      "locations": [46, -31]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 90,
+      "locations": [22, 38]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        28, 19,
+        42, 30,
+        46, 18,
+        69, 16
+      ]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-2, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, -0],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-90, 16],
+      "length": 48,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-90, -16],
+      "length": 48,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    66, -18,
+    51, -45,
+    38, -45,
+    11, -29,
+    0, -37,
+    -44, -32,
+    -53, -23,
+    -86, -24,
+    -97, 0,
+    -86, 24,
+    -53, 22,
+    -44, 32,
+    -17, 34,
+    18, 48,
+    59, 43,
+    46, 38,
+    63, 17,
+    80, 17,
+    85, 10,
+    100, 10,
+    106, -18
+  ]
+}

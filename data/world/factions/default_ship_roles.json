@@ -1,0 +1,289 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"kyeltziv_ilya_ass":3.5,
+		"kyeltziv_ilya_bal":2,
+		"kyeltziv_ilya_shk":2.5,
+		"kyeltziv_ilya_sup":2,
+
+		"kyeltziv_vassily_ass":4,
+		"kyeltziv_vassily_bal":3,
+		"kyeltziv_vassily_shk":3,
+
+		"kyeltziv_dobrynya_ass":5,
+
+		"kyeltziv_ilya_ex_ass":4,
+		"kyeltziv_ilya_ex_od":2.5,
+		"kyeltziv_ilya_ex_stk":3.5,
+		"kyeltziv_ilya_ex_ass2":0, #PL
+		"kyeltziv_ilya_ex_stk2":0, #PL
+
+		"kyeltziv_paimen_cbt":3,
+
+		"kyeltziv_ilya_sym_ass":3.5,
+		"kyeltziv_ilya_sym_bal":3.5,
+
+		"kyeltziv_otkryt_ex_ass":7,
+		"kyeltziv_otkryt_ex_od":3,
+		"kyeltziv_otkryt_ex_stk2":0, #PL
+
+
+		"kyeltziv_vassily_p_od":2,
+		"kyeltziv_vassily_p_raider":3,
+		"kyeltziv_vassily_p_stk":3,
+		"kyeltziv_ruslan_p_raider":4,
+		"kyeltziv_ruslan_p_stk":4,
+
+	},
+	"combatSmall":{
+		"kyeltziv_ilya_ass":3.5,
+		"kyeltziv_ilya_bal":2,
+		"kyeltziv_ilya_shk":2,
+		"kyeltziv_ilya_sup":2.5,
+
+		"kyeltziv_vassily_ass":1.5,
+		"kyeltziv_vassily_bal":2,
+		"kyeltziv_vassily_bomb":3,
+		"kyeltziv_vassily_shk":3.5,
+
+		"kyeltziv_ruslan_bomb":4,
+		"kyeltziv_ruslan_shk":4,
+
+		"kyeltziv_dobrynya_ass":2,
+		"kyeltziv_dobrynya_bomb":2.5,
+		"kyeltziv_dobrynya_shk":2.5,
+		"kyeltziv_dobrynya_sup":2,
+
+		"kyeltziv_lycaenid_pd":4,
+		"kyeltziv_lycaenid_sup":4,
+
+		"kyeltziv_ilya_ex_ass":3,
+		"kyeltziv_ilya_ex_od":1.5,
+		"kyeltziv_ilya_ex_stk":3,
+		"kyeltziv_ilya_ex_sup":2.5,
+		"kyeltziv_ilya_ex_ass2":0, #PL
+		"kyeltziv_ilya_ex_stk2":0, #PL
+
+		"kyeltziv_paimen_cbt":3.5,
+		"kyeltziv_paimen_sup":2.5,
+
+		"kyeltziv_ilya_sym_ass":3.5,
+		"kyeltziv_ilya_sym_bal":3.5,
+
+		"kyeltziv_otkryt_ex_ass":7,
+		"kyeltziv_otkryt_ex_od":3,
+		"kyeltziv_otkryt_ex_stk2":0, #PL
+		"kyeltziv_otkryt_ex_sup2":0, #PL
+
+		"kyeltziv_vassily_p_od":2,
+		"kyeltziv_vassily_p_raider":3,
+		"kyeltziv_vassily_p_stk":3,
+		"kyeltziv_ruslan_p_raider":4,
+		"kyeltziv_ruslan_p_stk":4,
+
+	},
+	"combatMedium":{
+		"kyeltziv_perun_ass":2.5,
+		"kyeltziv_perun_bomb":2,
+		"kyeltziv_perun_shk":3,
+		"kyeltziv_perun_sup":2.5,
+
+		"kyeltziv_dazhbog_ass":2.5,
+		"kyeltziv_dazhbog_bal":3,
+		"kyeltziv_dazhbog_bomb":1.5,
+		"kyeltziv_dazhbog_shk":3,
+
+		"kyeltziv_perun_ex_ass":3,
+		"kyeltziv_perun_ex_od":2,
+		"kyeltziv_perun_ex_stk":2.5,
+		"kyeltziv_perun_ex_sup":2.5,
+		"kyeltziv_perun_ex_stk2":0, #PL
+		"kyeltziv_perun_ex_sup2":0, #PL
+
+		"kyeltziv_dazhbog_ex_ass":7,
+		"kyeltziv_dazhbog_ex_od":3,
+		"kyeltziv_dazhbog_ex_ass2":0, #PL
+		"kyeltziv_dazhbog_ex_stk2":0, #PL
+		"kyeltziv_dazhbog_ex_sup2":0, #PL
+
+		"kyeltziv_xiezhi_bal":2.5,
+		"kyeltziv_xiezhi_bomb":3,
+		"kyeltziv_xiezhi_shk":2.5,
+		"kyeltziv_xiezhi_sup":2,
+
+		"kyeltziv_xinzang_bal":2.5,
+		"kyeltziv_xinzang_bomb":4,
+		"kyeltziv_xinzang_sup":3.5,
+
+		"kyeltziv_zlatko_ass":2.5,
+		"kyeltziv_zlatko_bal":2,
+		"kyeltziv_zlatko_shk":3,
+		"kyeltziv_zlatko_sup":2.5,
+
+		"kyeltziv_kiilto_ass":2.5,
+		"kyeltziv_kiilto_fs":3,
+		"kyeltziv_kiilto_sup":3,
+
+		"kyeltziv_dazhbog_sym_bal":3.5,
+		"kyeltziv_dazhbog_sym_sup":3.5,
+
+		"kyeltziv_xinzang_ex_ass":3.5,
+		"kyeltziv_xinzang_ex_od":1.5,
+		"kyeltziv_xinzang_ex_sup":5,
+		"kyeltziv_xinzang_ex_ass2":0, #PL
+		"kyeltziv_xinzang_ex_stk2":0, #PL
+		"kyeltziv_xinzang_ex_sup2":0, #PL
+
+		"kyeltziv_prochnyi_ass":2.5,
+		"kyeltziv_prochnyi_esc":2,
+		"kyeltziv_prochnyi_siege":2.5,
+		"kyeltziv_prochnyi_sup":2.5,
+
+		"kyeltziv_paistaa_ass":1.5,
+		"kyeltziv_paistaa_stk":3,
+		"kyeltziv_paistaa_sup":1.5,
+
+		"kyeltziv_perun_p_od":3,
+		"kyeltziv_perun_p_raider":2,
+		"kyeltziv_perun_p_stk":3,
+		"kyeltziv_zlatko_p_od":3,
+		"kyeltziv_zlatko_p_raider":3,
+		"kyeltziv_zlatko_p_sup":2,
+
+	},
+	"combatLarge":{
+		"kyeltziv_podenka_bal":2,
+		"kyeltziv_podenka_bomb":3,
+		"kyeltziv_podenka_shk":3,
+		"kyeltziv_podenka_sup":2,
+
+		"kyeltziv_strekoza_bal":2,
+		"kyeltziv_strekoza_bomb":3,
+		"kyeltziv_strekoza_shk":3,
+		"kyeltziv_strekoza_sup":2,
+
+		"kyeltziv_pyralid_bal":2,
+		"kyeltziv_pyralid_bomb":3,
+		"kyeltziv_pyralid_shk":3,
+		"kyeltziv_pyralid_sup":2,
+
+		"kyeltziv_podenka_sym_ass":3.5,
+		"kyeltziv_podenka_sym_shk":3.5,
+
+		"kyeltziv_podenka_ex_ass":4,
+		"kyeltziv_podenka_ex_od":2,
+		"kyeltziv_podenka_ex_sup":4,
+		"kyeltziv_podenka_ex_ass2":0, #PL
+		"kyeltziv_podenka_ex_stk2":0, #PL
+		"kyeltziv_podenka_ex_sup2":0, #PL
+	
+	},
+	"combatCapital":{
+		"kyeltziv_ilkut_bal":2,
+		"kyeltziv_ilkut_bomb":3,
+		"kyeltziv_ilkut_shk":3,
+		"kyeltziv_ilkut_sup":2,
+	},
+
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"kyeltziv_paimen_cbt":4,
+		"kyeltziv_paimen_logi":2.5,
+		"kyeltziv_paimen_sup":3.5,
+	},
+
+	"combatFreighterMedium":{
+		"kyeltziv_znatok_bomb":2.5,
+		"kyeltziv_znatok_shk":2.5,
+		"kyeltziv_znatok_sup":2.5,
+	},
+
+	"civilianRandom":{
+		"kyeltziv_znatok_bomb":0.5,
+		"kyeltziv_znatok_shk":0.5,
+		"kyeltziv_znatok_sup":1,
+		"kyeltziv_paimen_cbt":0.5,
+		"kyeltziv_paimen_logi":1.5,
+		"kyeltziv_paimen_sup":1.5,
+	},
+
+	# carriers
+	"carrierSmall":{
+		"kyeltziv_yinglong_attack":2.5,
+		"kyeltziv_yinglong_cs":2,
+		"kyeltziv_yinglong_strike":3.5,
+		"kyeltziv_yinglong_support":2,
+
+		"kyeltziv_znatok_bomb":2,
+		"kyeltziv_znatok_shk":1.5,
+		"kyeltziv_znatok_sup":1.5,
+
+		"kyeltziv_dobrynya_ass":1,
+		"kyeltziv_dobrynya_bomb":1.5,
+		"kyeltziv_dobrynya_shk":1.5,
+		"kyeltziv_dobrynya_sup":1.5,
+
+		"kyeltziv_paimen_cbt":0.5,
+		"kyeltziv_paimen_sup":1,
+
+		"kyeltziv_yinglong_ex_attack":3,
+		"kyeltziv_yinglong_ex_cs":1.5,
+		"kyeltziv_yinglong_ex_stk":3.5,
+		"kyeltziv_yinglong_ex_sup":2,
+		"kyeltziv_yinglong_ex_attack2":0, #PL
+		"kyeltziv_yinglong_ex_sup2":0, #PL
+
+		"kyeltziv_prochnyi_esc":1,
+
+		"kyeltziv_paistaa_ass":3,
+		"kyeltziv_paistaa_stk":1,
+		"kyeltziv_paistaa_sup":3,
+
+	},
+	"carrierMedium":{
+		"kyeltziv_bystro_attack":3,
+		"kyeltziv_bystro_cs":2,
+		"kyeltziv_bystro_strike":3,
+		"kyeltziv_bystro_support":2,
+	},
+	"carrierLarge":{
+		"kyeltziv_narva_attack":3.5,
+		"kyeltziv_narva_cs":1.5,
+		"kyeltziv_narva_strike":3,
+		"kyeltziv_narva_support":2,
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"kyeltziv_peikko_ass":3.5,
+		"kyeltziv_peikko_shk":3,
+		"kyeltziv_peikko_stk":3.5,
+
+		"kyeltziv_peikko_sym_shk":2.5,
+		"kyeltziv_peikko_sym_stk":2.5,
+	},
+	"phaseMedium":{
+		"kyeltziv_katsoja_ass":3.3,
+		"kyeltziv_katsoja_shk":2.4,
+		"kyeltziv_katsoja_stk":3.3,
+		"kyeltziv_katsoja_sup":1,
+	},
+
+	"freighterSmall":{
+		"kyeltziv_paimen_logi":4,
+		"kyeltziv_tarsus_std":10,
+	},
+
+	"tankerSmall":{
+		"kyeltziv_paimen_logi":4,
+	},
+
+	"tankerMedium":{
+		"kyeltziv_phaeton_std":10,
+	},
+
+	"personnelMedium":{
+		"kyeltziv_valkyrie_std":10,
+	},
+}

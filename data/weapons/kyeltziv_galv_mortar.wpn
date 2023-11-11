@@ -1,0 +1,31 @@
+{
+	"id":"kyeltziv_galv_mortar",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"SMALL",
+	"displayArcRadius":400,
+	"turretSprite":"graphics/weapons/kyeltziv_lightGalvanicHowitzer_turret_base.png",
+	"turretGunSprite":"graphics/weapons/kyeltziv_lightGalvanicHowitzer_turret_recoil.png",
+	"turretGlowSprite":"graphics/weapons/kyeltziv_lightGalvanicHowitzer_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_galvanic_mortar_base.png",
+	"hardpointGunSprite":"graphics/weapons/kyeltziv_galvanic_mortar_recoil.png",
+	"hardpointGlowSprite":"graphics/weapons/kyeltziv_galvanic_mortar_glow.png",
+	"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"glowColor":[100,240,50,255],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":25.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":16.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.4,
+					   "particleCount":12,
+					  "particleColor":[80,192,40,255]},
+	"projectileSpecId":"kyeltziv_light_galv_shot",  # projectile that will be fired
+	"fireSoundTwo":"kyeltziv_light_galvanic_fire",	
+}

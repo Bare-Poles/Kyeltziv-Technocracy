@@ -1,0 +1,100 @@
+{
+  "hullName": "Vahlia",
+  "hullId": "kyeltziv_vahlia",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/strikecraft/kyeltziv_vahlia.png",
+  "style": "MIDLINE",
+  "height": 66,
+  "width": 42,
+  "center": [21, 29],
+  "collisionRadius": 37,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 36,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps",
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_assCorvCore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 90,
+      "locations": [-2, 14]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -90,
+      "locations": [-2, -14]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 70,
+      "locations": [5, 15]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -70,
+      "locations": [5, -15]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, 0],
+      "length": 44,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, 7],
+      "length": 24,
+      "width": 6,
+      "angle": 175,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, -7],
+      "length": 24,
+      "width": 6,
+      "angle": -175,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    25, -9,
+    -2, -19,
+    -24, -6,
+    -24, 6,
+    -2, 19,
+    28, 7
+  ]
+}

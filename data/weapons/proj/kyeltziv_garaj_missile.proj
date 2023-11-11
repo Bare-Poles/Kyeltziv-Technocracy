@@ -1,0 +1,38 @@
+{
+	"id":"kyeltziv_garaj_missile",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+
+	"onHitEffect":"org.amazigh.kyeltziv.scripts.kyeltziv_GarajOnHitEffect",
+
+	"sprite":"graphics/missiles/kyeltziv_garaj.png",
+	"size":[16,32],
+	"center":[8,16],
+	"collisionRadius":18,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[105,155,125,255],  # 245,150,100,255
+	"explosionRadius":200, # purely visual
+	"engineSpec":{"turnAcc":220,
+				  "turnRate":75,
+				  "acc":1000,
+				  "dec":500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-15, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[205,175,75,255],
+						"contrailDuration":2.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":.0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":.5, # how far away from engine it starts
+						"contrailColor":[100,100,100,150],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":16.0,
+				    "length":60.0,
+				    "angle":180.0}]				    
+}

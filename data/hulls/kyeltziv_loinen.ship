@@ -1,0 +1,52 @@
+{
+  "hullName": "Loinen",
+  "hullId": "kyeltziv_loinen",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_loinen.png",
+  "style": "MIDLINE",
+  "height": 30,
+  "width": 20,
+  "center": [10, 14],
+  "collisionRadius": 16,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 16,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 6],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-13, -6],
+      "length": 18,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    8, 6,
+    9, -7,
+    -12, -7,
+    -12, 7
+  ]
+}

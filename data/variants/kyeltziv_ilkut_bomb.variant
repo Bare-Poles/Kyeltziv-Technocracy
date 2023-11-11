@@ -1,0 +1,63 @@
+{
+  "variantId": "kyeltziv_ilkut_bomb",
+  "hullId": "kyeltziv_ilkut",
+  "displayName": "Bombardment",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 36,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_loader_siege",
+    "kyeltziv_pack_siege"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_galv_bombard"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "kyeltziv_galv_hwz",
+        "WS0003": "kyeltziv_galv_hwz"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "kyeltziv_vedha_battery",
+        "WS0005": "kyeltziv_vedha_pod",
+        "WS0006": "kyeltziv_vedha_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "kyeltziv_graviton_sweeper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "kyeltziv_stutter",
+        "WS0008": "kyeltziv_stutter",
+        "WS0009": "kyeltziv_stutter",
+        "WS0010": "kyeltziv_stutter",
+        "WS0011": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_stachys_wing"
+  ]
+}

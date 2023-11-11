@@ -1,0 +1,108 @@
+{
+  "hullName": "Ruslan (SYM)",
+  "hullId": "kyeltziv_ruslan_sym",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/symmetrist/kyeltziv_ruslan_sym.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 130,
+  "width": 72,
+  "center": [36, 54],
+  "collisionRadius": 82,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 81,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "kyeltziv_pack_slot"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_light_shock_driver_sym_l",
+    "WS0002": "kyeltziv_light_shock_driver_sym_r"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, 21]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52.5, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, 8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-47, -8],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-33, 21.5],
+      "length": 26,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-33, -21.5],
+      "length": 26,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    34, -14,
+    29, -30,
+    -22, -30,
+    -30, -14,
+    -45, -12,
+    -45, 12,
+    -30, 14,
+    -22, 30,
+    29, 30,
+    34, 14,
+    55, 12,
+    55, -12
+  ]
+}

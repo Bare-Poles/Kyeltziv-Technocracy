@@ -1,0 +1,55 @@
+{
+  "variantId": "kyeltziv_narva_strike",
+  "hullId": "kyeltziv_narva",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "kyeltziv_loader_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "kyeltziv_vedha_battery",
+        "WS0004": "kyeltziv_vedha_battery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_heavy_killCloud",
+        "WS0002": "kyeltziv_heavy_killCloud"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_light_discharger",
+        "WS0006": "kyeltziv_light_discharger",
+        "WS0007": "kyeltziv_light_discharger",
+        "WS0008": "kyeltziv_light_discharger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "kyeltziv_graviton_sweeper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_cynara_wing",
+    "kyeltziv_cynara_wing",
+    "kyeltziv_cynara_wing"
+  ]
+}

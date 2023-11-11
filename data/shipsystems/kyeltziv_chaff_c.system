@@ -1,0 +1,7 @@
+{
+	"id":"kyeltziv_chaff_c",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	"weaponDataId":"kyeltziv_chaff_cover",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

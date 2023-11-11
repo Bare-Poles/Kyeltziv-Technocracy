@@ -1,0 +1,182 @@
+{
+  "hullName": "Pyralid",
+  "hullId": "kyeltziv_pyralid",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/kyeltziv_pyralid.png",
+  "style": "MIDLINE",
+  "coversColor": "200,205,169,255",
+  "height": 258,
+  "width": 128,
+  "center": [64, 120],
+  "collisionRadius": 155,
+  "shieldCenter": [3, 0],
+  "shieldRadius": 152,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "kyeltziv_pack_slot"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_volley_driver"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [52.5, 44]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -30,
+      "locations": [75, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [31, -50]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -105,
+      "locations": [-7, -37]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 110,
+      "locations": [-13, 41]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-74, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [69, -56]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-34, 3]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-34, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-119, 19],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107, 36],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-107, -36],
+      "length": 45,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-119, -19],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-114, -0],
+      "length": 60,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    118, -36,
+    96, -60,
+    64, -56,
+    59, -42,
+    40, -49,
+    19, -50,
+    3, -43,
+    -12.5, -48,
+    -26.5, -35,
+    -62, -36,
+    -95, -47,
+    -106, -39,
+    -110, -27,
+    -117, -26,
+    -117, -12,
+    -111, -10,
+    -111, 10,
+    -117, 12,
+    -117, 26,
+    -110, 27,
+    -106, 39,
+    -95, 47,
+    -62, 36,
+    -49, 37,
+    -48, 52,
+    -31, 61,
+    22, 51,
+    29, 57,
+    80, 57,
+    84, 33,
+    109, 29,
+    96, 16,
+    108, -2
+  ]
+}

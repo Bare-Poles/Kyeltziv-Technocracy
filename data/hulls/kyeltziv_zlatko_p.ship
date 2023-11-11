@@ -1,0 +1,157 @@
+{
+  "hullName": "Zlatko (P)",
+  "hullId": "kyeltziv_zlatko_p",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/pirate/kyeltziv_zlatko_p.png",
+  "style": "MIDLINE",
+  "coversColor": "205,181,152,255",
+  "height": 206,
+  "width": 80,
+  "center": [41, 103],
+  "collisionRadius": 140,
+  "shieldCenter": [8, -0],
+  "shieldRadius": 131,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unstable_injector",
+    "augmentedengines",
+    "converted_hangar",
+    "kyeltziv_pirate_conversion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -80,
+      "locations": [30, -24]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-33, -20]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 120,
+      "locations": [-33, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [82, 32]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [83, -4]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        2, -0,
+        -8, -0
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 60,
+      "locations": [29, 32]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 120,
+      "locations": [5, 29]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -60,
+      "locations": [48, -25]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -120,
+      "locations": [-4, -33]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102, -0],
+      "length": 80,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, 14],
+      "length": 56,
+      "width": 12,
+      "angle": 177,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-89, -14],
+      "length": 56,
+      "width": 12,
+      "angle": -177,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    79, -25,
+    40, -26,
+    34, -32,
+    -36, -33,
+    -46, -19,
+    -87, -16,
+    -102, -0,
+    -87, 16,
+    -46, 19,
+    -36, 33,
+    35, 30,
+    56, 39,
+    79, 37
+  ]
+}

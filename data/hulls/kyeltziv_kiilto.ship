@@ -1,0 +1,136 @@
+{
+  "hullName": "Kiilto",
+  "hullId": "kyeltziv_kiilto",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/drones/kyeltziv_kiilto.png",
+  "style": "HIGH_TECH",
+  "height": 190,
+  "width": 84,
+  "center": [45, 99],
+  "collisionRadius": 115,
+  "shieldCenter": [2, -0],
+  "shieldRadius": 113,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders",
+    "automated"
+  ],
+  "builtInWeapons": {
+    "WS0001": "kyeltziv_light_shock_driver"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [30, 26]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -120,
+      "locations": [-33, -20]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 120,
+      "locations": [-33, 20]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [78, 1]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -30,
+      "locations": [27, -6]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -45,
+      "locations": [56, -19]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-7, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, 12],
+      "length": 42,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97, -12],
+      "length": 42,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98, 4],
+      "length": 54,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98, -4],
+      "length": 54,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    70, -25,
+    55.5, -27,
+    34, -36,
+    12, -26,
+    -2, -36,
+    -45, -33,
+    -55, -21,
+    -95, -17,
+    -95, 17,
+    -55, 21,
+    -45, 33,
+    56, 34,
+    69, 13,
+    80, 11
+  ]
+}

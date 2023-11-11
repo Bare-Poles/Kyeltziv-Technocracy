@@ -1,0 +1,33 @@
+{
+	"displayName": "Battlestation",
+	"fluxCapacitors": 0,
+	"fluxVents": 0,
+	"hullId": "kyeltziv_station_2",
+	"hullMods": [],
+	"quality": 0.5,
+	"variantId": "kyeltziv_station_2_standard",
+	"weaponGroups": [],
+	"modules": [
+	
+		# armour spurs
+		{"WS 003": "kyeltziv_station_blocker_standard"},
+		{"WS 004": "kyeltziv_station_blocker_standard"},
+
+		# hangar plates
+		{"WS 005": "kyeltziv_station_armour_small_standard"},
+		{"WS 006": "kyeltziv_station_armour_small_standard"},
+
+		# tip deco add-ons
+		{"WS 007": "kyeltziv_station_under_tip_standard"},
+		{"WS 008": "kyeltziv_station_under_tip_standard"},
+		
+		# end bastions
+		{"WS 009": "kyeltziv_station_module_end_lv2"},
+		{"WS 010": "kyeltziv_station_module_end_lv2"},
+		
+		# main modules
+		{"WS 001": "kyeltziv_station_module_main_lv2"},
+		{"WS 002": "kyeltziv_station_module_main_lv2"},
+		
+	],
+}

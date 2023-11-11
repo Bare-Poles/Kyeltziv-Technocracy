@@ -1,0 +1,30 @@
+{
+  "variantId": "kyeltziv_vahlia_fighter",
+  "hullId": "kyeltziv_vahlia",
+  "displayName": "Assault Corvette",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_packet_light"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_shock_avtomat",
+        "WS0003": "kyeltziv_shock_avtomat"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

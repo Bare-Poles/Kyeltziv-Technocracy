@@ -1,0 +1,46 @@
+{
+  "hullName": "Targeting Drone Platform",
+  "hullId": "kyeltziv_stationTargetingDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_stationTargetingDrone.png",
+  "style": "MIDLINE",
+  "height": 36,
+  "width": 36,
+  "center": [18, 22],
+  "collisionRadius": 24,
+  "shieldCenter": [-1, -0],
+  "shieldRadius": 23,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_fighterWeps",
+    "pointdefenseai"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 30,
+      "locations": [-2.5, 2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, -0],
+      "length": 12,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -14, -0,
+    1, 15,
+    12, -0,
+    1, -15
+  ]
+}

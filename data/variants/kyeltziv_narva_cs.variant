@@ -1,0 +1,62 @@
+{
+  "variantId": "kyeltziv_narva_cs",
+  "hullId": "kyeltziv_narva",
+  "displayName": "Close Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "kyeltziv_pack_supp",
+    "kyeltziv_loader_supp"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "kyeltziv_garaj",
+        "WS0004": "kyeltziv_garaj"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_fusionHoufnice",
+        "WS0002": "kyeltziv_fusionHoufnice"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kyeltziv_esp_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "kyeltziv_light_discharger",
+        "WS0007": "kyeltziv_light_discharger",
+        "WS0008": "kyeltziv_light_discharger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "kyeltziv_smart_blaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "kyeltziv_wolffia_wing",
+    "kyeltziv_solanum_wing",
+    "kyeltziv_pereskia_wing"
+  ]
+}

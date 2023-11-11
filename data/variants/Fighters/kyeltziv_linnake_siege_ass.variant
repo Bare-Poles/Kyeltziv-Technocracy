@@ -1,0 +1,40 @@
+{
+  "variantId": "kyeltziv_linnake_siege_ass",
+  "hullId": "kyeltziv_linnake_siege",
+  "displayName": "Gun Platform",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "kyeltziv_loader_ass"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_fusionHoufnice_plat"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_light_galv_hwz",
+        "WS0003": "kyeltziv_light_galv_hwz"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "kyeltziv_shock_avtomat",
+        "WS0005": "kyeltziv_shock_avtomat"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

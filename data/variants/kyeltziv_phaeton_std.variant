@@ -1,0 +1,33 @@
+{
+  "variantId": "kyeltziv_phaeton_std",
+  "hullId": "kyeltziv_phaeton",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "auxiliary_fuel_tanks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "kyeltziv_light_galv_hwz"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "kyeltziv_light_discharger",
+        "WS 003": "kyeltziv_light_discharger",
+        "WS 004": "kyeltziv_stutter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

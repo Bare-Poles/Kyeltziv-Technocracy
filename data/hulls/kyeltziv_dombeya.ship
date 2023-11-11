@@ -1,0 +1,100 @@
+{
+  "hullName": "Dombeya",
+  "hullId": "kyeltziv_dombeya",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/strikecraft/kyeltziv_dombeya.png",
+  "style": "MIDLINE",
+  "height": 60,
+  "width": 48,
+  "center": [24, 29],
+  "collisionRadius": 37,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 36,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_fighterWeps",
+    "kyeltziv_rangefinders_fighter",
+    "kyeltziv_assCorvCore"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [11, 15]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [11, -15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 90,
+      "locations": [-3, 20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -90,
+      "locations": [-3, -20]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, 0],
+      "length": 44,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, 9],
+      "length": 28,
+      "width": 8,
+      "angle": 175,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-24, -9],
+      "length": 28,
+      "width": 8,
+      "angle": -175,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    27, -7,
+    -3, -19,
+    -24, -8,
+    -24, 8,
+    -3, 19,
+    27, 7
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "designTypeColors":{
+        "Kyeltziv Technocracy":[197,207,169,255],
+    },
+    "graphics":{
+        "blueprint_packages":{
+            "kyeltziv_ship_package":"graphics/icons/cargo/kyeltziv_ship_package.png",
+            "kyeltziv_fighter_package":"graphics/icons/cargo/kyeltziv_fighter_package.png",
+            "kyeltziv_weapon_package":"graphics/icons/cargo/kyeltziv_weapon_package.png",
+            "kyeltziv_exp_package":"graphics/icons/cargo/kyeltziv_exp_package.png",
+        },
+	"misc":{
+		"kyeltziv_rangefinders_icon":"graphics/icons/hullsys/kyeltziv_rangefinder.png",
+	},
+    },
+}

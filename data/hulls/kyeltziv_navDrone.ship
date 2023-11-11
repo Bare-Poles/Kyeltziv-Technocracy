@@ -1,0 +1,52 @@
+{
+  "hullName": "Navigation Drone",
+  "hullId": "kyeltziv_navDrone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/kyeltziv_navDrone.png",
+  "style": "MIDLINE",
+  "height": 26,
+  "width": 24,
+  "center": [9, 11],
+  "collisionRadius": 16,
+  "shieldCenter": [1, -0],
+  "shieldRadius": 15,
+  "viewOffset": 0,
+  "builtInMods": [
+    "kyeltziv_rangefinders_fighter"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 12,
+      "angle": 0,
+      "locations": [6, 3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-9, 5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-9, -5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    4, 6,
+    4, -3,
+    -7, -6,
+    -7, 6
+  ]
+}

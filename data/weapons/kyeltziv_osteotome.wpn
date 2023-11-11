@@ -1,0 +1,31 @@
+{
+	"id":"kyeltziv_osteotome",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+
+	"everyFrameEffect": "org.amazigh.kyeltziv.scripts.kyeltziv_osteotomeWeaponScript",
+
+	"displayArcRadius":900,
+	"turretSprite":"graphics/weapons/kyeltziv_osteotome_base.png",
+	"turretGlowSprite":"graphics/weapons/kyeltziv_osteotome_glow.png",
+	"hardpointSprite":"graphics/weapons/kyeltziv_osteotome_base.png",
+	"hardpointGlowSprite":"graphics/weapons/kyeltziv_osteotome_glow.png",
+	"glowColor":[125,100,255,255],
+	"turretOffsets":[-4, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[9, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":100.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":2.0,
+					   "particleSizeMin":12.0,
+					   "particleSizeRange":8.0,
+					   "particleDuration":0.35,
+					   "particleCount":30,
+					   "particleColor":[125,100,255,255]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"kyeltziv_osteotome_slug",  # projectile that will be fired
+	"fireSoundTwo":"kyeltziv_osteotome_fire",
+}

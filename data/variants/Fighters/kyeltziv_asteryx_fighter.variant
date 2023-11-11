@@ -1,0 +1,29 @@
+{
+  "variantId": "kyeltziv_asteryx_fighter",
+  "hullId": "kyeltziv_asteryx",
+  "displayName": "Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "kyeltziv_shock_falconet"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "kyeltziv_tappi"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
