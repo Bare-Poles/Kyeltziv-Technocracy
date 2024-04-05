@@ -3,10 +3,10 @@
  "name": "Kyeltziv Technocracy",
  "author": "Amazigh",
 
- "version": {"major":1, "minor":10, "patch":0},
+ "version": {"major":1, "minor":10, "patch":3},
 
  "description": "A faction of advanced drone-heavy Midline-adjacent vessels.",
- "gameVersion": "0.96a-RC8",
+ "gameVersion": "0.97a-RC6",
 
  "modPlugin":"org.amazigh.kyeltziv.scripts.kyeltziv_ModPlugin",
  "jars":["jars/kyeltziv.jar"],

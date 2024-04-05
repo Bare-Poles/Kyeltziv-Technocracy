@@ -3,7 +3,7 @@
   "hullId": "kyeltziv_yinglong_ex",
   "displayName": "Attack",
   "goalVariant": false,
-  "fluxCapacitors": 0,
+  "fluxCapacitors": 2,
   "fluxVents": 8,
   "quality": 1,
   "permaMods": [],
@@ -17,23 +17,25 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "lightac",
         "WS0002": "gorgon",
-        "WS0003": "gorgon",
-        "WS0004": "pdlaser",
-        "WS0005": "pdlaser",
-        "WS0006": "pdlaser"
+        "WS0003": "gorgon"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "lightac"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
     }
   ],
   "modules": [],

@@ -1,10 +1,10 @@
 {
   "variantId": "kyeltziv_dazhbog_ex_stk2",
   "hullId": "kyeltziv_dazhbog_ex",
-  "displayName": "Assault",
+  "displayName": "Strike",
   "goalVariant": false,
-  "fluxCapacitors": 7,
-  "fluxVents": 20,
+  "fluxCapacitors": 15,
+  "fluxVents": 13,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

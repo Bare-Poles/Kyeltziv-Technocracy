@@ -3,8 +3,8 @@
   "hullId": "kyeltziv_xinzang_ex",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 10,
+  "fluxCapacitors": 7,
+  "fluxVents": 5,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

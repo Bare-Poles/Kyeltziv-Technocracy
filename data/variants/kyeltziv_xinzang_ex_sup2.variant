@@ -1,10 +1,10 @@
 {
   "variantId": "kyeltziv_xinzang_ex_sup2",
   "hullId": "kyeltziv_xinzang_ex",
-  "displayName": "False",
-  "goalVariant": true,
+  "displayName": "Support",
+  "goalVariant": false,
   "fluxCapacitors": 5,
-  "fluxVents": 10,
+  "fluxVents": 12,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

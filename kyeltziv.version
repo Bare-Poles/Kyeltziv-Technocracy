@@ -1,11 +1,11 @@
 {
-    "masterVersionFile":"https://raw.githubusercontent.com/Bare-Poles/A_S-F/main/A_S-F.version",
+    "masterVersionFile":"https://raw.githubusercontent.com/Bare-Poles/Kyeltziv-Technocracy/main/kyeltziv.version",
     "modName":"Kyeltziv Technocracy",
     "modThreadId":"22995",
     "modVersion":
     {
         "major":1,
         "minor":10,
-        "patch":"1"
+        "patch":"3"
     },
 }
