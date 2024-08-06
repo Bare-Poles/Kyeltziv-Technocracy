@@ -27,13 +27,13 @@ greetingKyeltzivNeutral,OpenCommLink,"$faction.id == kyeltziv
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
 FireAll PopulateOptions","""Fleet Ident Confirmed. Your fleet has been logged, do you have any business with the Technocracy?""
 OR
-""Drive Wake Logged. You are speaking to $PersonRank $personName of $theFaction Navy. State your buisness.""",,
+""Drive Wake Logged. You are speaking to $PersonRank $personName of $theFaction Navy. State your business.""",,
 ,,,,,,
 "# default commission conversation strings, copy and adjust this section for faction-specific conversation flavor",,,,,,
 CMSNTextRejectHostile_Kyeltziv,CMSNTextRejectHostile,$faction.id == kyeltziv,,"""Is this some kind of joke? If you really are $playerName then i question why a noncompliant would even initiate comms with me. Stop wasting my time and leave.""",,
 CMSNTextHasOther_Kyeltziv,CMSNTextHasOther,$faction.id == kyeltziv,,"""You're already commissioned by $theOtherCommissionFaction. The Kyeltziv charter strictly prohibits shared employment, solve this conflict of interest and we can talk.",,
 CMSNTextUnsuited_Kyeltziv,CMSNTextUnsuited,$faction.id == kyeltziv,,"""Data on file shows that you do not qualify for a commission currently.""",,
-CMSNTextSuitedPart1_Kyeltziv,CMSNTextSuitedPart1,$faction.id == kyeltziv,,"""Hmm, your file shows you meet the initial criteria to recieve a commission.
+CMSNTextSuitedPart1_Kyeltziv,CMSNTextSuitedPart1,$faction.id == kyeltziv,,"""Hmm, your file shows you meet the initial criteria to receive a commission.
 
 By accepting this commission you will be held responsible for upholding the charter by engaging in combat with any and all organisations that impede the work of the Kyeltziv Technocracy.
 
