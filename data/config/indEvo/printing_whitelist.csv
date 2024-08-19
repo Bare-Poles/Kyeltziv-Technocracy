@@ -2,7 +2,7 @@ id
 # NOTES
 # Ship IDs entered here will be allowed for duplication.
 "# This feature is very hard to get working in campaign as a player, and lorewise, allows for duplication of even the most complex hulls."
-
+""
 kyeltziv_vassily
 kyeltziv_ilya
 kyeltziv_dobrynya
@@ -16,7 +16,7 @@ kyeltziv_ruslan_sym
 kyeltziv_peikko_sym
 kyeltziv_vassily_p
 kyeltziv_ruslan_p
-
+""
 kyeltziv_perun
 kyeltziv_dazhbog
 kyeltziv_yinglong
@@ -38,14 +38,14 @@ kyeltziv_prochnyi
 kyeltziv_perun_p
 kyeltziv_zlatko_p
 kyeltziv_khoronit
-
+""
 kyeltziv_podenka
 kyeltziv_bystro
 kyeltziv_strekoza
 kyeltziv_pyralid
 kyeltziv_podenka_sym
 kyeltziv_podenka_ex
-
+""
 kyeltziv_ilkut
 kyeltziv_narva
-
+""
