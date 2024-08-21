@@ -2,7 +2,7 @@ id
 # NOTES
 # Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
 # Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
-
+""
 kyeltziv_vassily
 kyeltziv_ilya
 kyeltziv_dobrynya
@@ -16,7 +16,7 @@ kyeltziv_ruslan_sym
 kyeltziv_peikko_sym
 kyeltziv_vassily_p
 kyeltziv_ruslan_p
-
+""
 kyeltziv_perun
 kyeltziv_dazhbog
 kyeltziv_yinglong
@@ -37,14 +37,14 @@ kyeltziv_paistaa
 kyeltziv_prochnyi
 kyeltziv_perun_p
 kyeltziv_zlatko_p
-
+""
 kyeltziv_podenka
 kyeltziv_bystro
 kyeltziv_strekoza
 kyeltziv_pyralid
 kyeltziv_podenka_sym
 kyeltziv_podenka_ex
-
+""
 kyeltziv_ilkut
 kyeltziv_narva
-
+""
