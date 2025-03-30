@@ -3,7 +3,7 @@
   "hullId": "kyeltziv_kiilto",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 6,
+  "fluxCapacitors": 8,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],

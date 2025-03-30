@@ -1,9 +1,9 @@
 {
   "variantId": "kyeltziv_ilya_ex_ass2",
   "hullId": "kyeltziv_ilya_ex",
-  "displayName": "Strike",
+  "displayName": "Assault",
   "goalVariant": false,
-  "fluxCapacitors": 4,
+  "fluxCapacitors": 7,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],

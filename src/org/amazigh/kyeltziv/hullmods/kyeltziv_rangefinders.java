@@ -55,14 +55,17 @@ public class kyeltziv_rangefinders extends BaseHullMod {
 		boolean siege = false;
 		boolean assault = false;
 		
-		if (ship.getVariant().getHullMods().contains("kyeltziv_loader_siege")) {
-			rangeBonus *= 2f;
-			siege = true;
-		}
-		
-		if (ship.getVariant().getHullMods().contains("kyeltziv_pack_ass")) {
-			rangeBonus *= 0.5f;
-			 assault = true;
+
+		if (!Global.CODEX_TOOLTIP_MODE) {
+			if (ship.getVariant().getHullMods().contains("kyeltziv_loader_siege")) {
+				rangeBonus *= 2f;
+				siege = true;
+			}
+			
+			if (ship.getVariant().getHullMods().contains("kyeltziv_pack_ass")) {
+				rangeBonus *= 0.5f;
+				 assault = true;
+			}
 		}
 		
 		Color h = Misc.getHighlightColor();
@@ -70,7 +73,7 @@ public class kyeltziv_rangefinders extends BaseHullMod {
 		LabelAPI label = tooltip.addPara("Advanced rangefinding systems are mounted on this vessel increasing the range of ballistic weaponry by %s, but these rangefinders suffer interference from flux buildup reducing this bonus as flux levels increase, weapon range bonus drops off completely at full flux.", opad, h, "" + (int)rangeBonus + "");
 		label.setHighlight("" + (int)rangeBonus + "");
 		label.setHighlightColors(h);
-				
+		
 		if (siege) {
 			if (assault) {
 				label = tooltip.addPara("Both %s and %s have been isntalled, resulting in the standard Range Bonus.", opad, h, "Kyeltziv Siege Loader", "Kyeltziv Assault Package");

@@ -4,7 +4,7 @@
   "displayName": "Close Support",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 7,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,23 +16,25 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "lightag",
         "WS0002": "sabot",
-        "WS0003": "sabot",
-        "WS0004": "pdlaser",
-        "WS0005": "pdlaser",
-        "WS0006": "pdlaser"
+        "WS0003": "sabot"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "lightag"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
     }
   ],
   "modules": [],

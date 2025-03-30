@@ -1,121 +1,121 @@
-name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
-# [ Drones ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Targeting Drone,kyeltziv_targetingDrone,Drone,Kyeltziv Technocracy,,,160,25,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11001
-Spotter Drone,kyeltziv_spotterDrone,Drone,Kyeltziv Technocracy,,,160,25,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11002
-Piper Drone,kyeltziv_piperDrone,Drone,Kyeltziv Technocracy,,,220,40,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11003
-Navigation Drone,kyeltziv_navDrone,Drone,Kyeltziv Technocracy,,,150,25,100,,28,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11004
-Heavy Targeting Drone,kyeltziv_heavyTargetingDrone,Drone,Kyeltziv Technocracy,,,320,50,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11005
-Heavy Spotter Drone,kyeltziv_heavySpotterDrone,Drone,Kyeltziv Technocracy,,,320,50,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11006
-Heavy Piper Drone,kyeltziv_heavyPiperDrone,Drone,Kyeltziv Technocracy,,,440,80,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11007
-Kutittaa,kyeltziv_kutittaa,Gun Drone,Kyeltziv Technocracy,,,800,150,400,,160,,,160,200,200,120,200,60,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11008
-Loinen,kyeltziv_loinen,Gun Drone,Kyeltziv Technocracy,,,260,50,240,,60,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11009
-Lajeika,kyeltziv_lakeija,Combat Drone,Kyeltziv Technocracy,,,440,80,300,,75,,,120,130,160,90,150,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11010
-Sorkkia,kyeltziv_sorkkia,Combat Drone,Kyeltziv Technocracy,,,600,120,320,,80,,,110,120,150,90,150,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11011
-Raataja,kyeltziv_raataja,Salvor Drone,Kyeltziv Technocracy,,,300,60,240,,60,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11012
-PD Drone,kyeltziv_expPdDrone,Drone,Kyeltziv Technocracy,,,180,35,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11013
-Heavy PD Drone,kyeltziv_heavyExpPdDrone,Drone,Kyeltziv Technocracy,,,360,70,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11014
-Tuike,kyeltziv_tuike,Combat Drone,Remnant,,,480,120,400,,100,,,130,145,175,160,320,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11015
-Kohta,kyeltziv_kohta,Drone Platform,Remnant,,,650,120,600,,80,,,0,20,20,10,10,100,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11016
-Kiusa,kyeltziv_kiusa,Drone,Kyeltziv Technocracy,,,80,25,100,,50,,,240,480,480,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11017
-Laite,kyeltziv_laite,,Kyeltziv Technocracy,kyeltziv_vartija_2,,3000,600,2500,,400,,,220,400,300,60,90,240,FRONT,,140,0,1,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,,0.4,2,2,11018
-Vartija,kyeltziv_vartija,Combat Drone,Kyeltziv Technocracy,,,500,120,300,,75,,,220,400,300,90,150,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11019
-Vartio,kyeltziv_vartio,Combat Drone,Kyeltziv Technocracy,,,450,120,280,,60,,,200,350,250,90,150,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11020
-ELINT Drone,kyeltziv_symDrone,Drone,Kyeltziv Technocracy,,,200,30,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11021
-Heavy ELINT Drone,kyeltziv_heavySymDrone,Drone,Kyeltziv Technocracy,,,380,60,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11022
-Rail Drone,kyeltziv_railDrone,Gun Drone,Kyeltziv Technocracy,,,280,60,300,,50,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11023
-Linnake,kyeltziv_linnake_base,Gun Platform,Kyeltziv Technocracy,kyeltziv_kiusa_4,,1000,300,3000,,250,,,0,16,16,8,8,180,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0.5,2,2,11024
-Linnake,kyeltziv_linnake_assault,Gun Platform,Kyeltziv Technocracy,kyeltziv_bel_4,,1000,300,3000,,250,,,0,16,16,8,8,180,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0.5,2,2,11024.1
-Linnake,kyeltziv_linnake_siege,Gun Platform,Kyeltziv Technocracy,kyeltziv_culv_2,,1000,300,3000,,250,,,0,16,16,8,8,180,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0.5,2,2,11024.2
-Linnake,kyeltziv_linnake_supp,Gun Platform,Kyeltziv Technocracy,kyeltziv_kiusa_8,,1000,300,3000,,250,,,0,16,16,8,8,180,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0.5,2,2,11024.3
-Harmi,kyeltziv_belDrone,Missile Drone,Kyeltziv Technocracy,,,240,90,300,,80,,,160,320,320,120,240,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11025
-Vaiva,kyeltziv_culvDrone,Gun Drone,Kyeltziv Technocracy,,,180,60,300,,80,,,160,320,320,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11025
-Salpa,kyeltziv_salpa,Drone,Kyeltziv Technocracy,,,100,30,100,,50,,,220,440,440,180,360,6,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11026
-Suojus,kyeltziv_suojus,Combat Drone,Kyeltziv Technocracy,,,900,180,400,,140,,,150,200,200,120,200,60,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11027
-Spotter Drone Platform,kyeltziv_stationSpotterDrone,Drone,Kyeltziv Technocracy,,,500,400,400,,100,,,120,200,200,120,240,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11028
-Targeting Drone Platform,kyeltziv_stationTargetingDrone,Drone,Kyeltziv Technocracy,,,500,400,400,,100,,,120,200,200,120,240,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,,0,,,11029
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-# [ Fighters ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Stachys,kyeltziv_stachys,Interceptor Drone,Kyeltziv Technocracy,,,400,60,400,,100,,,350,520,420,160,320,12,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11101
-Cirsium,kyeltziv_cirsium,Interceptor Drone,Kyeltziv Technocracy,,,500,90,400,,100,,,300,450,400,160,320,15,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11102
-Ophrys,kyeltziv_ophrys,Interceptor Corvette,Kyeltziv Technocracy,,,1500,200,600,,150,,,200,400,300,120,240,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11103
-Asteryx,kyeltziv_asteryx,Fighter Drone,Kyeltziv Technocracy,,,550,120,400,,100,,,225,660,560,140,280,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11104
-Ilex,kyeltziv_ilex,Fighter Drone,Kyeltziv Technocracy,kyeltziv_chaff_c,,650,160,400,,100,,,180,360,300,90,180,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11104
-Vahlia,kyeltziv_vahlia,Assault Corvette,Kyeltziv Technocracy,kyeltziv_chaff_sing,,1800,240,600,,150,,,160,300,250,90,180,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11105
-Helianthus,kyeltziv_helianthus,Bomber Drone,Kyeltziv Technocracy,,,300,60,400,,100,,,180,320,200,80,200,15,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11106
-Cynara,kyeltziv_cynara,Strike Corvette,Kyeltziv Technocracy,,,1200,220,600,,150,,,140,280,200,75,150,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11107
-Pereskia,kyeltziv_pereskia,Support Drone,Kyeltziv Technocracy,,,400,80,400,,100,,,150,300,250,90,180,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11108
-Solanum,kyeltziv_solanum,Support Drone,Kyeltziv Technocracy,,,400,80,400,,100,,,150,300,250,90,180,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11109
-Wolffia,kyeltziv_wolffia,Support Corvette,Kyeltziv Technocracy,kyeltziv_kiusa_16,,1500,180,600,,150,,,150,300,250,75,150,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11110
-Salvage Pod,kyeltziv_salvage_drone,,Kyeltziv Technocracy,,,550,180,150,,100,0,,150,100,100,50,100,55,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11111
-Dombeya,kyeltziv_dombeya,Missile Corvette,Kyeltziv Technocracy,,,1800,240,600,,150,,,180,350,275,100,200,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11112
-Sokea,kyeltziv_sokea,Interceptor Drone,Remnant,,,200,20,120,,40,,,360,600,450,180,360,10,OMNI,,150,0,1,,,0,0,,,,,,,,,,,,,,,,0,,,11113
-Prinos,kyeltziv_prinos,Fighter Drone,Kyeltziv Technocracy,,,500,100,400,,100,,,200,400,300,90,180,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,0,,,11114
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-# [ Frigates ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Vassily,kyeltziv_vassily,Light Frigate,Kyeltziv Technocracy,kyeltziv_piperDrone_1,4,1000,300,2000,,120,45,,160,180,120,60,90,180,FRONT,,60,0.3,0.6,,,10,25,30,25,1,25,10,10000,8,10,240,0.25,3,3,,"kyeltziv_ship_bp, merc",,0.5,2,2,11201
-Ilya,kyeltziv_ilya,Frigate,Kyeltziv Technocracy,kyeltziv_VariableBooster,5,1500,350,2800,,160,55,,120,150,100,50,75,220,FRONT,,70,0.3,0.6,,,15,30,40,25,1,25,10,15000,8,10,240,0.25,4,4,,"kyeltziv_ship_bp, merc",,0.4,2,2,11202
-Dobrynya,kyeltziv_dobrynya,Drone Tender,Kyeltziv Technocracy,kyeltziv_kutittaa_1,5,1200,300,2400,,120,45,,100,140,90,50,75,220,FRONT,,70,0.4,0.7,,,15,30,40,25,1,25,10,16000,8,10,240,0.25,5,5,"CARRIER, COMBAT","rare_bp, merc",,0.4,2,2,11203
-Ruslan,kyeltziv_ruslan,Siege Frigate,Kyeltziv Technocracy,kyeltziv_spotterDrone_1,5,1200,300,2000,,120,30,,110,140,90,50,75,240,FRONT,,60,0.3,0.7,,,15,25,30,25,1,25,10,20000,10,15,240,0.25,5,5,,"rare_bp, merc",,0.4,2,2,11204
-Ilya (KE),kyeltziv_ilya_ex,Frigate,Kyeltziv Technocracy,kyeltziv_MonoBooster,5,1600,350,2800,,160,55,,120,150,100,50,75,220,FRONT,,70,0.3,0.6,,,15,30,40,25,1,25,10,15000,8,10,240,0.25,4,4,,"kyeltziv_exp_bp, ind, merc",,0.4,2,2,11205
-Peikko,kyeltziv_peikko,Phase Frigate,Kyeltziv Technocracy,kyeltziv_displacer,6,1400,500,2800,,280,50,,175,150,120,60,120,200,PHASE,phasecloak,90,,,0.05,0.05,10,15,25,40,1,40,10,25000,10,20,180,0.25,6,6,,"rare_bp, merc",,0.5,2,2,11206
-Lycaenid,kyeltziv_lycaenid,Frigate,Kyeltziv Technocracy,kyeltziv_vartio_2,5,1600,320,3400,,180,45,,130,160,110,50,75,200,FRONT,,140,0.25,0.5,,,15,30,35,25,1,25,10,18000,8,12,270,0.25,5,5,,"rare_bp, merc",0.9,0.4,2,2,11207
-Ilya (SYM),kyeltziv_ilya_sym,Frigate,Kyeltziv Technocracy,kyeltziv_VariableBooster,5,1500,350,2800,,170,50,,120,150,100,50,75,220,FRONT,,80,0.3,0.6,,,15,25,30,20,1,20,10,16000,8,10,240,0.25,4,4,HIDE_IN_CODEX,no_dealer,,0.4,2,2,11208
-Ruslan (SYM),kyeltziv_ruslan_sym,Siege Frigate,Kyeltziv Technocracy,kyeltziv_symDrone_2_r,6,1200,300,2000,,130,20,,115,140,90,50,75,240,FRONT,,70,0.3,0.6,,,15,20,20,20,1,20,10,22000,10,15,240,0.25,6,6,HIDE_IN_CODEX,no_dealer,,0.4,2,2,11209
-Peikko (SYM),kyeltziv_peikko_sym,Phase Frigate,Kyeltziv Technocracy,kyeltziv_displacer,6,1400,500,2800,,290,55,,175,150,120,60,120,220,PHASE,phasecloak,90,,,0.05,0.05,10,15,15,30,1,30,10,27500,10,20,180,0.25,6,6,HIDE_IN_CODEX,no_dealer,,0.5,2,2,11210
-Paimen,kyeltziv_paimen,Drone Tender,Kyeltziv Technocracy,kyeltziv_salpa_12,4,1200,280,2000,,120,25,,110,140,90,50,75,240,FRONT,,60,0.4,0.7,,,15,35,120,75,1,75,10,12000,8,20,240,0.25,3,3,"CARRIER, COMBAT","kyeltziv_ship_bp, merc",,0.5,2,2,11211
-Otkryt (KE),kyeltziv_otkryt_ex,Frigate,Kyeltziv Technocracy,kyeltziv_expPdDrone_1_o,5,1600,320,2800,,160,55,,120,150,100,50,75,220,FRONT,,70,0.3,0.6,,,15,30,35,25,1,25,10,16000,8,10,240,0.25,5,5,,"rare_bp, ind, merc",0.8,0.4,2,2,11212
-Vassily (P),kyeltziv_vassily_p,Light Frigate,Pirate,kyeltziv_infernium_pulse,3,1100,300,2000,,120,25,,165,200,100,65,100,180,FRONT,,60,0.4,0.8,,,10,20,20,30,1,30,10,8000,8,10,240,0.25,2,2,,rare_bp,,0.6,2,2,11201.1
-Ruslan (P),kyeltziv_ruslan_p,Shrapnel Frigate,Pirate,maneuveringjets,5,1300,300,2000,,120,20,,115,155,100,55,85,240,FRONT,,60,0.4,0.9,,,15,20,20,25,1,25,10,19000,10,15,240,0.25,4,4,,rare_bp,,0.5,2,2,11204.1
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-# [ Destroyers ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Perun,kyeltziv_perun,Light Destroyer,Kyeltziv Technocracy,kyeltziv_piperDrone_2,7,2500,550,3200,,220,80,,115,70,50,30,60,300,FRONT,,60,0.3,0.6,,,30,60,120,60,2,30,9,28000,5,12,360,0.25,6,6,,"kyeltziv_ship_bp, merc",,0.6,2,3,11301
-Dazhbog,kyeltziv_dazhbog,Destroyer,Kyeltziv Technocracy,kyeltziv_VariableBooster,10,3500,600,4000,,270,90,1,90,65,45,30,50,400,FRONT,,70,0.3,0.6,,,40,80,100,60,2,30,9,40000,5,12,360,0.25,9,9,,"kyeltziv_ship_bp, merc",,0.5,2,3,11302
-Yinglong,kyeltziv_yinglong,Carrier,Kyeltziv Technocracy,kyeltziv_loinen_4,11,3000,500,3000,,200,70,1,75,60,40,25,40,400,FRONT,,60,0.4,0.7,,,80,120,60,50,2,25,9,36000,5,15,360,0.25,10,10,CARRIER,"kyeltziv_ship_bp, merc",,0.5,2,3,11303
-Znatok,kyeltziv_znatok,Drone Tender,Kyeltziv Technocracy,kyeltziv_raataja,11,3000,500,3000,,200,55,1,80,65,45,25,45,420,FRONT,,60,0.4,0.6,,,60,100,240,120,2,60,9,40000,4,16,360,0.25,10,10,"CARRIER, COMBAT, NO_AUTO_ESCORT","kyeltziv_ship_bp, merc",,0.5,2,3,11304
-Valkyrie (KT),kyeltziv_valkyrie,Troop Transport,Kyeltziv Technocracy,kyeltziv_siren_flares,7,3000,450,2250,,150,50,,80,60,60,30,45,400,FRONT,,70,0.4,0.7,,,10,250,50,80,2,40,9,20000,5,20,360,0.25,5,5,"CIVILIAN, TRANSPORT","kyeltziv_ship_bp, merc",,0.5,2,3,11305
-Tarsus (KT),kyeltziv_tarsus,Freighter,Kyeltziv Technocracy,kyeltziv_mainburn,7,3750,450,1800,,125,45,,50,35,25,25,15,400,OMNI,,100,0.6,1,,,30,80,350,80,3,27,8,18000,5,25,420,0.25,3,3,"CIVILIAN, FREIGHTER","kyeltziv_ship_bp, merc",,0.5,2,3,11306
-Phaeton (KT),kyeltziv_phaeton,Tanker,Kyeltziv Technocracy,kyeltziv_chaff_d,7,1800,400,2000,,150,45,,50,30,20,25,15,400,OMNI,,70,0.5,1,,,10,20,20,800,2,400,8,22000,5,25,300,0.25,4,4,"CIVILIAN, TANKER","kyeltziv_ship_bp, merc",,0.75,3,4,11307
-Perun (KE),kyeltziv_perun_ex,Light Destroyer,Kyeltziv Technocracy,kyeltziv_expPdDrone_2_p,8,2700,550,3200,,220,80,,115,70,50,30,60,300,FRONT,,60,0.3,0.6,,,30,60,120,60,2,30,9,28000,5,12,360,0.25,6,6,,"kyeltziv_exp_bp, ind, merc",,0.6,2,3,11308
-Dazhbog (KE),kyeltziv_dazhbog_ex,Destroyer,Kyeltziv Technocracy,kyeltziv_MonoBooster,10,3700,600,4000,,270,90,1,90,65,45,30,50,400,FRONT,,70,0.3,0.6,,,40,80,100,60,2,30,9,40000,5,12,360,0.25,9,9,,"kyeltziv_exp_bp, ind, merc",,0.5,2,3,11309
-Xiezhi,kyeltziv_xiezhi,Siege Destroyer,Kyeltziv Technocracy,kyeltziv_spotterDrone_2,11,3000,550,3500,,250,65,,85,60,45,30,50,350,FRONT,,60,0.3,0.7,,,35,60,80,60,2,30,9,50000,5,15,360,0.25,10,10,,"rare_bp, merc, hist1t",,0.5,2,3,11310
-Xinzang,kyeltziv_xinzang,Artillery Destroyer,Kyeltziv Technocracy,kyeltziv_navDrone_2,11,3000,520,3000,,200,70,,85,60,45,30,50,350,FRONT,,60,0.3,0.7,,,35,60,80,60,2,30,9,50000,5,15,360,0.25,11,11,,"rare_bp, merc, hist1t",0.9,0.5,2,3,11311
-Kiilto,kyeltziv_kiilto,Droneship,Remnant,kyeltziv_tuike_2,11,3500,600,4500,,320,80,,85,75,50,30,50,380,FRONT,,80,0.3,0.6,,,0,0,60,60,2,30,10,60000,5,15,420,0.25,10,10,"UNBOARDABLE, HIDE_IN_CODEX","remnant, auto_rec",,0.5,2,3,11312
-Katsoja,kyeltziv_katsoja,Phase Destroyer,Kyeltziv Technocracy,kyeltziv_mine_strike,14,3250,800,4800,,480,95,,90,75,50,30,30,400,PHASE,phasecloak,90,,,0.05,0.04,25,50,60,80,2,40,9,120000,5,20,300,0.25,18,18,,"rare_bp, merc, hist2t",,0.5,2,3,11313
-Dazhbog (SYM),kyeltziv_dazhbog_sym,Destroyer,Kyeltziv Technocracy,kyeltziv_VariableBooster,10,3500,600,4200,,300,95,1,90,65,45,30,50,400,FRONT,,80,0.3,0.6,,,40,60,80,40,2,20,9,45000,5,12,360,0.25,9,9,HIDE_IN_CODEX,no_dealer,,0.5,2,3,11314
-Zlatko,kyeltziv_zlatko,Destroyer,Kyeltziv Technocracy,kyeltziv_suojus_2,11,3500,600,4000,,280,90,,90,65,45,30,50,400,FRONT,,100,0.25,0.6,,,40,80,100,60,2,30,9,42000,5,15,360,0.25,11,11,,"rare_bp, merc",0.9,0.5,2,3,11315
-Yinglong (KE),kyeltziv_yinglong_ex,Carrier,Kyeltziv Technocracy,kyeltziv_railDrones,11,3200,500,3000,,200,70,1,75,60,40,25,40,400,FRONT,,60,0.4,0.7,,,80,120,60,50,2,25,9,36000,5,15,360,0.25,10,10,CARRIER,"rare_bp, ind, merc",,0.5,2,3,11316
-Xinzang (KE),kyeltziv_xinzang_ex,Missile Destroyer,Kyeltziv Technocracy,fastmissileracks,11,3200,520,3000,,200,90,,85,60,45,30,50,350,FRONT,,60,0.3,0.6,,,35,60,80,60,2,30,9,50000,5,15,360,0.25,11,11,,"rare_bp, ind, merc",0.9,0.5,2,3,11317
-Paistaa,kyeltziv_paistaa,Droneship,Remnant,kyeltziv_drone_strike,11,3700,650,4000,,270,85,1,85,75,50,30,50,400,FRONT,,80,0.3,0.6,,,0,0,60,60,2,30,10,60000,5,15,420,0.25,10,10,"UNBOARDABLE, HIDE_IN_CODEX, CARRIER, COMBAT","remnant, auto_rec",,0.5,2,3,11318
-Prochnyi,kyeltziv_prochnyi,Platform tender,Kyeltziv Technocracy,kyeltziv_linnake_deploy,11,3000,500,3000,,200,60,,75,60,40,25,40,400,FRONT,,60,0.4,0.7,,,50,90,80,50,2,25,9,50000,5,20,360,0.25,11,11,,"rare_bp, merc, hist1t",0.9,0.5,2,3,11319
-Perun (P),kyeltziv_perun_p,Light Destroyer,Pirate,kyeltziv_canister_flak,7,2700,550,3200,,220,60,,125,80,55,35,65,300,FRONT,,60,0.4,0.8,,,30,50,100,60,2,30,9,26000,5,12,360,0.25,6,6,,rare_bp,,0.7,2,3,11301.1
-Zlatko (P),kyeltziv_zlatko_p,Destroyer,Pirate,flarelauncher,11,3800,600,4000,,280,70,,95,75,50,35,55,400,FRONT,,60,0.35,0.8,,,40,70,90,60,2,30,9,40000,5,15,360,0.25,10,10,"CARRIER, COMBAT, NO_AUTO_ESCORT",rare_bp,,0.6,2,3,11315.1
-Khoronit,kyeltziv_khoronit,Superdestroyer,Kyeltziv Technocracy,kyeltziv_disjunction,60,3600,750,6400,,600,85,,90,120,90,40,40,500,PHASE,phasecloak,90,,,0.04,0.04,20,60,180,100,1,100,10,800000,8,32,360,0.25,32,32,HIDE_IN_CODEX,"no_autofit, req_military, no_dealer",,0.5,2,3,11320
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-# [ Cruisers ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Podenka,kyeltziv_podenka,Light Cruiser,Kyeltziv Technocracy,kyeltziv_hPiperDrone_2,12,4500,850,8000,,360,130,,75,60,40,20,25,700,FRONT,,70,0.4,0.6,,,80,120,120,100,3,33,9,72000,4,12,480,0.25,13,13,,"kyeltziv_ship_bp, merc",,0.6,2,3,11401
-Bystro,kyeltziv_bystro,Carrier,Kyeltziv Technocracy,kyeltziv_lakeija_4,14,5500,900,7000,,320,105,2,45,45,35,15,20,1000,FRONT,,70,0.5,0.7,,,120,180,80,90,3,30,8,110000,3,12,480,0.25,20,20,"CARRIER, COMBAT","rare_bp, merc",,0.6,2,3,11402
-Strekoza,kyeltziv_strekoza,Cruiser,Kyeltziv Technocracy,kyeltziv_VariableBooster,15,6500,950,11000,,440,160,1,60,50,40,15,20,1100,FRONT,,70,0.4,0.6,,,120,150,100,90,3,30,8,120000,4,12,480,0.25,21,21,,"rare_bp, merc",,0.6,2,3,11403
-Pyralid,kyeltziv_pyralid,Siege Cruiser,Kyeltziv Technocracy,kyeltziv_hSpotterDrone_2,15,5500,950,10000,,400,100,,50,40,30,15,20,1100,FRONT,,60,0.4,0.7,,,100,150,150,100,3,33,8,120000,3,12,480,0.25,22,22,,"rare_bp, merc, hist2t",,0.6,2,3,11404
-Podenka (SYM),kyeltziv_podenka_sym,Light Cruiser,Kyeltziv Technocracy,kyeltziv_hSymDrone_4,13,4500,850,8000,,380,140,,75,60,40,20,25,750,FRONT,,80,0.4,0.6,,,80,90,90,75,3,25,9,75000,4,12,480,0.25,14,14,HIDE_IN_CODEX,no_dealer,,0.6,2,3,11405
-Podenka (KE),kyeltziv_podenka_ex,Light Cruiser,Kyeltziv Technocracy,kyeltziv_hExpPdDrone_2,12,4800,850,8000,,360,130,,75,60,40,20,25,700,FRONT,,70,0.4,0.6,,,80,120,120,100,3,33,9,72000,4,12,480,0.25,13,13,,"kyeltziv_exp_bp, ind, merc",,0.6,2,3,11406
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-# [ Capitals ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ilkut,kyeltziv_ilkut,Battlecruiser,Kyeltziv Technocracy,kyeltziv_hPiperDrone_4,22,10000,1300,16000,,700,240,1,50,32,25,9,10,2400,FRONT,,70,0.5,0.7,,,240,320,300,300,10,30,8,250000,3,15,600,0.25,35,35,"CARRIER, COMBAT, NO_AUTO_ESCORT","rare_bp, merc, hist3t",,0.6,2,4,11501
-Narva,kyeltziv_narva,Carrier,Kyeltziv Technocracy,kyeltziv_sorkkia_4,25,9000,1200,14000,,550,235,3,40,25,15,8,8,2500,FRONT,,70,0.6,0.7,,,320,640,250,250,10,25,8,300000,3,15,600,0.25,40,40,CARRIER,"rare_bp, merc, hist3t",0.9,0.6,2,4,11502
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-# [ Station ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Orbital Station,kyeltziv_station_1,Orbital Station,,,100,36000,1750,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,11601
-Battlestation,kyeltziv_station_2,Battlestation,,,200,72000,2200,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,11602
-Star Fortress,kyeltziv_station_3,Star Fortress,,kyeltziv_drone_station,400,145000,2750,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,11603
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,kyeltziv_station_module_main,Heavy Combat Module,,kyeltziv_stSpotter_2,1,45000,2000,30000,31250,1200,1000,1,0,0,0,10,10,3500,FRONT,,90,0.4,0.9,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC",,,0.5,2,4,11604
-,kyeltziv_station_module_main_3,Heavy Combat Module,,kyeltziv_stSpotter_3,1,45000,2000,30000,31250,1200,1000,1,0,0,0,10,10,3500,FRONT,,90,0.4,0.9,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC",,,0.5,2,4,11604.1
-,kyeltziv_station_module_end,Light Support Module,,kyeltziv_stTargeting,1,12000,1650,10000,10000,400,1000,1,0,0,0,10,10,240,FRONT,,220,0.4,0.9,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC",,,1,2,2,11605
-,kyeltziv_station_module_end_3,Light Support Module,,kyeltziv_stTargeting,1,12000,1650,10000,10000,400,1000,1,0,0,0,10,10,240,FRONT,,220,0.4,0.9,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC",,,1,2,2,11605.1
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,kyeltziv_station_blocker,Station Structural Spur,,,1,4500,1650,1000,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3,11606
-,kyeltziv_station_armour_small,Station Armour,,,1,4500,1650,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,3,11607
-,kyeltziv_station_armour_large,Station Armour,,,1,8000,1650,0,2500,100,0,,0,0,0,10,10,400,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,3,11608
-,kyeltziv_station_armour_large2,Station Armour,,,1,8500,1650,0,2500,100,0,,0,0,0,10,10,400,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",module_hull_bar_only,,1,2,3,11608.1
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,kyeltziv_station_under_tip,Station Extension,,,1,4500,1650,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3,11609
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,logistics n/a reason,rarity,breakProb,minPieces,maxPieces,number
+# [ Drones ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Targeting Drone,kyeltziv_targetingDrone,Drone,Kyeltziv Technocracy,,,160,25,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11001
+Spotter Drone,kyeltziv_spotterDrone,Drone,Kyeltziv Technocracy,,,160,25,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11002
+Piper Drone,kyeltziv_piperDrone,Drone,Kyeltziv Technocracy,,,220,40,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11003
+Navigation Drone,kyeltziv_navDrone,Drone,Kyeltziv Technocracy,,,150,25,100,,28,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11004
+Heavy Targeting Drone,kyeltziv_heavyTargetingDrone,Drone,Kyeltziv Technocracy,,,320,50,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11005
+Heavy Spotter Drone,kyeltziv_heavySpotterDrone,Drone,Kyeltziv Technocracy,,,320,50,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11006
+Heavy Piper Drone,kyeltziv_heavyPiperDrone,Drone,Kyeltziv Technocracy,,,440,80,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11007
+Kutittaa,kyeltziv_kutittaa,Gun Drone,Kyeltziv Technocracy,,,800,150,400,,160,,,160,200,200,120,200,60,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11008
+Loinen,kyeltziv_loinen,Gun Drone,Kyeltziv Technocracy,,,260,50,240,,60,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11009
+Lajeika,kyeltziv_lakeija,Combat Drone,Kyeltziv Technocracy,,,440,80,300,,75,,,120,130,160,90,150,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11010
+Sorkkia,kyeltziv_sorkkia,Combat Drone,Kyeltziv Technocracy,,,600,120,320,,80,,,110,120,150,90,150,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11011
+Raataja,kyeltziv_raataja,Salvor Drone,Kyeltziv Technocracy,,,300,60,240,,60,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11012
+PD Drone,kyeltziv_expPdDrone,Drone,Kyeltziv Technocracy,,,180,35,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11013
+Heavy PD Drone,kyeltziv_heavyExpPdDrone,Drone,Kyeltziv Technocracy,,,360,70,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11014
+Tuike,kyeltziv_tuike,Combat Drone,Remnant,,,480,120,400,,100,,,130,145,175,160,320,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11015
+Kohta,kyeltziv_kohta,Drone Platform,Remnant,,,650,120,600,,80,,,0,20,20,10,10,100,FRONT,,360,0,1,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,Not available (drone),,0,,,11016
+Kiusa,kyeltziv_kiusa,Drone,Kyeltziv Technocracy,,,80,25,100,,50,,,240,480,480,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11017
+Laite,kyeltziv_laite,,Kyeltziv Technocracy,kyeltziv_vartija_2,,3000,600,2500,,400,,,220,400,300,60,90,240,FRONT,,140,0,1,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0.4,2,2,11018
+Vartija,kyeltziv_vartija,Combat Drone,Kyeltziv Technocracy,,,500,120,300,,75,,,220,400,300,90,150,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11019
+Vartio,kyeltziv_vartio,Combat Drone,Kyeltziv Technocracy,,,450,120,280,,60,,,200,350,250,90,150,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11020
+ELINT Drone,kyeltziv_symDrone,Drone,Kyeltziv Technocracy,,,200,30,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11021
+Heavy ELINT Drone,kyeltziv_heavySymDrone,Drone,Kyeltziv Technocracy,,,380,60,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11022
+Rail Drone,kyeltziv_railDrone,Gun Drone,Kyeltziv Technocracy,,,280,60,300,,50,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11023
+Linnake,kyeltziv_linnake_base,Gun Platform,Kyeltziv Technocracy,kyeltziv_kiusa_4,,1000,300,3000,,250,,,0,16,16,8,8,180,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,Not available (drone),,0.5,2,2,11024
+Linnake,kyeltziv_linnake_assault,Gun Platform,Kyeltziv Technocracy,kyeltziv_bel_4,,1000,300,3000,,250,,,0,16,16,8,8,180,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,Not available (drone),,0.5,2,2,11024.1
+Linnake,kyeltziv_linnake_siege,Gun Platform,Kyeltziv Technocracy,kyeltziv_culv_2,,1000,300,3000,,250,,,0,16,16,8,8,180,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,Not available (drone),,0.5,2,2,11024.2
+Linnake,kyeltziv_linnake_supp,Gun Platform,Kyeltziv Technocracy,kyeltziv_kiusa_8,,1000,300,3000,,250,,,0,16,16,8,8,180,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,Not available (drone),,0.5,2,2,11024.3
+Harmi,kyeltziv_belDrone,Missile Drone,Kyeltziv Technocracy,,,240,90,300,,80,,,160,320,320,120,240,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,Not available (drone),,0,,,11025
+Vaiva,kyeltziv_culvDrone,Gun Drone,Kyeltziv Technocracy,,,180,60,300,,80,,,160,320,320,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,HIDE_IN_CODEX,,Not available (drone),,0,,,11025
+Salpa,kyeltziv_salpa,Drone,Kyeltziv Technocracy,,,100,30,100,,50,,,220,440,440,180,360,6,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11026
+Suojus,kyeltziv_suojus,Combat Drone,Kyeltziv Technocracy,,,900,180,400,,140,,,150,200,200,120,200,60,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11027
+Spotter Drone Platform,kyeltziv_stationSpotterDrone,Drone,Kyeltziv Technocracy,,,500,400,400,,100,,,120,200,200,120,240,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11028
+Targeting Drone Platform,kyeltziv_stationTargetingDrone,Drone,Kyeltziv Technocracy,,,500,400,400,,100,,,120,200,200,120,240,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11029
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# [ Fighters ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stachys,kyeltziv_stachys,Interceptor Drone,Kyeltziv Technocracy,,,400,60,400,,100,,,350,520,420,160,320,12,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11101
+Cirsium,kyeltziv_cirsium,Interceptor Drone,Kyeltziv Technocracy,,,500,90,400,,100,,,300,450,400,160,320,15,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11102
+Ophrys,kyeltziv_ophrys,Interceptor Corvette,Kyeltziv Technocracy,,,1500,200,600,,150,,,200,400,300,120,240,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11103
+Asteryx,kyeltziv_asteryx,Fighter Drone,Kyeltziv Technocracy,,,550,120,400,,100,,,225,660,560,140,280,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11104
+Ilex,kyeltziv_ilex,Fighter Drone,Kyeltziv Technocracy,kyeltziv_chaff_c,,650,160,400,,100,,,180,360,300,90,180,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11104
+Vahlia,kyeltziv_vahlia,Assault Corvette,Kyeltziv Technocracy,kyeltziv_chaff_sing,,1800,240,600,,150,,,160,300,250,90,180,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11105
+Helianthus,kyeltziv_helianthus,Bomber Drone,Kyeltziv Technocracy,,,300,60,400,,100,,,180,320,200,80,200,15,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11106
+Cynara,kyeltziv_cynara,Strike Corvette,Kyeltziv Technocracy,,,1200,220,600,,150,,,140,280,200,75,150,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11107
+Pereskia,kyeltziv_pereskia,Support Drone,Kyeltziv Technocracy,,,400,80,400,,100,,,150,300,250,90,180,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11108
+Solanum,kyeltziv_solanum,Support Drone,Kyeltziv Technocracy,,,400,80,400,,100,,,150,300,250,90,180,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11109
+Wolffia,kyeltziv_wolffia,Support Corvette,Kyeltziv Technocracy,kyeltziv_kiusa_16,,1500,180,600,,150,,,150,300,250,75,150,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11110
+Salvage Pod,kyeltziv_salvage_drone,,Kyeltziv Technocracy,,,550,180,150,,100,0,,150,100,100,50,100,55,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11111
+Dombeya,kyeltziv_dombeya,Missile Corvette,Kyeltziv Technocracy,,,1800,240,600,,150,,,180,350,275,100,200,80,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11112
+Sokea,kyeltziv_sokea,Interceptor Drone,Remnant,,,200,20,120,,40,,,360,600,450,180,360,10,OMNI,,150,0,1,,,0,0,,,,,,,,,,,,,,,,,0,,,11113
+Prinos,kyeltziv_prinos,Fighter Drone,Kyeltziv Technocracy,,,500,100,400,,100,,,200,400,300,90,180,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,0,,,11114
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# [ Frigates ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vassily,kyeltziv_vassily,Light Frigate,Kyeltziv Technocracy,kyeltziv_piperDrone_1,4,1000,300,2000,,120,45,,160,180,120,60,90,180,FRONT,,60,0.3,0.6,,,10,25,30,25,1,25,10,10000,8,10,240,0.25,3,3,,"kyeltziv_ship_bp, merc",,,0.5,2,2,11201
+Ilya,kyeltziv_ilya,Frigate,Kyeltziv Technocracy,kyeltziv_VariableBooster,5,1500,350,2800,,160,55,,120,150,100,50,75,220,FRONT,,70,0.3,0.6,,,15,30,40,25,1,25,10,15000,8,10,240,0.25,4,4,,"kyeltziv_ship_bp, merc",,,0.4,2,2,11202
+Dobrynya,kyeltziv_dobrynya,Drone Tender,Kyeltziv Technocracy,kyeltziv_kutittaa_1,5,1200,300,2400,,120,45,,100,140,90,50,75,220,FRONT,,70,0.4,0.7,,,15,30,40,25,1,25,10,16000,8,10,240,0.25,5,5,"CARRIER, COMBAT","rare_bp, merc",,,0.4,2,2,11203
+Ruslan,kyeltziv_ruslan,Siege Frigate,Kyeltziv Technocracy,kyeltziv_spotterDrone_1,5,1200,300,2000,,120,30,,110,140,90,50,75,240,FRONT,,60,0.3,0.7,,,15,25,30,25,1,25,10,20000,10,15,240,0.25,5,5,,"rare_bp, merc",,,0.4,2,2,11204
+Ilya (KE),kyeltziv_ilya_ex,Frigate,Kyeltziv Technocracy,kyeltziv_MonoBooster,5,1600,350,2800,,160,55,,120,150,100,50,75,220,FRONT,,70,0.3,0.6,,,15,30,40,25,1,25,10,15000,8,10,240,0.25,4,4,,"kyeltziv_exp_bp, ind, merc",,,0.4,2,2,11205
+Peikko,kyeltziv_peikko,Phase Frigate,Kyeltziv Technocracy,kyeltziv_displacer,6,1400,500,2800,,280,50,,175,150,120,60,120,200,PHASE,phasecloak,90,,,0.05,0.05,10,15,25,40,1,40,10,25000,10,20,180,0.25,6,6,,"rare_bp, merc",,,0.5,2,2,11206
+Lycaenid,kyeltziv_lycaenid,Frigate,Kyeltziv Technocracy,kyeltziv_vartio_2,5,1600,320,3400,,180,45,,130,160,110,50,75,200,FRONT,,140,0.25,0.5,,,15,30,35,25,1,25,10,18000,8,12,270,0.25,5,5,,"rare_bp, merc",,0.9,0.4,2,2,11207
+Ilya (SYM),kyeltziv_ilya_sym,Frigate,Kyeltziv Technocracy,kyeltziv_VariableBooster,5,1500,350,2800,,170,50,,120,150,100,50,75,220,FRONT,,80,0.3,0.6,,,15,25,30,20,1,20,10,16000,8,10,240,0.25,4,4,,"no_dealer, codex_unlockable",,,0.4,2,2,11208
+Ruslan (SYM),kyeltziv_ruslan_sym,Siege Frigate,Kyeltziv Technocracy,kyeltziv_symDrone_2_r,6,1200,300,2000,,130,20,,115,140,90,50,75,240,FRONT,,70,0.3,0.6,,,15,20,20,20,1,20,10,22000,10,15,240,0.25,6,6,,"no_dealer, codex_unlockable",,,0.4,2,2,11209
+Peikko (SYM),kyeltziv_peikko_sym,Phase Frigate,Kyeltziv Technocracy,kyeltziv_displacer,6,1400,500,2800,,290,55,,175,150,120,60,120,220,PHASE,phasecloak,90,,,0.05,0.05,10,15,15,30,1,30,10,27500,10,20,180,0.25,6,6,,"no_dealer, codex_unlockable",,,0.5,2,2,11210
+Paimen,kyeltziv_paimen,Drone Tender,Kyeltziv Technocracy,kyeltziv_salpa_12,4,1200,280,2000,,120,25,,110,140,90,50,75,240,FRONT,,60,0.4,0.7,,,15,35,120,75,1,75,10,12000,8,20,240,0.25,3,3,"CARRIER, COMBAT","kyeltziv_ship_bp, merc",,,0.5,2,2,11211
+Otkryt (KE),kyeltziv_otkryt_ex,Frigate,Kyeltziv Technocracy,kyeltziv_expPdDrone_1_o,5,1600,320,2800,,160,55,,120,150,100,50,75,220,FRONT,,70,0.3,0.6,,,15,30,35,25,1,25,10,16000,8,10,240,0.25,5,5,,"rare_bp, ind, merc",,0.8,0.4,2,2,11212
+Vassily (P),kyeltziv_vassily_p,Light Frigate,Pirate,kyeltziv_infernium_pulse,3,1100,300,2000,,120,25,,165,200,100,65,100,180,FRONT,,60,0.4,0.8,,,10,20,20,30,1,30,10,8000,8,10,240,0.25,2,2,,rare_bp,,,0.6,2,2,11201.1
+Ruslan (P),kyeltziv_ruslan_p,Shrapnel Frigate,Pirate,maneuveringjets,5,1300,300,2000,,120,20,,115,155,100,55,85,240,FRONT,,60,0.4,0.9,,,15,20,20,25,1,25,10,19000,10,15,240,0.25,4,4,,rare_bp,,,0.5,2,2,11204.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# [ Destroyers ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Perun,kyeltziv_perun,Light Destroyer,Kyeltziv Technocracy,kyeltziv_piperDrone_2,7,2500,550,3200,,220,80,,115,70,50,30,60,300,FRONT,,60,0.3,0.6,,,30,60,120,60,2,30,9,28000,5,12,360,0.25,6,6,,"kyeltziv_ship_bp, merc",,,0.6,2,3,11301
+Dazhbog,kyeltziv_dazhbog,Destroyer,Kyeltziv Technocracy,kyeltziv_VariableBooster,10,3500,600,4000,,270,90,1,90,65,45,30,50,400,FRONT,,70,0.3,0.6,,,40,80,100,60,2,30,9,40000,5,12,360,0.25,9,9,,"kyeltziv_ship_bp, merc",,,0.5,2,3,11302
+Yinglong,kyeltziv_yinglong,Carrier,Kyeltziv Technocracy,kyeltziv_loinen_4,11,3000,500,3000,,200,70,1,75,60,40,25,40,400,FRONT,,60,0.4,0.7,,,80,120,60,50,2,25,9,36000,5,15,360,0.25,10,10,CARRIER,"kyeltziv_ship_bp, merc",,,0.5,2,3,11303
+Znatok,kyeltziv_znatok,Drone Tender,Kyeltziv Technocracy,kyeltziv_raataja,11,3000,500,3000,,200,55,1,80,65,45,25,45,420,FRONT,,60,0.4,0.6,,,60,100,240,120,2,60,9,40000,4,16,360,0.25,10,10,"CARRIER, COMBAT, NO_AUTO_ESCORT","kyeltziv_ship_bp, merc",,,0.5,2,3,11304
+Valkyrie (KT),kyeltziv_valkyrie,Troop Transport,Kyeltziv Technocracy,kyeltziv_siren_flares,7,3000,450,2250,,150,50,,80,60,60,30,45,400,FRONT,,70,0.4,0.7,,,10,250,50,80,2,40,9,20000,5,20,360,0.25,5,5,"CIVILIAN, TRANSPORT","kyeltziv_ship_bp, merc",,,0.5,2,3,11305
+Tarsus (KT),kyeltziv_tarsus,Freighter,Kyeltziv Technocracy,kyeltziv_mainburn,7,3750,450,1800,,125,45,,50,35,25,25,15,400,OMNI,,100,0.6,1,,,30,80,350,80,3,27,8,18000,5,25,420,0.25,3,3,"CIVILIAN, FREIGHTER","kyeltziv_ship_bp, merc",,,0.5,2,3,11306
+Phaeton (KT),kyeltziv_phaeton,Tanker,Kyeltziv Technocracy,kyeltziv_chaff_d,7,1800,400,2000,,150,45,,50,30,20,25,15,400,OMNI,,70,0.5,1,,,10,20,20,800,2,400,8,22000,5,25,300,0.25,4,4,"CIVILIAN, TANKER","kyeltziv_ship_bp, merc",,,0.75,3,4,11307
+Perun (KE),kyeltziv_perun_ex,Light Destroyer,Kyeltziv Technocracy,kyeltziv_expPdDrone_2_p,8,2700,550,3200,,220,80,,115,70,50,30,60,300,FRONT,,60,0.3,0.6,,,30,60,120,60,2,30,9,28000,5,12,360,0.25,6,6,,"kyeltziv_exp_bp, ind, merc",,,0.6,2,3,11308
+Dazhbog (KE),kyeltziv_dazhbog_ex,Destroyer,Kyeltziv Technocracy,kyeltziv_MonoBooster,10,3700,600,4000,,270,90,1,90,65,45,30,50,400,FRONT,,70,0.3,0.6,,,40,80,100,60,2,30,9,40000,5,12,360,0.25,9,9,,"kyeltziv_exp_bp, ind, merc",,,0.5,2,3,11309
+Xiezhi,kyeltziv_xiezhi,Siege Destroyer,Kyeltziv Technocracy,kyeltziv_spotterDrone_2,11,3000,550,3500,,250,65,,85,60,45,30,50,350,FRONT,,60,0.3,0.7,,,35,60,80,60,2,30,9,50000,5,15,360,0.25,10,10,,"rare_bp, merc, hist1t",,,0.5,2,3,11310
+Xinzang,kyeltziv_xinzang,Artillery Destroyer,Kyeltziv Technocracy,kyeltziv_navDrone_2,11,3000,520,3000,,200,70,,85,60,45,30,50,350,FRONT,,60,0.3,0.7,,,35,60,80,60,2,30,9,50000,5,15,360,0.25,11,11,,"rare_bp, merc, hist1t",,0.9,0.5,2,3,11311
+Kiilto,kyeltziv_kiilto,Droneship,Remnant,kyeltziv_tuike_2,11,3500,600,4500,,320,80,,85,75,50,30,50,380,FRONT,,80,0.3,0.6,,,0,0,60,60,2,30,10,60000,5,15,420,0.25,10,10,UNBOARDABLE,"remnant, auto_rec, codex_unlockable",,,0.5,2,3,11312
+Katsoja,kyeltziv_katsoja,Phase Destroyer,Kyeltziv Technocracy,kyeltziv_mine_strike,14,3250,800,4800,,480,95,,90,75,50,30,30,400,PHASE,phasecloak,90,,,0.05,0.04,25,50,60,80,2,40,9,120000,5,20,300,0.25,18,18,,"rare_bp, merc, hist2t",,,0.5,2,3,11313
+Dazhbog (SYM),kyeltziv_dazhbog_sym,Destroyer,Kyeltziv Technocracy,kyeltziv_VariableBooster,10,3500,600,4200,,300,95,1,90,65,45,30,50,400,FRONT,,80,0.3,0.6,,,40,60,80,40,2,20,9,45000,5,12,360,0.25,9,9,,"no_dealer, codex_unlockable",,,0.5,2,3,11314
+Zlatko,kyeltziv_zlatko,Destroyer,Kyeltziv Technocracy,kyeltziv_suojus_2,11,3500,600,4000,,280,90,,90,65,45,30,50,400,FRONT,,100,0.25,0.6,,,40,80,100,60,2,30,9,42000,5,15,360,0.25,11,11,,"rare_bp, merc",,0.9,0.5,2,3,11315
+Yinglong (KE),kyeltziv_yinglong_ex,Carrier,Kyeltziv Technocracy,kyeltziv_railDrones,11,3200,500,3000,,200,70,1,75,60,40,25,40,400,FRONT,,60,0.4,0.7,,,80,120,60,50,2,25,9,36000,5,15,360,0.25,10,10,CARRIER,"rare_bp, ind, merc",,,0.5,2,3,11316
+Xinzang (KE),kyeltziv_xinzang_ex,Missile Destroyer,Kyeltziv Technocracy,fastmissileracks,11,3200,520,3000,,200,90,,85,60,45,30,50,350,FRONT,,60,0.3,0.6,,,35,60,80,60,2,30,9,50000,5,15,360,0.25,11,11,,"rare_bp, ind, merc",,0.9,0.5,2,3,11317
+Paistaa,kyeltziv_paistaa,Droneship,Remnant,kyeltziv_drone_strike,11,3700,650,4000,,270,85,1,85,75,50,30,50,400,FRONT,,80,0.3,0.6,,,0,0,60,60,2,30,10,60000,5,15,420,0.25,10,10,"UNBOARDABLE, CARRIER, COMBAT","remnant, auto_rec, codex_unlockable",,,0.5,2,3,11318
+Prochnyi,kyeltziv_prochnyi,Platform tender,Kyeltziv Technocracy,kyeltziv_linnake_deploy,11,3000,500,3000,,200,60,,75,60,40,25,40,400,FRONT,,60,0.4,0.7,,,50,90,80,50,2,25,9,50000,5,20,360,0.25,11,11,,"rare_bp, merc, hist1t",,0.9,0.5,2,3,11319
+Perun (P),kyeltziv_perun_p,Light Destroyer,Pirate,kyeltziv_canister_flak,7,2700,550,3200,,220,60,,125,80,55,35,65,300,FRONT,,60,0.4,0.8,,,30,50,100,60,2,30,9,26000,5,12,360,0.25,6,6,,rare_bp,,,0.7,2,3,11301.1
+Zlatko (P),kyeltziv_zlatko_p,Destroyer,Pirate,flarelauncher,11,3800,600,4000,,280,70,,95,75,50,35,55,400,FRONT,,60,0.35,0.8,,,40,70,90,60,2,30,9,40000,5,15,360,0.25,10,10,"CARRIER, COMBAT, NO_AUTO_ESCORT",rare_bp,,,0.6,2,3,11315.1
+Khoronit,kyeltziv_khoronit,Superdestroyer,Kyeltziv Technocracy,kyeltziv_disjunction,60,3600,750,6400,,600,85,,90,120,90,40,40,500,PHASE,phasecloak,90,,,0.04,0.04,20,60,180,100,1,100,10,800000,8,32,360,0.25,32,32,,"no_autofit, req_military, no_dealer, codex_unlockable",,,0.5,2,3,11320
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# [ Cruisers ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Podenka,kyeltziv_podenka,Light Cruiser,Kyeltziv Technocracy,kyeltziv_hPiperDrone_2,12,4500,850,8000,,360,130,,75,60,40,20,25,700,FRONT,,70,0.4,0.6,,,80,120,120,100,3,33,9,72000,4,12,480,0.25,13,13,,"kyeltziv_ship_bp, merc",,,0.6,2,3,11401
+Bystro,kyeltziv_bystro,Carrier,Kyeltziv Technocracy,kyeltziv_lakeija_4,14,5500,900,7000,,320,105,2,45,45,35,15,20,1000,FRONT,,70,0.5,0.7,,,120,180,80,90,3,30,8,110000,3,12,480,0.25,20,20,"CARRIER, COMBAT","rare_bp, merc",,,0.6,2,3,11402
+Strekoza,kyeltziv_strekoza,Cruiser,Kyeltziv Technocracy,kyeltziv_VariableBooster,15,6500,950,11000,,440,160,1,60,50,40,15,20,1100,FRONT,,70,0.4,0.6,,,120,150,100,90,3,30,8,120000,4,12,480,0.25,21,21,,"rare_bp, merc",,,0.6,2,3,11403
+Pyralid,kyeltziv_pyralid,Siege Cruiser,Kyeltziv Technocracy,kyeltziv_hSpotterDrone_2,15,5500,950,10000,,400,100,,50,40,30,15,20,1100,FRONT,,60,0.4,0.7,,,100,150,150,100,3,33,8,120000,3,12,480,0.25,22,22,,"rare_bp, merc, hist2t",,,0.6,2,3,11404
+Podenka (SYM),kyeltziv_podenka_sym,Light Cruiser,Kyeltziv Technocracy,kyeltziv_hSymDrone_4,13,4500,850,8000,,380,140,,75,60,40,20,25,750,FRONT,,80,0.4,0.6,,,80,90,90,75,3,25,9,75000,4,12,480,0.25,14,14,,"no_dealer, codex_unlockable",,,0.6,2,3,11405
+Podenka (KE),kyeltziv_podenka_ex,Light Cruiser,Kyeltziv Technocracy,kyeltziv_hExpPdDrone_2,12,4800,850,8000,,360,130,,75,60,40,20,25,700,FRONT,,70,0.4,0.6,,,80,120,120,100,3,33,9,72000,4,12,480,0.25,13,13,,"kyeltziv_exp_bp, ind, merc",,,0.6,2,3,11406
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# [ Capitals ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Ilkut,kyeltziv_ilkut,Battlecruiser,Kyeltziv Technocracy,kyeltziv_hPiperDrone_4,22,10000,1300,16000,,700,240,1,50,32,25,9,10,2400,FRONT,,70,0.5,0.7,,,240,320,300,300,10,30,8,250000,3,15,600,0.25,35,35,"CARRIER, COMBAT, NO_AUTO_ESCORT","rare_bp, merc, hist3t",,,0.6,2,4,11501
+Narva,kyeltziv_narva,Carrier,Kyeltziv Technocracy,kyeltziv_sorkkia_4,25,9000,1200,14000,,550,235,3,40,25,15,8,8,2500,FRONT,,70,0.6,0.7,,,320,640,250,250,10,25,8,300000,3,15,600,0.25,40,40,CARRIER,"rare_bp, merc, hist3t",,0.9,0.6,2,4,11502
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# [ Station ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Orbital Station,kyeltziv_station_1,Orbital Station,,,100,36000,1750,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,"STATION, UNBOARDABLE",,,,0,,,11601
+Battlestation,kyeltziv_station_2,Battlestation,,,200,72000,2200,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,"STATION, UNBOARDABLE",codex_unlockable,,,0,,,11602
+Star Fortress,kyeltziv_station_3,Star Fortress,,kyeltziv_drone_station,400,145000,2750,1000,2500,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE",codex_unlockable,,,0,,,11603
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,kyeltziv_station_module_main,Heavy Combat Module,,kyeltziv_stSpotter_2,1,45000,2000,30000,31250,1200,1000,1,0,0,0,10,10,3500,FRONT,,90,0.4,0.9,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC",,,,0.5,2,4,11604
+,kyeltziv_station_module_main_3,Heavy Combat Module,,kyeltziv_stSpotter_3,1,45000,2000,30000,31250,1200,1000,1,0,0,0,10,10,3500,FRONT,,90,0.4,0.9,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC",,,,0.5,2,4,11604.1
+,kyeltziv_station_module_end,Light Support Module,,kyeltziv_stTargeting,1,12000,1650,10000,10000,400,1000,1,0,0,0,10,10,240,FRONT,,220,0.4,0.9,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC",,,,1,2,2,11605
+,kyeltziv_station_module_end_3,Light Support Module,,kyeltziv_stTargeting,1,12000,1650,10000,10000,400,1000,1,0,0,0,10,10,240,FRONT,,220,0.4,0.9,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, ALWAYS_PANIC",,,,1,2,2,11605.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,kyeltziv_station_blocker,Station Structural Spur,,,1,4500,1650,1000,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,1,2,3,11606
+,kyeltziv_station_armour_small,Station Armour,,,1,4500,1650,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,1,2,3,11607
+,kyeltziv_station_armour_large,Station Armour,,,1,8000,1650,0,2500,100,0,,0,0,0,10,10,400,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,1,2,3,11608
+,kyeltziv_station_armour_large2,Station Armour,,,1,8500,1650,0,2500,100,0,,0,0,0,10,10,400,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,1,2,3,11608.1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,kyeltziv_station_under_tip,Station Extension,,,1,4500,1650,0,2500,100,0,,0,0,0,10,10,300,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,1,2,3,11609

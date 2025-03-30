@@ -3,7 +3,7 @@
   "hullId": "kyeltziv_perun_ex",
   "displayName": "Strike",
   "goalVariant": false,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 12,
   "fluxVents": 13,
   "quality": 1,
   "permaMods": [],

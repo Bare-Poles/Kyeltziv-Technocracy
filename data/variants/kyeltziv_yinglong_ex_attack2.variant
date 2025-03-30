@@ -3,7 +3,7 @@
   "hullId": "kyeltziv_yinglong_ex",
   "displayName": "Attack",
   "goalVariant": false,
-  "fluxCapacitors": 2,
+  "fluxCapacitors": 5,
   "fluxVents": 8,
   "quality": 1,
   "permaMods": [],

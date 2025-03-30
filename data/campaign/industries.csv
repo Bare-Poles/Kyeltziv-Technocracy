@@ -5,19 +5,19 @@ variant:kyeltziv_station_1_standard,
 fleetName:Orbital Station,
 }",graphics/icons/industry/orbital_station.png,org.amazigh.kyeltziv.campaign.kyeltziv_stationChecker,"A Kyeltziv Technocracy space station, featuring respectable weapons mounts and light strikecraft support.
 
-Must be reduced before invasions or bombardment can be attempted.",2010,
+Must be reduced before invasion or bombardment can be attempted.",2010,
 kyeltziv_battlestation,Battlestation - Kyeltziv,100,120,,4,kyeltziv_orbitalstation,kyeltziv_starfortress,"station, battlestation, unraidable, structure","{
 radius:65,
 variant:kyeltziv_station_2_standard,
 fleetName:Battlestation,
 }",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A Kyeltziv Technocracy space station, upgraded to feature a pair of modules armed with missiles and additional drone corvettes.
 
-Must be reduced before invasions or bombardment can be attempted.",2020,
+Must be reduced before invasion or bombardment can be attempted.",2020,
 kyeltziv_starfortress,Star Fortress - Kyeltziv,200,180,,5,kyeltziv_battlestation,,"station, starfortress, unraidable, structure","{
 radius:70,
 variant:kyeltziv_station_3_standard,
 fleetName:Star Fortress
 }",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A Kyeltziv Technocracy battlestation, augmented with heavy armour plating, Laite-class defense drones and a field of Shock Mines.
 
-Must be reduced before invasions or bombardment can be attempted.",2030,
+Must be reduced before invasion or bombardment can be attempted.",2030,
 ,,,,,,,,,,,,,,

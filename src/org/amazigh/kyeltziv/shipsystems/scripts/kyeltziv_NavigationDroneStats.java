@@ -6,7 +6,6 @@ import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 
 public class kyeltziv_NavigationDroneStats extends BaseShipSystemScript {
 
-
 	public static final float NAV_VALUE = 1f;
 	
 	public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {

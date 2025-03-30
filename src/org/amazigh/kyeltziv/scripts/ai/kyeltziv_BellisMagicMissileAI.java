@@ -1,6 +1,5 @@
 // Based on the MagicMissileAI script By Tartiflette.
-// I have trimmed some (unused by this script) variables/features, so don't use this as an example of standard MagicMissileAI!
-// this script is a "better" version of "MISSILE_TWO_STAGE_SECOND_UNGUIDED" - in that it has some limited sustain of tracking in the second stage.
+// This is a "weird" MIRV script, more or less.
 package org.amazigh.kyeltziv.scripts.ai;
 
 import com.fs.starfarer.api.Global;

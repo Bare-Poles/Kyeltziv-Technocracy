@@ -3,7 +3,7 @@
   "hullId": "kyeltziv_otkryt_ex",
   "displayName": "Strike",
   "goalVariant": true,
-  "fluxCapacitors": 6,
+  "fluxCapacitors": 8,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],

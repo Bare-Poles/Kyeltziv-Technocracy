@@ -9,20 +9,20 @@ OR
 ""Connection Steady. How can $theFaction help you today?""",,
 greetingKyeltzivHostileWeaker,OpenCommLink,"$faction.id == kyeltziv
 $entity.isHostile
-$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Hostile Detected..."" $HeOrShe pauses before they continue, only to grimace and cut the comm instead.
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Hostile Detected..."" $HeOrShe pauses before continuing, only to grimace and cut the comm instead.
 OR
 ""Fleet Ident Mismatch. All hostile actions will be linecast to Fleetcomm.""",cutCommLink:Cut the comm link,
 greetingKyeltzivHostileWeakerDefiant,OpenCommLink,"$faction.id == kyeltziv
 $entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""Comm Connected."" The Kyeltziv $personRank pauses for a moment while giving you a grim but defiant look. ""You'll bleed for this.""
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""Comm Connected."" The Kyeltziv $personRank pauses for a moment, giving you a grim but defiant look. ""You'll bleed for this.""
 OR
 ""Hostile Logged. Don't think we'll make this easy for you.""",cutCommLink:Cut the comm link,
 greetingKyeltzivHostileStronger,OpenCommLink,"$faction.id == kyeltziv
 $entity.isHostile
-$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Fleet Ident Mismatch. Give it up, accept your fate with some dignity.""
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Fleet Ident Confirmed. Your fleet has been logged. Do you have any business with the Technocracy?""
 OR
-""Target Verified. You are operating contrary to Technocracy directives, commencing destruction of hostile naval assets.""",cutCommLink:Cut the comm link,
+""Drive Wake Logged. You are speaking to $PersonRank $personName of $theFaction Navy. State your buisness.""",cutCommLink:Cut the comm link,
 greetingKyeltzivNeutral,OpenCommLink,"$faction.id == kyeltziv
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
 FireAll PopulateOptions","""Fleet Ident Confirmed. Your fleet has been logged, do you have any business with the Technocracy?""
@@ -31,19 +31,19 @@ OR
 ,,,,,,
 "# default commission conversation strings, copy and adjust this section for faction-specific conversation flavor",,,,,,
 CMSNTextRejectHostile_Kyeltziv,CMSNTextRejectHostile,$faction.id == kyeltziv,,"""Is this some kind of joke? If you really are $playerName then i question why a noncompliant would even initiate comms with me. Stop wasting my time and leave.""",,
-CMSNTextHasOther_Kyeltziv,CMSNTextHasOther,$faction.id == kyeltziv,,"""You're already commissioned by $theOtherCommissionFaction. The Kyeltziv charter strictly prohibits shared employment, solve this conflict of interest and we can talk.",,
-CMSNTextUnsuited_Kyeltziv,CMSNTextUnsuited,$faction.id == kyeltziv,,"""Data on file shows that you do not qualify for a commission currently.""",,
-CMSNTextSuitedPart1_Kyeltziv,CMSNTextSuitedPart1,$faction.id == kyeltziv,,"""Hmm, your file shows you meet the initial criteria to recieve a commission.
+CMSNTextHasOther_Kyeltziv,CMSNTextHasOther,$faction.id == kyeltziv,,"""You're already commissioned by $theOtherCommissionFaction. The Kyeltziv charter strictly prohibits shared employment. Resolve this conflict of interest and we can talk.",,
+CMSNTextUnsuited_Kyeltziv,CMSNTextUnsuited,$faction.id == kyeltziv,,"""Data on file shows that you currently do not qualify for a commission.""",,
+CMSNTextSuitedPart1_Kyeltziv,CMSNTextSuitedPart1,$faction.id == kyeltziv,,"""Hmm, your file shows that you meet the initial criteria for recieving a commission.
 
-By accepting this commission you will be held responsible for upholding the charter by engaging in combat with any and all organisations that impede the work of the Kyeltziv Technocracy.
+By accepting this commission, you will be held responsible for upholding the charter by engaging in combat with any and all organisations that impede the work of the Kyeltziv Technocracy.
 
-While you are free to end your commission at any point in the future, it would not be appreciated for you to do so.""",,
-CMSNTextSuitedPart2_Kyeltziv,CMSNTextSuitedPart2,$faction.id == kyeltziv,,"""Still willing to sign on? Final confirmation will take but a moment.""",,
-CMSNTextWelcomePart1_Kyeltziv,CMSNTextWelcomePart1,$faction.id == kyeltziv,,"""Excellent! Welcome to the Kyeltziv Technocracy comrade.""",,
-CMSNTextWelcomePart2_Kyeltziv,CMSNTextWelcomePart2,$faction.id == kyeltziv,,"""Will that be all Comrade, or do you need something else?""",,
-CMSNTextChangeMind_Kyeltziv,CMSNTextChangeMind,$faction.id == kyeltziv,,"""Understood, upholding the charter is a great challenge that not everyone can manage. There is no shame in declining. And of course all details on the charter will scrub themselves from your terminal momentarily.
+While you are free to end your commission at any point in the future, it would not be appreciated if you chose to do so.""",,
+CMSNTextSuitedPart2_Kyeltziv,CMSNTextSuitedPart2,$faction.id == kyeltziv,,"""Are you still willing to sign on? Final confirmation will take just a moment.""",,
+CMSNTextWelcomePart1_Kyeltziv,CMSNTextWelcomePart1,$faction.id == kyeltziv,,"""Excellent! Welcome to the Kyeltziv Technocracy, comrade.""",,
+CMSNTextWelcomePart2_Kyeltziv,CMSNTextWelcomePart2,$faction.id == kyeltziv,,"""Will that be all Comrade, or do you need anything else?""",,
+CMSNTextChangeMind_Kyeltziv,CMSNTextChangeMind,$faction.id == kyeltziv,,"""Understood. Upholding the charter is a formidable challenge that not everyone can manage. There is no shame in declining. Of course, all details on the charter will be scrubbed from your terminal momentarily.
 
-Anything else I can do for you?""",,
+Is there anything else I can assist you with?""",,
 CMSNResignAskToConfirm_Kyeltziv,CMSNResignAskToConfirm,$faction.id == kyeltziv,,"""Are you sure? resigning your commitment to the charter is not an act to be taken lightly... Comrade.""",,
 CMSNResignConfirmed_Kyeltziv,CMSNResignConfirmed,$faction.id == kyeltziv,,"""So be it, Fleetcomm will be informed of your decision.""",,
 CMSNResignCancelled_Kyeltziv,CMSNResignCancelled,$faction.id == kyeltziv,,"""A smart move. the Technocracy respects those that think outside the box, as long as they don't threaten the core tenets of the charter.""",,
@@ -51,5 +51,5 @@ CMSNResignCancelled_Kyeltziv,CMSNResignCancelled,$faction.id == kyeltziv,,"""A s
 ,,,,,,
 aiCores_turnInOptionSelKyeltziv,DialogOptionSelected,"$option == aiCores_startTurnIn
 $faction.id == kyeltziv",FireAll PopulateCoresTurnInOptions,"""That's a rare find you have there comrade. the Kyeltziv Technocracy will be pleased to take these off of your hands and move them to a secure holding site for analysis.""",,
-aiCores_turnInResponseKyeltziv,AICoresTurnedIn,$faction.id == kyeltziv,FireAll PopulateOptions,"$PersonRank $personLastName checks their screen and their smile becomes a genuine one after they see the confirmation of cargo transfer.  ""Many thanks, these will be put to good use.""",,
+aiCores_turnInResponseKyeltziv,AICoresTurnedIn,$faction.id == kyeltziv,FireAll PopulateOptions,"$PersonRank $personLastName checks the screen, and a genuine smile spreads across their face upon seeing the confirmation of the cargo transfer. ""Many thanks, these will be put to good use.""",,
 ,,,,,,

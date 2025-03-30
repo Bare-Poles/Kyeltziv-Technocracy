@@ -1,9 +1,9 @@
 {
   "variantId": "kyeltziv_perun_ex_sup2",
   "hullId": "kyeltziv_perun_ex",
-  "displayName": "Strike",
+  "displayName": "Support",
   "goalVariant": false,
-  "fluxCapacitors": 7,
+  "fluxCapacitors": 8,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],

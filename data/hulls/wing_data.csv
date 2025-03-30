@@ -17,24 +17,24 @@ kyeltziv_solanum_wing,kyeltziv_solanum_support,"support6, fighter, mid, auto_fig
 kyeltziv_wolffia_wing,kyeltziv_wolffia_support,"support6, fighter, mid, auto_fighter, rare_bp, merc",3,0.5,9,24,V,1000,600,0,1,SUPPORT,Support Drone,30,24000,,,,,,,,,,,,,11303
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 kyeltziv_salvage_drone_wing,kyeltziv_salvage_drone_standard,"no_drop, no_sell, mid",0,,6,2,BOX,800,500,,4,FIGHTER,Drone,10,1600,,,,,,,,,,,,,11401
-kyeltziv_dombeya_wing,kyeltziv_dombeya_fighter,"no_drop, no_sell, mid",0,,8,18,V,3000,600,-100,1,FIGHTER,Missile Corvette,25,20000,,,,,,,,,,,,,11402
+kyeltziv_dombeya_wing,kyeltziv_dombeya_fighter,"no_drop, no_sell, mid, codex_require_related",0,,8,18,V,3000,600,-100,1,FIGHTER,Missile Corvette,25,20000,,,,,,,,,,,,,11402
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-kyeltziv_sokea_wing,kyeltziv_sokea_interceptor,"no_sell, interceptor, remnant, interceptor5, auto_fighter, merc",3,,4,8,CLAW,4000,200,700,6,INTERCEPTOR,Interceptor Drone,5,5000,,,,,,,,,,,,,11501
-kyeltziv_kohta_wing,kyeltziv_kohta_platform,"no_drop, no_sell, high",0,,0,100,BOX,0,300,0,1,FIGHTER,Drone Platform,20,100000,,,,,,,,,,,,,11502
+kyeltziv_sokea_wing,kyeltziv_sokea_interceptor,"no_sell, interceptor, remnant, interceptor5, auto_fighter, merc, codex_unlockable",3,,4,8,CLAW,4000,200,700,6,INTERCEPTOR,Interceptor Drone,5,5000,,,,,,,,,,,,,11501
+kyeltziv_kohta_wing,kyeltziv_kohta_platform,"no_drop, no_sell, high, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Drone Platform,20,100000,,,,,,,,,,,,,11502
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-kyeltziv_linnake_assault_ass_wing,kyeltziv_linnake_assault_ass,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11601
-kyeltziv_linnake_assault_base_wing,kyeltziv_linnake_assault_base,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11602
-kyeltziv_linnake_assault_siege_wing,kyeltziv_linnake_assault_siege,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11603
-kyeltziv_linnake_assault_supp_wing,kyeltziv_linnake_assault_supp,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11604
-kyeltziv_linnake_base_ass_wing,kyeltziv_linnake_base_ass,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11605
-kyeltziv_linnake_base_base_wing,kyeltziv_linnake_base_base,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11606
-kyeltziv_linnake_base_siege_wing,kyeltziv_linnake_base_siege,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11607
-kyeltziv_linnake_base_supp_wing,kyeltziv_linnake_base_supp,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11608
-kyeltziv_linnake_siege_ass_wing,kyeltziv_linnake_siege_ass,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11609
-kyeltziv_linnake_siege_base_wing,kyeltziv_linnake_siege_base,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11610
-kyeltziv_linnake_siege_siege_wing,kyeltziv_linnake_siege_siege,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11611
-kyeltziv_linnake_siege_supp_wing,kyeltziv_linnake_siege_supp,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11612
-kyeltziv_linnake_supp_ass_wing,kyeltziv_linnake_supp_ass,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11613
-kyeltziv_linnake_supp_base_wing,kyeltziv_linnake_supp_base,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11614
-kyeltziv_linnake_supp_siege_wing,kyeltziv_linnake_supp_siege,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11615
-kyeltziv_linnake_supp_supp_wing,kyeltziv_linnake_supp_supp,"no_drop, no_sell, mid",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11616
+kyeltziv_linnake_assault_ass_wing,kyeltziv_linnake_assault_ass,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11601
+kyeltziv_linnake_assault_base_wing,kyeltziv_linnake_assault_base,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11602
+kyeltziv_linnake_assault_siege_wing,kyeltziv_linnake_assault_siege,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11603
+kyeltziv_linnake_assault_supp_wing,kyeltziv_linnake_assault_supp,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11604
+kyeltziv_linnake_base_ass_wing,kyeltziv_linnake_base_ass,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11605
+kyeltziv_linnake_base_base_wing,kyeltziv_linnake_base_base,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11606
+kyeltziv_linnake_base_siege_wing,kyeltziv_linnake_base_siege,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11607
+kyeltziv_linnake_base_supp_wing,kyeltziv_linnake_base_supp,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11608
+kyeltziv_linnake_siege_ass_wing,kyeltziv_linnake_siege_ass,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11609
+kyeltziv_linnake_siege_base_wing,kyeltziv_linnake_siege_base,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11610
+kyeltziv_linnake_siege_siege_wing,kyeltziv_linnake_siege_siege,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11611
+kyeltziv_linnake_siege_supp_wing,kyeltziv_linnake_siege_supp,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11612
+kyeltziv_linnake_supp_ass_wing,kyeltziv_linnake_supp_ass,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11613
+kyeltziv_linnake_supp_base_wing,kyeltziv_linnake_supp_base,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11614
+kyeltziv_linnake_supp_siege_wing,kyeltziv_linnake_supp_siege,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11615
+kyeltziv_linnake_supp_supp_wing,kyeltziv_linnake_supp_supp,"no_drop, no_sell, mid, hide_in_codex",0,,0,100,BOX,0,300,0,1,FIGHTER,Gun Platform,30,150000,,,,,,,,,,,,,11616

@@ -3,10 +3,10 @@
  "name": "Kyeltziv Technocracy",
  "author": "Amazigh",
 
- "version": {"major":1, "minor":10, "patch":3},
+ "version": {"major":1, "minor":10, "patch":4},
 
  "description": "A faction of advanced drone-heavy Midline-adjacent vessels.",
- "gameVersion": "0.97a-RC6",
+ "gameVersion": "0.98a-RC5",
 
  "modPlugin":"org.amazigh.kyeltziv.scripts.kyeltziv_ModPlugin",
  "jars":["jars/kyeltziv.jar"],
@@ -18,12 +18,12 @@
   {
       "id": "lw_lazylib",
       "name": "LazyLib",
-      "version": "2.8"
+      "version": { "major": '3', "minor": '0', "patch": '0' }
   },
   {
       "id": "MagicLib",
       "name": "MagicLib",
-      "version": { "major": '1', "minor": '0', "patch": '0' }
+      "version": { "major": '1', "minor": '5', "patch": '1' }
   },
  ],
 }
