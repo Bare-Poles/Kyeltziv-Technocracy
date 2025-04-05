@@ -30,7 +30,7 @@ public class kyeltziv_BellisMagicMissileAI implements MissileAIPlugin, GuidedMis
 	
 	//Angle with the target beyond which the missile turn around without accelerating. Avoid endless circling.
 	//  Set to a negative value to disable
-	private final float OVERSHOT_ANGLE=60;
+	private final float OVERSHOT_ANGLE=45;
 	
 	//Time to complete a wave in seconds.
 	private final float WAVE_TIME=2;
@@ -83,19 +83,20 @@ public class kyeltziv_BellisMagicMissileAI implements MissileAIPlugin, GuidedMis
 	private float ECCM=3;   //A VALUE BELOW 1 WILL PREVENT THE MISSILE FROM EVER HITTING ITS TARGET!
 	
 	
+	// timer for arming, it's a bit random because i felt like it
+	private IntervalUtil armInterval = new IntervalUtil(0.5f, 0.69f);
 	
-	
-	// how many shots to fire (multiply this by 2 because firing from two launch ports at once)
-	private int AMMO = 6;
+	// how many shots to fire
+	private int AMMO = 14;
 	
 	// to check whether the missile is within "MIRV" range, and whether to fire the missiles
 	private boolean TRIGGER = false;
 	
 	// square of range to start to fire missiles at
-	private float DETECT=360000; //600^2
+	private float DETECT=600000; //just under 800^2 (~774.596^2)
 	
 	// timer for firing missiles after getting into range
-	private IntervalUtil missileInterval = new IntervalUtil(0.1f, 0.1f);
+	private IntervalUtil missileInterval = new IntervalUtil(0.08f, 0.1f);
 	
 	
 	
@@ -112,7 +113,7 @@ public class kyeltziv_BellisMagicMissileAI implements MissileAIPlugin, GuidedMis
 	private final MissileAPI MISSILE;
 	private CombatEntityAPI target;
 	private Vector2f lead = new Vector2f();
-	private boolean launch=true;
+	private boolean launch=true, armed=false, side=false;
 	private float timer=0, check=0f;
 	
 	//////////////////////
@@ -238,16 +239,24 @@ public class kyeltziv_BellisMagicMissileAI implements MissileAIPlugin, GuidedMis
         if(OVERSHOT_ANGLE<=0 || Math.abs(aimAngle)<OVERSHOT_ANGLE){
             MISSILE.giveCommand(ShipCommand.ACCELERATE);
             
-            if (MathUtils.getDistanceSquared(MISSILE.getLocation(), target.getLocation()) <= DETECT) {
-            	TRIGGER = true;
+            if (!armed) {
+                armInterval.advance(amount);
+            	if (armInterval.intervalElapsed()) {
+                	armed = true;
+            	}
+            } else {
+                if (MathUtils.getDistanceSquared(MISSILE.getLocation(), target.getLocation()) <= DETECT) {
+                	TRIGGER = true;
+                }
             }
+            
         }
         
         if (aimAngle < 0) {
             MISSILE.giveCommand(ShipCommand.TURN_RIGHT);
         } else {
             MISSILE.giveCommand(ShipCommand.TURN_LEFT);
-        }  
+        }
         
         
         if (TRIGGER) {
@@ -256,24 +265,29 @@ public class kyeltziv_BellisMagicMissileAI implements MissileAIPlugin, GuidedMis
         	if (missileInterval.intervalElapsed()) {
             	
         		AMMO --;
+
+        		float srmFacing = MISSILE.getFacing() + 95f;
+        		// swap sides we fire missiles from, we alternate!
+        		if (side) {
+        			side = false;
+        			srmFacing = MISSILE.getFacing() - 95f;
+        		} else {
+        			side = true;
+        		}
         		
             	Vector2f vel = MISSILE.getVelocity();
-            	Vector2f loc = MISSILE.getLocation();
-
-				Vector2f smokeVel = new Vector2f(vel.x * 0.7f, vel.y * 0.7f);
-				
-            	for (int i=0; i < 2; i++) {
-            		float srmFacing = MISSILE.getFacing() + 75f + (i * 190f);
-            		// 90f + (i * 180f) // results in direct side facing launches, current setting results in 5 degree rear angling on launch
-    				
-            		engine.spawnProjectile(MISSILE.getSource(), MISSILE.getWeapon(), "kyeltziv_bellis_pod_sub", loc, srmFacing + MathUtils.getRandomNumberInRange(-5f, 5f), MathUtils.getRandomPointInCircle(smokeVel, 20f));
-                    // slight spread to launch angle, because randomness
-            		
-                    Vector2f puffRandomVel = MathUtils.getRandomPointOnCircumference(smokeVel, MathUtils.getRandomNumberInRange(4f, 12f));
-                	engine.addSmokeParticle(loc, puffRandomVel, MathUtils.getRandomNumberInRange(10f, 20f), 0.8f, 0.8f, new Color(100,100,100,150));
-                }
+            	Vector2f loc = MathUtils.getPointOnCircumference(MISSILE.getLocation(), 5f, srmFacing);
             	
-            	Global.getSoundPlayer().playSound("swarmer_fire", 1.0f, 1.0f, loc, vel);
+				Vector2f smokeVel = new Vector2f(vel.x * 0.7f, vel.y * 0.7f);
+				engine.spawnProjectile(MISSILE.getSource(), MISSILE.getWeapon(), "kyeltziv_bellis_pod_sub", loc, srmFacing +  MathUtils.getRandomNumberInRange(-5f, 5f), smokeVel);
+                // and a slight spread to launch angle, because randomness
+        		
+    			for (int i=0; i < 2; i++) {
+    				Vector2f puffRandomVel = MathUtils.getPointOnCircumference(smokeVel, MathUtils.getRandomNumberInRange(1f, 12f), srmFacing + MathUtils.getRandomNumberInRange(-20f, 20f));
+                	engine.addSmokeParticle(loc, puffRandomVel, MathUtils.getRandomNumberInRange(12f, 24f + (i * 3)), 0.8f, 0.8f, new Color(100,100,100,120));
+    			}
+            	
+            	Global.getSoundPlayer().playSound("swarmer_fire", 1.0f, 0.9f, loc, vel);
             	
             	if (AMMO <= 0) {
             		MISSILE.flameOut();

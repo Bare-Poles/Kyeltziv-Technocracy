@@ -1,22 +1,37 @@
 id,type,text1,text2,text3,text4,text5,notes
-kyeltziv_targetingDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_spotterDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_piperDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_heavyTargetingDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_heavySpotterDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_heavyPiperDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_kutittaa,SHIP,- shipsystem drone,,,,,
-kyeltziv_loinen,SHIP,- shipsystem drone,,,,,
-kyeltziv_lakeija,SHIP,- shipsystem drone,,,,,
-kyeltziv_raataja,SHIP,- shipsystem drone,,,,,
-kyeltziv_expPdDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_tuike,SHIP,- shipsystem drone,,,,,
-kyeltziv_sorkkia,SHIP,- shipsystem drone,,,,,
-kyeltziv_kiusa,SHIP,- shipsystem drone,,,,,
-kyeltziv_symDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_heavySymDrone,SHIP,- shipsystem drone,,,,,
-kyeltziv_kohta,SHIP,- shipsystem drone,,,,,
-kyeltziv_salpa,SHIP,- shipsystem drone,,,,,
+kyeltziv_targetingDrone,SHIP,Light drone with targeting systems and a light PD autogun.,,,,,
+kyeltziv_spotterDrone,SHIP,Light drone with advanced sensors and a light PD autogun.,,,,,
+kyeltziv_piperDrone,SHIP,Light drone with ECM systems and an advanced active flare launcher.,,,,,
+kyeltziv_navDrone,SHIP,Light drone with a navigation relay and a light shock weapon.,,,,,
+kyeltziv_heavyTargetingDrone,SHIP,Heavy drone with targeting systems and a light PD autogun.,,,,,
+kyeltziv_heavySpotterDrone,SHIP,Heavy drone with advanced sensors and a light PD autogun.,,,,,
+kyeltziv_heavyPiperDrone,SHIP,"Heavy drone with ECM systems, an advanced active flare launcher, and a light PD autogun.",,,,,
+kyeltziv_kutittaa,SHIP,Heavy drone armed with several light shock weapons.,,,,,
+kyeltziv_loinen,SHIP,Light drone armed with a light galvanic weapon.,,,,,
+kyeltziv_lakeija,SHIP,Drone armed with a light galvanic weapon and light kinetic rockets.,,,,,
+kyeltziv_sorkkia,SHIP,Heavy drone armed with a light fusion weapon and light pulse rockets.,,,,,
+kyeltziv_raataja,SHIP,"Salvage drone armed with a cutting laser, targeting safties overridden to allow for targeting of active vessels and missiles.",,,,,
+kyeltziv_expPdDrone,SHIP,Light drone with a pair of light PD autoguns.,,,,,
+kyeltziv_heavyExpPdDrone,SHIP,"Heavy drone with a pair of light PD autoguns, and a flare launcher.",,,,,
+kyeltziv_tuike,SHIP,"Drone with targeting sysems, a Tactical Laser, and a Light PD Ion weapon.",,,,,
+kyeltziv_kohta,SHIP,"Drone platform armed with a PD beam, and a pair of light PD Ion weapons.",,,,,
+kyeltziv_kiusa,SHIP,Very light drone armed with a light PD rifle.,,,,,
+kyeltziv_vartija,SHIP,"Combat drone with ECM systems, a Shock Springald, and a light PD autogun.",,,,,
+kyeltziv_vartio,SHIP,"Combat drone armed with a Shock Springald, and a light PD autogun.",,,,,
+kyeltziv_symDrone,SHIP,Light drone with advanced sensors and a light PD rifle.,,,,,
+kyeltziv_heavySymDrone,SHIP,Heavy drone with advanced sensors and a light PD beam.,,,,,
+kyeltziv_railDrone,SHIP,Light drone armed with a light railgun.,,,,,
+kyeltziv_linnake_base,SHIP,Basic variant of the Linnake Gun Platform unmodified by any packages.,,,,,
+kyeltziv_linnake_assault,SHIP,Assault variant of the Linnake Gun Platform.,,,,,
+kyeltziv_linnake_siege,SHIP,Siege variant of the Linnake Gun Platform.,,,,,
+kyeltziv_linnake_supp,SHIP,Support variant of the Linnake Gun Platform.,,,,,
+kyeltziv_belDrone,SHIP,Lightweight drone armed with anti-fighter missiles.,,,,,
+kyeltziv_culvDrone,SHIP,Lightweight drone armed with a light shock weapon.,,,,,
+kyeltziv_salpa,SHIP,Very light drone armed with a light PD rifle.,,,,,
+kyeltziv_suojus,SHIP,Combat drone armed with a Shock Springald and an ESP beam.,,,,,
+kyeltziv_stationSpotterDrone,SHIP,Drone platform with advanced sensors and a light PD autogun.,,,,,
+kyeltziv_stationTargetingDrone,SHIP,Drone platform with targeting systems and a light PD autogun.,,,,,
+,,,,,,,
 ,,,,,,,
 kyeltziv_stachys,SHIP,A lightweight high speed interceptor drone that is designed to overwhelm hostile fighters with sheer volume of missile and particle discharger fire. This same volume of fire can prove effective against frigates and even heavier ships if they lack effective point defense coverage.,,,,,
 kyeltziv_cirsium,SHIP,"An advanced Kyeltziv escort interceptor drone, a combination of paired burst rifles and a pack of shock missiles allows it to make short work of even the toughest strikecraft.",,,,,
@@ -318,25 +333,56 @@ kyeltziv_bellis_pack,WEAPON,Extremely maneuverable lightweight anti-fighter miss
 kyeltziv_perennis_pack,WEAPON,"Short range High Velocity Shock missile launcher. Lower burst damage capability than most other anti-fighter missiles, but respectable sustained damage for a fighter mounted system.",Anti Fighter,,,,
 kyeltziv_thap_fighter,WEAPON,"Lightweight fighter mounted variant of the Thap missile, lacks ready rack storage for multiple munitions but instead is focused on having a faster reload rate.",Suppression,,,,
 kyeltziv_cutting_laser,WEAPON,"Utility laser intended to help carve apart wrecked ships, more suited to salvage work than combat as it lacks the output to prove effective against intact armour plating, as such has been assigned a targeting system to allow it to operate as a point defense weapon in combat situations.",,,,,
+kyeltziv_shock_falconet_light,WEAPON,"Drone mount of the Shock Culverin, has lower kinetic impact but rounds still carry the same internal shock-core.",,,,,
 kyeltziv_light_shock_driver,WEAPON,"An integrated weapon that employs electromagnetic launch rails to accelerate a decently sized shock-core towards the target, the round also features an engine to allow for course correction.",,,,,
 kyeltziv_ionRepeater,WEAPON,"A lightweight Ion weapon, has respectable fire rate and the ability to operate as a point defense weapon, but lacks effective damage output.",,,,,
 kyeltziv_shockMitrailleuse,WEAPON,"A cluster of light shock cannons with an advanced feed system allowing for rapid bursts of fire, but the compact nature of the weapon unfortunately means that it takes several seconds to load another burst.",,,,,
 kyeltziv_shockMitrailleuseHeavy,WEAPON,"A cluster of light shock cannons with an advanced feed system allowing for rapid bursts of fire, but the compact nature of the weapon unfortunately means that it takes several seconds to load another burst.",,,,,
+kyeltziv_vedha_light,WEAPON,"Light drone mounted launch tube for Vedha rockets, warhead size is slightly smaller than on standard Vedha rockets.",,,,,
+kyeltziv_buster_compact,WEAPON,"Drone mounted variant of the Fusion Buster, projectile payload is notably lower but maintains the same range as the standard version.",,,,,
 kyeltziv_graviton_sweeper_single,WEAPON,"A single Graviton Sweeper emitter that has had its frame downscaled for mounting on a Corvette, able to divert or immobilise most missiles and fighters.",,,,,
 kyeltziv_bellis_pack_heavy,WEAPON,Extremely maneuverable lightweight anti-fighter missiles. This large pack mounting allows for the Ophrys to easily dispatch targets disabled by its Graviton Sweeper.,,,,,
 kyeltziv_shock_avtomat,WEAPON,"A light and compact rapid-fire shock-core weapon, features an integrated point defense targeting subsystem.",,,,,
+kyeltziv_shock_tapanca,WEAPON,"A lightweight compact shock-core weapon, largely underpowered, but with the main redeeming feature of an integrated point defense targeting subsystem.",,,,,
 kyeltziv_shockMitrailleuseLight,WEAPON,"A cluster of light shock cannons with an advanced feed system allowing for rapid bursts of fire, this compact corvette mount only allows for a single burst of shells to be loaded.",,,,,
 kyeltziv_halke_single,WEAPON,"A single medium range, high power guided missile. Highly destructive against unshielded targets.",,,,,
+kyeltziv_shock_jezzail,WEAPON,"Light cannon with a non-standard payload, primarily effective against shielding but also has a minor disruptive effect, has a low rate of fire.
+
+The miniature shock-cores loaded in the shells this weapon fires give it the ability to even further pressure targets as they can catalyse and arc to nearby components dealing minor damage.",,,,,
 kyeltziv_mauste,WEAPON,"Long range fire support missiles that split into a spread of sub-warheads that fire small explosive sub-projectiles upon nearing their target. This allows them to bypass shorter ranged point defense coverage, but the spread of projectiles makes it unable to precisely focus damage on smaller targets.",,,,,
+kyeltziv_springald_light,WEAPON,A derivative of Kyeltziv shock weaponry that focuses on disruption over damage. Lacks the instantaneous disruptive potential of Ion weapons but the ability to pierce shielding is not to be underestimated. This light variant fires less powerful shells than standard.,,,,,
 kyeltziv_microStutter,WEAPON,"A single light carbon dioxide laser installed on a rapid traverse mount, limited output but combines well as part of an overall point defense grid to help intercept inbound threats.",,,,,
 kyeltziv_light_shock_driver_sym_l,WEAPON,"A Symmetrist redesign of the Short-Spool Shock-Driver, features a more efficient, albeit slower charging set of launch rails.",,,,,
 kyeltziv_light_shock_driver_sym_r,WEAPON,"A Symmetrist redesign of the Short-Spool Shock-Driver, features a more efficient, albeit slower charging set of launch rails.",,,,,
 kyeltziv_fusionMitrailleuse,WEAPON,"A paired mount of light fusion busters featuring an extended magazine allowing for extended bursts of fire, but the larger magazine and compact mounting force a notably lower reload rate than would be standard for fusion buster.",,,,,
+kyeltziv_railgunDrone,WEAPON,"A high-tech improvement of the Autocannon, the railgun fires accurate, medium-range slugs. Like the AC, it excels at overwhelming enemy shield generators. This lighter variant fires slightly less powerful rounds at a notably lower rate.",,,,,
 kyeltziv_pieni,WEAPON,"A short-burst high-intensity laser with excellent performance vs missiles and fighters. Lacks a reserve capacitor and only operates in single bursts, but has a steady rate of operation.",,,,,
+kyeltziv_perennis_pod_plat,WEAPON,"Short range High Velocity Shock missile launcher. While primarily an anti-fighter weapon the Perennis is moderately effective against both shields and armour, but lacks specialisation against either.
+
+This platform mounted variant has a notably smaller ready ammunition reserve and after expending the initial munitions must rely on a slower loading speed from an internal magazine.",,,,,
+kyeltziv_compact_shock_driver_plat,WEAPON,"Compact variant of the Shock-Driver often seen integrated into Kyeltziv vessels, rounds are overall inferior to those used by integrated variants, but do feature respectable disruptive power.
+
+After integrated Shock-Drivers proved the value of the weapon technology this modular variant was developed to allow more flexible usage of the system.
+
+This platform mounted variant lacks the reserve ammo storage of the standard modular version, but has a superior sustained rate of fire.",,,,,
+kyeltziv_fusionHoufnice_plat,WEAPON,"Long range Fusion warhead cannon, decently high shot power and relatively low flux overhead allow it to act as an effective sustained anti-armour threat.
+
+A relatively recently developed weapon, Followed the design brief of improving the ability of Kyeltziv vessels to better take on armoured targets at range.
+
+The munition loaded by this weapon houses a cluster of the smaller semi-stable fusion rounds loaded by the more common series of Fusion Buster weapons. Their detonators are timed to focus destructive potential on a single point which gives the weapon impressive potential against armour, but warhead instability leads to performance being somewhat inconsistent when compared to more conventional munitions.
+
+This platform mounted variant has a slightly reduced rate of fire.",,,,,
+kyeltziv_vedha_pod_plat,WEAPON,"Pod of mid to long range rockets with a suppressive Flux-Pulse warhead, largely ineffective against armour and only modestly effective against shields, but delivers consistent pressure at range.
+
+The Flux-Pulse warhead that is the signature of the Vedha is rather anemic in damage potential, but sheer volume of fire and the ability to deliver a small spike of flux into the targets systems it proves a valuable asset in a combined barrage.
+
+While possessing a guidance system comparable to some missiles, Vedha munitions are officially classified as rockets much to the confusion of many captains.
+
+This platform mounted variant lacks the reserve ammo storage of the standard modular version, but has a superior sustained rate of fire.",,,,,
 kyeltziv_packet_light,WEAPON,"A Corvette mount variant of the Packet Cycler, has reduced ammunition storage and loading capacity. The specialised cyclic feed that this weapon features allows it to deliver its shots at a blistering rate of fire, but the linked autoloader is unable to maintain the same pace resulting in a notably reduced fire-rate in the long term.
 
 The volatile plasma packets enclosed in this weapons shells are specially designed to shear off chunks of armour plating on a penetrating detonation, this additional energy is directed outwards from the impact point making it of no additional value against hull or shielding.",,,,,
-kyeltziv_shock_tapanca,WEAPON,"A lightweight compact shock-core weapon, largely underpowered, but with the main redeeming feature of an integrated point defense targeting subsystem.",,,,,
+kyeltziv_esp_beam_light,WEAPON,"The Electro-Static Pulse Beam is a solid dependable general purpose support weapon, while range is inferior to more common beam weapons the charge carried by the beam causes notable interference to targets. This light version has a slightly slower rate of fire.",,,,,
 kyeltziv_driver_shrap,WEAPON,"A Shock Driver that has been modified to fire heavy shrapnel canisters rather than the standard shock rounds, the lower flux overhead required to operate this weapon makes it arguably a better fit for the Ruslan with the limited output of its flux core. The sheer volume of projectiles it launches means that enthusiastic gunnery crews will often attempt to use it to intercept inbound missiles, often with somewhat favorable results.
 
 It is unclear whether the Pirates were unable to procure more shock ammo for the driver, or simply decided that the lower flux draw of not having to charge the shots before firing was an appealing proposition. Either way this is a highly threatening weapon to lighter targets.",,,,,
@@ -344,6 +390,8 @@ kyeltziv_med_swarmer_p,WEAPON,"This vessels drone bay has been hacked to produce
 kyeltziv_osteotome,WEAPON,"While the acceleration and launch mechanisms are impressive what is truly noteworthy is the projectile, through some novel applications of shape-memory alloys it achieves a terminal impact effect comparable to a shaped charge despite otherwise behaving like a standard kinetic impactor.",,,,,
 kyeltziv_trocar,WEAPON,"Remote electromagnetic shock discharge coil. Disrupts the target on actuation, easing the acquisition and exploitation of vulnerabilities.",,,,,
 kyeltziv_bistoury,WEAPON,"High power compact cutting beam emitter suited for sample collection, field vivisection and automated interception of detritus.",,,,,
+,,,,,,,
+,,,,,,,
 ,,,,,,,
 kyeltziv_chaff_d,SHIP_SYSTEM,Launches bursts of chaff that distract the guidance systems of incoming missiles and interferes with hostile PD weaponry.,Defensive,Launches chaff that distracts hostile point-defenses and missiles.,,,
 kyeltziv_chaff_c,SHIP_SYSTEM,Launches a steady stream of chaff that distracts the guidance systems of incoming missiles and interferes with hostile PD weaponry.,Defensive,Launches a steady stream of chaff that distracts hostile point-defenses and missiles.,,,
