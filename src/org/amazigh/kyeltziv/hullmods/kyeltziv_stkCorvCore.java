@@ -15,6 +15,7 @@ public class kyeltziv_stkCorvCore extends BaseHullMod {
 	}
 
 	public String getDescriptionParam(int index, HullSize hullSize) {
+		if (index == 0) return "" + (int) DAMAGE_BONUS + "%";
 		return null;
 	}
 }

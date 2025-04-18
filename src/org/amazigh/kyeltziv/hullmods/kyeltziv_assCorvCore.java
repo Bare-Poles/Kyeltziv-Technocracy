@@ -9,8 +9,8 @@ import com.fs.starfarer.api.util.IntervalUtil;
 public class kyeltziv_assCorvCore extends BaseHullMod {
 
 	public static final float DAMAGE_BONUS = 40f;
-	private final IntervalUtil interval = new IntervalUtil(0.033f, 0.033f);
-	private static final float HULL_REPAIR = 7.5f;
+	private final IntervalUtil interval = new IntervalUtil(0.1f, 0.1f);
+	private static final float HULL_REPAIR = 15f;
 
 	@Override
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
@@ -31,6 +31,9 @@ public class kyeltziv_assCorvCore extends BaseHullMod {
 	}
 
 	public String getDescriptionParam(int index, HullSize hullSize) {
+		if (index == 0) return "" + (int) DAMAGE_BONUS + "%";
+		if (index == 1) return "50%";
+		if (index == 2) return "150";
 		return null;
 	}
 }

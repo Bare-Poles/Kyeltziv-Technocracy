@@ -18,6 +18,12 @@ public class kyeltziv_supCorvCore extends BaseHullMod {
 	}
 
 	public String getDescriptionParam(int index, HullSize hullSize) {
+		
+		int dam = (int) (100f * (DAMAGE_BONUS -1f));
+		
+		if (index == 0) return "" + (int) AMMO_BONUS + "%";
+		if (index == 1) return "" + (int) REGEN_BONUS + "%";
+		if (index == 2) return "" + dam + "%";
 		return null;
 	}
 }
