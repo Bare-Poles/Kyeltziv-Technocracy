@@ -5,6 +5,7 @@ package org.amazigh.kyeltziv.scripts.ai;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEntityAPI;
+import com.fs.starfarer.api.combat.DamagingProjectileAPI;
 import com.fs.starfarer.api.combat.GuidedMissileAI;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
@@ -355,7 +356,8 @@ public class kyeltziv_AvtomatDrumfireMissileAI implements MissileAIPlugin, Guide
         		Vector2f vel = MISSILE.getVelocity();
             	Vector2f loc = MISSILE.getLocation();
             	
-				engine.spawnProjectile(MISSILE.getSource(), MISSILE.getWeapon(), "kyeltziv_shock_avtomat_drum", loc, MISSILE.getFacing() + MathUtils.getRandomNumberInRange(-5f, 5f), vel);
+            	CombatEntityAPI bullet = engine.spawnProjectile(MISSILE.getSource(), MISSILE.getWeapon(), "kyeltziv_shock_avtomat_drum", loc, MISSILE.getFacing() + MathUtils.getRandomNumberInRange(-5f, 5f), vel);
+            	((DamagingProjectileAPI)bullet).setFromMissile(true);
 				Global.getSoundPlayer().playSound("light_machinegun_fire", 0.9f, 1.2f, loc, vel);
 				
             	for (int i=0; i < 8; i++) {

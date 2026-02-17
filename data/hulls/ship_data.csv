@@ -1,17 +1,17 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,logistics n/a reason,rarity,breakProb,minPieces,maxPieces,number
 # [ Drones ],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Targeting Drone,kyeltziv_targetingDrone,Drone,Kyeltziv Technocracy,,,160,25,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11001
-Spotter Drone,kyeltziv_spotterDrone,Drone,Kyeltziv Technocracy,,,160,25,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11002
-Piper Drone,kyeltziv_piperDrone,Drone,Kyeltziv Technocracy,,,220,40,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11003
-Navigation Drone,kyeltziv_navDrone,Drone,Kyeltziv Technocracy,,,150,25,100,,28,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11004
+Targeting Drone,kyeltziv_targetingDrone,Drone,Kyeltziv Technocracy,,,200,25,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11001
+Spotter Drone,kyeltziv_spotterDrone,Drone,Kyeltziv Technocracy,,,200,25,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11002
+Piper Drone,kyeltziv_piperDrone,Drone,Kyeltziv Technocracy,,,250,40,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11003
+Navigation Drone,kyeltziv_navDrone,Drone,Kyeltziv Technocracy,,,180,25,100,,28,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11004
 Heavy Targeting Drone,kyeltziv_heavyTargetingDrone,Drone,Kyeltziv Technocracy,,,320,50,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11005
 Heavy Spotter Drone,kyeltziv_heavySpotterDrone,Drone,Kyeltziv Technocracy,,,320,50,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11006
-Heavy Piper Drone,kyeltziv_heavyPiperDrone,Drone,Kyeltziv Technocracy,,,440,80,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11007
+Heavy Piper Drone,kyeltziv_heavyPiperDrone,Drone,Kyeltziv Technocracy,,,500,80,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11007
 Kutittaa,kyeltziv_kutittaa,Gun Drone,Kyeltziv Technocracy,,,800,150,400,,160,,,160,200,200,120,200,60,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11008
-Loinen,kyeltziv_loinen,Gun Drone,Kyeltziv Technocracy,,,260,50,240,,60,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11009
-Lajeika,kyeltziv_lakeija,Combat Drone,Kyeltziv Technocracy,,,440,80,300,,75,,,120,130,160,90,150,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11010
-Sorkkia,kyeltziv_sorkkia,Combat Drone,Kyeltziv Technocracy,,,600,120,320,,80,,,110,120,150,90,150,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11011
-Raataja,kyeltziv_raataja,Salvor Drone,Kyeltziv Technocracy,,,300,60,240,,60,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11012
+Loinen,kyeltziv_loinen,Gun Drone,Kyeltziv Technocracy,,,300,50,240,,60,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11009
+Lajeika,kyeltziv_lakeija,Combat Drone,Kyeltziv Technocracy,,,500,80,300,,75,,,120,130,160,90,150,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11010
+Sorkkia,kyeltziv_sorkkia,Combat Drone,Kyeltziv Technocracy,,,650,120,320,,80,,,110,120,150,90,150,30,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11011
+Raataja,kyeltziv_raataja,Salvor Drone,Kyeltziv Technocracy,,,350,60,240,,60,,,160,200,200,120,200,20,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11012
 PD Drone,kyeltziv_expPdDrone,Drone,Kyeltziv Technocracy,,,180,35,400,,100,,,180,300,300,180,360,5,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11013
 Heavy PD Drone,kyeltziv_heavyExpPdDrone,Drone,Kyeltziv Technocracy,,,360,70,400,,100,,,120,200,200,120,240,10,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11014
 Tuike,kyeltziv_tuike,Combat Drone,Remnant,,,480,120,400,,100,,,130,145,175,160,320,25,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,UNBOARDABLE,no_dealer,Not available (drone),,0,,,11015

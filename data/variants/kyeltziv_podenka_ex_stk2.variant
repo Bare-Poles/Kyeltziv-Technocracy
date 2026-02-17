@@ -3,7 +3,7 @@
   "hullId": "kyeltziv_podenka_ex",
   "displayName": "Strike",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 14,
   "fluxVents": 25,
   "quality": 1,
   "permaMods": [],

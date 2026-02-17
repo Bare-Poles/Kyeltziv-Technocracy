@@ -1,7 +1,7 @@
 {
   "variantId": "kyeltziv_pyralid_sup",
   "hullId": "kyeltziv_pyralid",
-  "displayName": "Balanced",
+  "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 0,
   "fluxVents": 20,
